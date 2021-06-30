@@ -1,0 +1,82 @@
+import React from "react";
+
+export default function section2() {
+  return (
+    <div className="basic-1" id="mocha">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="row">
+              <div className="col-sm-12 text-center">
+                <h2 className="h2-heading">
+                  <i className="fas fa-exclamation-triangle" />À qui s’adresse «
+                  Registre RH » ?
+                </h2>
+              </div>
+            </div>
+            <div
+              className="text-container "
+              style={{ textAlign: "justify", textJustify: "inter-word" }}
+            >
+              <p>
+                <u style={{ fontWeight: "bold" }}>
+                  Aux entreprises (mono site ou multi sites)
+                </u>
+              </p>
+              <p>
+                Dès l’embauche du 1er salarié sont soumises à l’obligation de
+                tenue de registres obligatoires et de documents uniques. 3
+                registres et documents uniques : registre unique du personnel,
+                document unique d’évaluation des risques et registre des
+                contrôles de sécurité.
+              </p>
+              <p>
+                <u style={{ fontWeight: "bold" }}>
+                  Aux réseaux d’accompagnement comptable et social
+                </u>
+              </p>
+              <p>
+                Experts-comptables, gestionnaires de paie indépendants,
+                l’application Registre RH vous permet de tenir à jour et de
+                mettre en ligne en marque “blanche”, le registre unique du
+                personnel, document unique d’évaluation des risques et registre
+                des contrôles de sécurité.
+              </p>
+              <p>
+                La digitalisation des dossiers du personnel simplifiera,
+                sécurisera et fluidifiera vos délais de traitement avec vos
+                clients.
+              </p>
+              <ul className="list-unstyled li-space-lg ">
+                <li className="media">
+                  <i className="fas fa-square" />
+                  <div className="media-body">
+                    Conformité en cas de contrôle
+                  </div>
+                </li>
+                <li className="media">
+                  <i className="fas fa-square" />
+                  <div className="media-body">
+                    Fluidité des échanges et traitements
+                  </div>
+                </li>
+              </ul>
+              <p />
+            </div>{" "}
+            {/* end of text-container */}
+          </div>{" "}
+          {/* end of col */}
+          {/*<div class="col-lg-6">
+            <div class="image-container">
+                <img class="img-fluid" src="/theme/landingPage/images/details.png" alt="alternative">
+            </div>*/}
+          {/* end of image-container */}
+          {/*</div>*/} {/* end of col */}
+          {/* end of col */}
+        </div>{" "}
+        {/* end of row */}
+      </div>{" "}
+      {/* end of container */}
+    </div>
+  );
+}

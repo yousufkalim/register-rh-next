@@ -1,0 +1,480 @@
+import React from "react";
+
+export default function section9() {
+  return (
+    <div id="faq" className="basic-1">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6">
+            <h2>
+              <i className="fa fa-question-circle" /> FAQ
+            </h2>
+            <div className="card">
+              <header className="card-header">
+                <div className="row">
+                  <div className="col-sm">
+                    <a
+                      href="#"
+                      data-toggle="collapse"
+                      data-target="#collapse17"
+                      aria-expanded="true"
+                    >
+                      <span>
+                        1. Quels sont les registres que peut gérer l’application
+                        « Registre RH » ?
+                      </span>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    data-toggle="collapse"
+                    data-target="#collapse17"
+                    aria-expanded="true"
+                  >
+                    <div className="col-sm">
+                      <i className="icon-action fa fa-chevron-down" />
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="#"
+                  data-toggle="collapse"
+                  data-target="#collapse17"
+                  aria-expanded="true"
+                ></a>
+              </header>
+              <div className="collapse show" id="collapse17">
+                <article className="card-body">
+                  <p>
+                    L’application Registre RH vous permet de digitaliser vos 3
+                    registres sociaux obligatoires des entreprises :
+                  </p>
+                  <ul>
+                    <li>Registre unique du personnel</li>
+                    <li>
+                      Document unique d’évaluation des risques professionnels
+                    </li>
+                    <li>Registre des contrôles de sécurité</li>
+                  </ul>
+                  <p />
+                </article>{" "}
+                {/* card-body.// */}
+              </div>{" "}
+              {/* collapse .// */}
+            </div>
+            <div className="card">
+              <header className="card-header">
+                <div className="row">
+                  <div className="col-sm">
+                    <a
+                      href="#"
+                      data-toggle="collapse"
+                      data-target="#collapse18"
+                      aria-expanded="true"
+                    >
+                      <span>
+                        2. Quels sont les plans d&apos;abonnement proposés par
+                        Registre RH ?
+                      </span>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    data-toggle="collapse"
+                    data-target="#collapse18"
+                    aria-expanded="true"
+                  >
+                    <div className="col-sm">
+                      <i className="icon-action fa fa-chevron-down" />
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="#"
+                  data-toggle="collapse"
+                  data-target="#collapse18"
+                  aria-expanded="true"
+                ></a>
+              </header>
+              <div className="collapse hide" id="collapse18">
+                <article className="card-body">
+                  <p>
+                    Vous pouvez nous tester gratuitement, la licence gratuite
+                    est valable 2 semaines pour un registre unique du personnel
+                    de 4 collaborateurs. Pour tester notre application c’est
+                    très simple ! Créez votre espace Registre RH puis
+                    connectez-vous.
+                  </p>
+                  <p>
+                    Ensuite vous pourrez tout simplement basculer sur notre
+                    formule en mode SAAS en 1 clic depuis le menu de
+                    renouvellement dans les paramètres.
+                  </p>
+                  <p>
+                    Nous proposons également notre application en mode On
+                    Premise pour souscrire contactez-vous pour que nous
+                    puissions réaliser votre devis.
+                  </p>
+                </article>{" "}
+                {/* card-body.// */}
+              </div>{" "}
+              {/* collapse .// */}
+            </div>
+            <div className="card">
+              <header className="card-header">
+                <div className="row">
+                  <div className="col-sm">
+                    <a
+                      href="#"
+                      data-toggle="collapse"
+                      data-target="#collapse19"
+                      aria-expanded="true"
+                    >
+                      <span>
+                        3. Sous quel format puis-je exporter mes données ?
+                      </span>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    data-toggle="collapse"
+                    data-target="#collapse19"
+                    aria-expanded="true"
+                  >
+                    <div className="col-sm">
+                      <i className="icon-action fa fa-chevron-down" />
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="#"
+                  data-toggle="collapse"
+                  data-target="#collapse19"
+                  aria-expanded="true"
+                ></a>
+              </header>
+              <div className="collapse hide" id="collapse19">
+                <article className="card-body">
+                  <p>
+                    Vos registres peuvent être exportés facilement sous format
+                    PDF ou PDF signé électroniquement mais également sous format
+                    Excel ou Word.
+                  </p>
+                </article>{" "}
+                {/* card-body.// */}
+              </div>{" "}
+              {/* collapse .// */}
+            </div>
+            <div className="card">
+              <header className="card-header">
+                <div className="row">
+                  <div className="col-sm">
+                    <a
+                      href="#"
+                      data-toggle="collapse"
+                      data-target="#collapse20"
+                      aria-expanded="true"
+                    >
+                      <span>
+                        4. L&apos;application Registre RH répond-elle aux
+                        exigences réglementaires de traçabilité?
+                      </span>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    data-toggle="collapse"
+                    data-target="#collapse20"
+                    aria-expanded="true"
+                  >
+                    <div className="col-sm">
+                      <i className="icon-action fa fa-chevron-down" />
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="#"
+                  data-toggle="collapse"
+                  data-target="#collapse20"
+                  aria-expanded="true"
+                ></a>
+              </header>
+              <div className="collapse hide" id="collapse20">
+                <article className="card-body">
+                  <p>
+                    L’application Registre RH a été conçue de façon à garantir
+                    au registre électronique le même niveau de traçabilité qu’un
+                    registre papier. L&apos;architecture des registres
+                    électroniques a été conçu pour tracer toutes les tâches
+                    réalisées sur l&apos;application et ainsi garantir une
+                    traçabilité très avancée.
+                  </p>
+                  <p>
+                    Les saisies réalisées dans les différents registres proposés
+                    dans Registre RH sont définitives et ne peuvent pas être
+                    supprimées. Le respect de séquentialité et de traçabilité
+                    des saisies est garantie par l’application. Enfin, le format
+                    PDF signé électroniquement permet d’attester de l’origine du
+                    document et de son intégrité.
+                  </p>
+                </article>{" "}
+                {/* card-body.// */}
+              </div>{" "}
+              {/* collapse .// */}
+            </div>
+            <div className="card">
+              <header className="card-header">
+                <div className="row">
+                  <div className="col-sm">
+                    <a
+                      href="#"
+                      data-toggle="collapse"
+                      data-target="#collapse21"
+                      aria-expanded="true"
+                    >
+                      <span>5. Les registres sont-ils corrigibles ?</span>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    data-toggle="collapse"
+                    data-target="#collapse21"
+                    aria-expanded="true"
+                  >
+                    <div className="col-sm">
+                      <i className="icon-action fa fa-chevron-down" />
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="#"
+                  data-toggle="collapse"
+                  data-target="#collapse21"
+                  aria-expanded="true"
+                ></a>
+              </header>
+              <div className="collapse hide" id="collapse21">
+                <article className="card-body">
+                  <p>
+                    Oui, dans le registre unique du personnel vous pouvez
+                    corriger les données des employés qui ont été inscrits dans
+                    votre registre. Afin de garantir la traçabilité des données
+                    saisies, la ligne corrigée sera rayée sur votre registre et
+                    une nouvelle ligne sera insérée et conservera la même
+                    numérotation.
+                  </p>
+                  <p>
+                    Oui, dans le document unique d’évaluation des risques
+                    professionnels tant qu&apos;il n&apos;est pas publié, une
+                    fois qu&apos;il est publié aucune modification ne pourra
+                    être apportée. Il incombera alors de créer un nouveau
+                    document qui viendra remplacer le document à corriger.
+                  </p>
+                  <p>
+                    Non, toute donnée ajoutée dans le registre des contrôles de
+                    sécurité ne pourra être ni être modifiée ni être supprimée.
+                    Il incombera alors d&apos;ajouter un nouveau contrôle de
+                    sécurité qui viendra remplacer le contrôle à corriger.
+                  </p>
+                </article>{" "}
+                {/* card-body.// */}
+              </div>{" "}
+              {/* collapse .// */}
+            </div>
+            <div className="card">
+              <header className="card-header">
+                <div className="row">
+                  <div className="col-sm">
+                    <a
+                      href="#"
+                      data-toggle="collapse"
+                      data-target="#collapse22"
+                      aria-expanded="true"
+                    >
+                      <span>
+                        6. Pendant combien de temps les registres sont-ils
+                        conservés ?
+                      </span>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    data-toggle="collapse"
+                    data-target="#collapse22"
+                    aria-expanded="true"
+                  >
+                    <div className="col-sm">
+                      <i className="icon-action fa fa-chevron-down" />
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="#"
+                  data-toggle="collapse"
+                  data-target="#collapse22"
+                  aria-expanded="true"
+                ></a>
+              </header>
+              <div className="collapse hide" id="collapse22">
+                <article className="card-body">
+                  <p>
+                    Vos registres ainsi que les données saisies sont conservées
+                    durant la durée de votre abonnement et pourront vous être
+                    restituées intégralement sur demande en cas de résiliation.
+                    Pour rappel, les registres sociaux obligatoires doivent être
+                    conservés pendant une durée de 5 ans.
+                  </p>
+                  <p>
+                    Par exemple, les mentions portées sur le registre unique du
+                    personnel doivent être conservées pendant 5 ans à compter de
+                    la date à laquelle le salarié a quitté l’établissement.
+                  </p>
+                </article>{" "}
+                {/* card-body.// */}
+              </div>{" "}
+              {/* collapse .// */}
+            </div>
+            <div className="card">
+              <header className="card-header">
+                <div className="row">
+                  <div className="col-sm">
+                    <a
+                      href="#"
+                      data-toggle="collapse"
+                      data-target="#collapse23"
+                      aria-expanded="true"
+                    >
+                      <span>7. Quels sont les risques de sanction ?</span>
+                    </a>
+                  </div>
+                  <a
+                    href="#"
+                    data-toggle="collapse"
+                    data-target="#collapse23"
+                    aria-expanded="true"
+                    className
+                  >
+                    <div className="col-sm">
+                      <i className="icon-action fa fa-chevron-down" />
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="#"
+                  data-toggle="collapse"
+                  data-target="#collapse23"
+                  aria-expanded="true"
+                ></a>
+              </header>
+              <div className="collapse hide" id="collapse23">
+                <article className="card-body">
+                  <p>
+                    Le registre unique du personnel doit pouvoir être présenté à
+                    tout moment. En cas de contrôle, l’employeur doit donner le
+                    document obligatoire à jour.
+                  </p>
+                  <p>
+                    A défaut de présentation ou si les mentions du document sont
+                    erronées ou incomplètes, il peut y avoir une sanction
+                    (Article R1227-7 du Code du travail).
+                  </p>
+                  <p>
+                    L’employeur sera puni de l’amende prévue pour les
+                    contraventions de quatrième classe : jusqu’à 750 € pour les
+                    personnes physiques, et jusqu’à 3 750 € pour les personnes
+                    morales.
+                  </p>
+                  <p>
+                    Cette amende sera appliquée autant de fois qu’il y a de
+                    salariés dans des conditions susceptibles d&apos;être
+                    sanctionnées.
+                  </p>
+                </article>{" "}
+                {/* card-body.// */}
+              </div>{" "}
+              {/* collapse .// */}
+            </div>
+            {/* end of text-container */}
+          </div>{" "}
+          {/* end of col */}
+          <div className="col-lg-6">
+            <h2>
+              Vos Questions
+              <i className="fa fa-question" />
+            </h2>
+            <div className="form-container">
+              <form id="privacyForm" data-toggle="validator" data-focus="false">
+                <div className="form-group">
+                  <input
+                    type="text"
+                    className="form-control-input"
+                    id="pname"
+                  />
+                  <label className="label-control" htmlFor="pname">
+                    Nom prénom
+                  </label>
+                  <div className="help-block with-errors" />
+                </div>
+                <div className="form-group">
+                  <input
+                    type="email"
+                    className="form-control-input"
+                    id="pemail"
+                  />
+                  <label className="label-control" htmlFor="pemail">
+                    Adresse mail
+                  </label>
+                  <div className="help-block with-errors" />
+                </div>
+                <div className="form-group">
+                  <textarea
+                    style={{ borderRadius: "4px" }}
+                    className="form-control-input"
+                    rows={10}
+                    id="comment"
+                    defaultValue={""}
+                  />
+                  <label className="label-control" htmlFor="pemail">
+                    Message
+                  </label>
+                  <div className="help-block with-errors" />
+                </div>
+                <div className="form-group checkbox">
+                  <input
+                    type="checkbox"
+                    id="pterms"
+                    defaultValue="Agreed-to-Terms"
+                  />
+                  J&apos;ai lu et j&apos;accepte la{" "}
+                  <a asp-controller="LandingPage" asp-action="PrivacyPolicy">
+                    politique de confidentialité
+                  </a>{" "}
+                  et les{" "}
+                  <a
+                    asp-controller="LandingPage"
+                    asp-action="TermsAndConditions"
+                  >
+                    termes et conditions.
+                  </a>
+                  <div className="help-block with-errors" />
+                </div>
+                <div className="form-group text-center">
+                  <button type="submit" className="form-control-submit-button">
+                    Envoyer
+                  </button>
+                </div>
+                <div className="form-message">
+                  <div id="pmsgSubmit" className="h3 text-center hidden" />
+                </div>
+              </form>
+            </div>
+            {/* end of image-container */}
+          </div>
+          {/* end of col */}
+        </div>{" "}
+        {/* end of row */}
+      </div>{" "}
+      {/* end of container */}
+    </div>
+  );
+}
