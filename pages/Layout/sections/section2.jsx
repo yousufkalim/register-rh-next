@@ -24,12 +24,30 @@ export default function section2() {
                 </u>
               </p>
               <p>
-                Dès l’embauche du 1er salarié sont soumises à l’obligation de
-                tenue de registres obligatoires et de documents uniques. 3
-                registres et documents uniques : registre unique du personnel,
-                document unique d’évaluation des risques et registre des
-                contrôles de sécurité.
+                Dès l’embauche du 1er salarié, les entreprises sont soumises à
+                l’obligation de tenue de registres obligatoires et de documents
+                uniques.
               </p>
+              <ul className="list-unstyled li-space-lg ">
+                <li className="media">
+                  <i className="fas fa-square" />
+                  <div className="media-body">
+                    <b>Registre unique du personnel</b>
+                  </div>
+                </li>
+                <li className="media">
+                  <i className="fas fa-square" />
+                  <div className="media-body">
+                    <b> Document unique d’évaluation des risques </b>
+                  </div>
+                </li>
+                <li className="media">
+                  <i className="fas fa-square" />
+                  <div className="media-body">
+                    <b> Registre des contrôles de sécurité</b>
+                  </div>
+                </li>
+              </ul>
               <p>
                 <u style={{ fontWeight: "bold" }}>
                   Aux réseaux d’accompagnement comptable et social
@@ -38,12 +56,15 @@ export default function section2() {
               <p>
                 Experts-comptables, gestionnaires de paie indépendants,
                 l’application Registre RH vous permet de tenir à jour et de
-                mettre en ligne en marque “blanche”, le registre unique du
-                personnel, document unique d’évaluation des risques et registre
-                des contrôles de sécurité.
+                mettre en ligne en marque “blanche”,
+                <b>
+                  {" "}
+                  le registre unique du personnel, document unique d’évaluation
+                  des risques et registre des contrôles de sécurité.
+                </b>
               </p>
               <p>
-                La digitalisation des dossiers du personnel simplifiera,
+                <b> La digitalisation des dossiers du personnel</b> simplifiera,
                 sécurisera et fluidifiera vos délais de traitement avec vos
                 clients.
               </p>
@@ -51,13 +72,13 @@ export default function section2() {
                 <li className="media">
                   <i className="fas fa-square" />
                   <div className="media-body">
-                    Conformité en cas de contrôle
+                    <b> Conformité en cas de contrôle</b>
                   </div>
                 </li>
                 <li className="media">
                   <i className="fas fa-square" />
                   <div className="media-body">
-                    Fluidité des échanges et traitements
+                    <b> Fluidité des échanges et traitements </b>
                   </div>
                 </li>
               </ul>

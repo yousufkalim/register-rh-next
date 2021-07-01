@@ -24,21 +24,13 @@ export default function footer() {
                     <i className="fas fa-square" />
                     <div className="media-body">
                       Consultez nos{" "}
-                      <a
-                        className="white"
-                        asp-controller="LandingPage"
-                        asp-action="TermsAndConditions"
-                      >
-                        Termes et conditions
-                      </a>
-                      ,
-                      <a
-                        className="white"
-                        asp-controller="LandingPage"
-                        asp-action="PrivacyPolicy"
-                      >
-                        Politique de confidentialité
-                      </a>
+                      <a className="white">Termes et conditions</a>
+                    </div>
+                  </li>
+                  <li className="media">
+                    <i className="fas fa-square" />
+                    <div className="media-body">
+                      <a className="white">Politique de confidentialité</a>
                     </div>
                   </li>
                 </ul>

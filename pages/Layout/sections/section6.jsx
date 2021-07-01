@@ -18,17 +18,23 @@ export default function section6() {
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
               <p>
+                <h5 className="pb-2">
+                  Document unique d’évaluation des risques (DUER)
+                </h5>
                 Le document unique d&apos;évaluation des risques (DUER) liste
                 les risques professionnels encourus par les travailleurs et les
                 actions de prévention et de protection qui sont menées dans
                 l&apos;entreprise.
               </p>
               <p>
-                Le DUER doit évoluer en fonction des nouveaux risques
-                identifiés. Par exemple l&apos;épidémie de Covid-19 vous oblige
-                à modifier le DUER de façon importante. La digitalisation de
-                votre document avec l’application registre RH vous permet d’être
-                en conformité avec le Code du travail.
+                <b>
+                  Le DUER doit évoluer en fonction des nouveaux risques
+                  identifiés. Par exemple l&apos;épidémie de Covid-19 vous
+                  oblige à modifier le DUER{" "}
+                </b>
+                de façon importante. La digitalisation de votre document avec
+                l’application registre RH vous permet d’être en conformité avec
+                le Code du travail.
               </p>
               <p>
                 L&apos;absence de transcription ou de mise à jour du document
@@ -45,7 +51,7 @@ export default function section6() {
                   rel="noopener noreferrer"
                   href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000408526/"
                 >
-                  https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000408526/
+                  Voir Légifrance
                 </a>
               </p>
             </div>{" "}

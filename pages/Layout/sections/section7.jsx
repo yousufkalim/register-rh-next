@@ -15,23 +15,27 @@ export default function section7() {
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
               <p>
+                <h5 className="pb-2"> Registre des contrôles de sécurité</h5>
                 Les règles de santé et de sécurité au travail relatives au
                 registre de sécurité réglementation pour les ERT (Etablissements
                 Recevant des Travailleurs) et pour le personnel travaillant en
                 ERP relèvent du Code du Travail (CT).
               </p>
               <p>
-                En vertu des articles L4121-1 à L4121-3 du CT, les employeurs
-                sont tenus d’assurer la sécurité et de protéger la santé des
-                travailleurs (salariés en CDD ou en CDI, intérimaires,
-                stagiaires…). Ils doivent à ce titre veiller au contrôle et à
-                l’entretien des installations, postes de travail et équipements
-                mis à la disposition de ces derniers. Les employeurs doivent
-                consigner les résultats relatifs à ces vérifications et, bien
-                que le CT ne mentionne pas explicitement le registre de
-                sécurité, l’article L4711-5 les autorise à centraliser ces
-                informations dans un « registre unique » pour en faciliter la
-                conservation et la consultation.
+                En vertu des articles L4121-1 à L4121-3 du CT,{" "}
+                <b>
+                  les employeurs sont tenus d’assurer la sécurité et de protéger
+                  la santé des travailleurs (salariés en CDD ou en CDI,
+                  intérimaires, stagiaires…).
+                </b>{" "}
+                Ils doivent à ce titre veiller au contrôle et à l’entretien des
+                installations, postes de travail et équipements mis à la
+                disposition de ces derniers. Les employeurs doivent consigner
+                les résultats relatifs à ces vérifications et, bien que le CT ne
+                mentionne pas explicitement le registre de sécurité, l’article
+                L4711-5 les autorise à centraliser ces informations dans un «
+                registre unique » pour en faciliter la conservation et la
+                consultation.
               </p>
               <p>
                 Ces « attestations, consignes, résultats et rapports relatifs
@@ -43,18 +47,21 @@ export default function section7() {
                 délégués du personnel, du médecin du travail, etc.
               </p>
               <p>
-                En cas de problème important (accident, incendie avec blessés ou
-                victimes), c‘est le premier document que saisirait la justice
-                pour contrôler si les mesures de sécurité étaient bien
-                appliquées.
+                <b>
+                  {" "}
+                  En cas de problème important (accident, incendie avec blessés
+                  ou victimes), c‘est le premier document que saisirait la
+                  justice pour contrôler si les mesures de sécurité étaient bien
+                  appliquées.
+                </b>
               </p>
               <p>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018531481/2013-12-25/"
+                  href=" https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018531481/2013-12-25/"
                 >
-                  https://www.legifrance.gouv.fr/codes/id/LEGISCTA000018531481/2013-12-25/
+                  Voir Légifrance
                 </a>
               </p>
             </div>{" "}

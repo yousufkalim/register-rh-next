@@ -5,11 +5,12 @@ export default function section9() {
     <div id="faq" className="basic-1">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
-            <h2>
+          <div className="col-lg-1" />
+          <div className="col-lg-10 ">
+            <h2 className="text-center mr-7">
               <i className="fa fa-question-circle" /> FAQ
             </h2>
-            <div className="card">
+            <div className="card ">
               <header className="card-header">
                 <div className="row">
                   <div className="col-sm">
@@ -396,80 +397,8 @@ export default function section9() {
             </div>
             {/* end of text-container */}
           </div>{" "}
+          <div className="col-lg-1" />
           {/* end of col */}
-          <div className="col-lg-6">
-            <h2>
-              Vos Questions
-              <i className="fa fa-question" />
-            </h2>
-            <div className="form-container">
-              <form id="privacyForm" data-toggle="validator" data-focus="false">
-                <div className="form-group">
-                  <input
-                    type="text"
-                    className="form-control-input"
-                    id="pname"
-                  />
-                  <label className="label-control" htmlFor="pname">
-                    Nom prénom
-                  </label>
-                  <div className="help-block with-errors" />
-                </div>
-                <div className="form-group">
-                  <input
-                    type="email"
-                    className="form-control-input"
-                    id="pemail"
-                  />
-                  <label className="label-control" htmlFor="pemail">
-                    Adresse mail
-                  </label>
-                  <div className="help-block with-errors" />
-                </div>
-                <div className="form-group">
-                  <textarea
-                    style={{ borderRadius: "4px" }}
-                    className="form-control-input"
-                    rows={10}
-                    id="comment"
-                    defaultValue={""}
-                  />
-                  <label className="label-control" htmlFor="pemail">
-                    Message
-                  </label>
-                  <div className="help-block with-errors" />
-                </div>
-                <div className="form-group checkbox">
-                  <input
-                    type="checkbox"
-                    id="pterms"
-                    defaultValue="Agreed-to-Terms"
-                  />
-                  J&apos;ai lu et j&apos;accepte la{" "}
-                  <a asp-controller="LandingPage" asp-action="PrivacyPolicy">
-                    politique de confidentialité
-                  </a>{" "}
-                  et les{" "}
-                  <a
-                    asp-controller="LandingPage"
-                    asp-action="TermsAndConditions"
-                  >
-                    termes et conditions.
-                  </a>
-                  <div className="help-block with-errors" />
-                </div>
-                <div className="form-group text-center">
-                  <button type="submit" className="form-control-submit-button">
-                    Envoyer
-                  </button>
-                </div>
-                <div className="form-message">
-                  <div id="pmsgSubmit" className="h3 text-center hidden" />
-                </div>
-              </form>
-            </div>
-            {/* end of image-container */}
-          </div>
           {/* end of col */}
         </div>{" "}
         {/* end of row */}

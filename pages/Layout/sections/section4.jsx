@@ -36,7 +36,11 @@ export default function section4() {
                     />
                   </div>
                   <div className="card-body">
-                    <h4 className="card-title">Registre unique du personnel</h4>
+                    <h4 className="card-title">
+                      <a href="#personal" className="text-dark">
+                        Registre unique du personnel
+                      </a>
+                    </h4>
                     <p>
                       Tout employeur se doit de tenir à jour son registre unique
                       du personnel (Article L1221-13 du Code du Travail). Tout
@@ -58,7 +62,10 @@ export default function section4() {
                   </div>
                   <div className="card-body">
                     <h4 className="card-title">
-                      Document unique d’évaluation des risques
+                      <a href="#singleRisk" className="text-dark">
+                        {" "}
+                        Document unique d’évaluation des risques
+                      </a>
                     </h4>
                     <p>
                       Le document unique d&apos;évaluation des risques (DUER)
@@ -83,7 +90,10 @@ export default function section4() {
                   </div>
                   <div className="card-body">
                     <h4 className="card-title">
-                      Registre de contrôles de sécurité
+                      <a href="#security" className="text-dark">
+                        {" "}
+                        Registre de contrôles de sécurité
+                      </a>
                     </h4>
                     <p>
                       Les règles de santé et de sécurité au travail relatives au

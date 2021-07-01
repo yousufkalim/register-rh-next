@@ -15,11 +15,14 @@ export default function section5() {
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
               <p>
-                Tout employeur se doit de tenir à jour son registre unique du
-                personnel (Article L1221-13 du Code du Travail). Tout comme les
-                registres relatifs aux conditions du travail ou le registre du
-                comité social et économique (CSE), le registre unique du
-                personnel est un document obligatoire.
+                <h5 className="pb-2">Registre unique du personnel</h5>
+                Tout employeur se doit de tenir à jour son{" "}
+                <b>registre unique du personnel</b> (Article L1221-13 du Code du
+                Travail). Tout comme les registres relatifs aux conditions du
+                travail ou le registre du comité social et économique (CSE),{" "}
+                <b>
+                  le registre unique du personnelest un document obligatoire.
+                </b>
               </p>
               <p>
                 Ce document répertorie un ensemble d’informations sur chaque
@@ -28,12 +31,16 @@ export default function section5() {
               </p>
               <p>
                 Le registre unique du personnel doit être édité dès la première
-                embauche d’un salarié. Ce document concerne l’ensemble des
-                salariés de l’entreprise et ce quel que soit son contrat : CDD,
-                CDI, contrat d’apprentissage, contrat de professionnalisation,
-                intérim... Il concerne aussi les stagiaires et les personnes
-                volontaires en service civique, mais les modalités sont
-                différentes.
+                embauche d’un salarié.
+                <b>
+                  {" "}
+                  Ce document concerne l’ensemble des salariés de l’entreprise
+                  et ce quel que soit son contrat :
+                </b>{" "}
+                CDD, CDI, contrat d’apprentissage, contrat de
+                professionnalisation, intérim... Il concerne aussi les
+                stagiaires et les personnes volontaires en service civique, mais
+                les modalités sont différentes.
               </p>
               <p>
                 Le registre unique du personnel doit pouvoir être présenté à
@@ -58,7 +65,7 @@ export default function section5() {
                   rel="noopener noreferrer"
                   href="https://www.legifrance.gouv.fr/codes/id/LEGIARTI000033971569/2017-01-29/"
                 >
-                  https://www.legifrance.gouv.fr/codes/id/LEGIARTI000033971569/2017-01-29/
+                  Voir Légifrance
                 </a>
               </p>
             </div>{" "}

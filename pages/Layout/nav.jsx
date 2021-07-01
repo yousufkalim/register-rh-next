@@ -89,12 +89,16 @@ export default function Nav() {
               <span className="btn-outline-sm ">Se connecter</span>
             </Link>
           </span>
-          <span className="nav-item">
+          <a
+            href="https://www.linkedin.com/company/registre-rh/"
+            target="_blank"
+            className="nav-item"
+          >
             <i
               className="fab fa-linkedin fa-2x ml-3"
               style={{ color: "#fff" }}
             />
-          </span>
+          </a>
         </div>
       </div>{" "}
       {/* end of container */}

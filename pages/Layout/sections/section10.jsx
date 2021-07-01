@@ -18,11 +18,16 @@ export default function section10() {
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
               <p>
-                À l’heure de la digitalisation des documents et des processus,
-                il semblait évident à nos deux dirigeants issus de la sphère RH
-                et de la sphère technique, de faciliter la tenue de ces
-                registres tout en garantissant leur conformité avec le Code du
-                Travail et leur sécurité.
+                <h5 className="pb-2">À propos</h5>À l’heure de la{" "}
+                <b>digitalisation des documents</b> et des processus, il
+                semblait évident à nos deux dirigeants issus de la sphère RH et
+                de la sphère technique, de{" "}
+                <b>
+                  faciliter la tenue du registre unique du personnel, document
+                  unique d’évaluation des risques (DUER), du registre des
+                  contrôles de sécurité tout en garantissant leur conformité
+                  avec le Code du Travail.
+                </b>
               </p>
               <p>
                 En réponse à la demande de deux partenaires du monde du BTP et
@@ -33,20 +38,23 @@ export default function section10() {
                 <li className="media">
                   <i className="fas fa-square" />
                   <div className="media-body">
-                    S’intégrer totalement au SI de nos partenaires
+                    <b> S’intégrer totalement au SI de nos partenaires</b>
                   </div>
                 </li>
                 <li className="media">
                   <i className="fas fa-square" />
                   <div className="media-body">
-                    Faciliter la consolidation des registres
+                    <b> Faciliter la consolidation des registres</b>
                   </div>
                 </li>
                 <li className="media">
                   <i className="fas fa-square" />
                   <div className="media-body">
-                    Répondre avec agilité aux contraintes légales et aux
-                    nouveaux aux modes de travail
+                    <b>
+                      {" "}
+                      Répondre avec agilité aux contraintes légales et aux
+                      nouveaux aux modes de travail
+                    </b>
                   </div>
                 </li>
               </ul>

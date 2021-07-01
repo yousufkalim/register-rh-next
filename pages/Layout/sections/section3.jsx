@@ -17,34 +17,35 @@ export default function section3() {
         <div className="row">
           <div className="col-lg-4">
             <h5>
-              <i className="fas fa-stream" />
+              <i className="fas fa-stream pr-2" />
               Simplicité
             </h5>
             <ul className="list-unstyled li-space-lg">
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  Page d’accueil simplifiée par utilisateur
+                  Page d’accueil <b> simplifiée </b>par utilisateur
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  Accès simplifié à vos données RH digitalisées
+                  Accès simplifié à vos <b>données RH digitalisées (SIRH)</b>
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  Paramétrage simple pour collecter des données complémentaires
-                  à des fins de reporting
+                  <b> Paramétrage</b> simple pour collecter des données
+                  complémentaires à des fins de reporting
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
                   Intégration simplifiée avec votre SI. L’application registre
-                  RH s&apos;interface avec les principaux logiciels du marché.
+                  RH s&apos;<b>interface</b> avec les principaux logiciels du
+                  marché.
                 </div>
               </li>
             </ul>
@@ -52,15 +53,15 @@ export default function section3() {
           {/* end of col */}
           <div className="col-lg-4">
             <h5>
-              <i className="fas fa-check-square" />
+              <i className="fas fa-check-square pr-2" />
               Conformité
             </h5>
             <ul className="list-unstyled li-space-lg">
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  Garantie d’avoir des registres digitalisés en conformités avec
-                  le code du travail
+                  Garantie d’avoir des <b>registres digitalisés</b> en
+                  conformités avec le <b> code du travail</b>
                 </div>
               </li>
               <li className="media">
@@ -72,33 +73,24 @@ export default function section3() {
                   administratives, certification…)
                 </div>
               </li>
-              <li className="media">
-                <i className="fas fa-square" />
-                <div className="media-body">
-                  La mise à disposition des documents dans un coffre-fort
-                  électronique certifié
-                </div>
-              </li>
-              <li className="media">
-                <i className="fas fa-square" />
-                <div className="media-body">Connexion sécurisée en SSO</div>
-              </li>
             </ul>
           </div>
           <div className="col-lg-4">
             <h5>
-              <i className="fas fa-cloud" />
+              <i className="fas fa-cloud pr-2" />
               En mode SaaS
             </h5>
             <ul className="list-unstyled li-space-lg">
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body">Support et centre d&apos;aide</div>
+                <div className="media-body">
+                  <b>Support</b> et centre d&apos;aide
+                </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  Accessible 24/7 sur ordinateur, tablette et mobile
+                  <b> Accessible 24/7</b> sur ordinateur, tablette et mobile
                 </div>
               </li>
               <li className="media">
@@ -109,12 +101,14 @@ export default function section3() {
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body">Sécurisation des données</div>
+                <div className="media-body">
+                  <b>Sécurisation des données</b>
+                </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  Maintenance et mises à jour automatiques
+                  <b> Maintenance </b>et mises à jour automatiques
                 </div>
               </li>
             </ul>
@@ -124,7 +118,7 @@ export default function section3() {
         <div className="row pt-4 mt-4">
           <div className="col-lg-4">
             <h5>
-              <i className="fas fa-shield-alt" />
+              <i className="fas fa-shield-alt pr-2" />
               Securité
             </h5>
             <ul className="list-unstyled li-space-lg">
@@ -137,7 +131,9 @@ export default function section3() {
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body">Connexion sécurisée en SSO</div>
+                <div className="media-body">
+                  <b>Connexion sécurisée en SSO</b>
+                </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
@@ -149,13 +145,7 @@ export default function section3() {
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  Signature électronique via l&apos;API de votre choix
-                </div>
-              </li>
-              <li className="media">
-                <i className="fas fa-square" />
-                <div className="media-body">
-                  Provision of mandatory documents in each establishment
+                  <b>Signature électronique via l&apos;API de votre choix</b>
                 </div>
               </li>
             </ul>
@@ -163,7 +153,7 @@ export default function section3() {
           {/* end of col */}
           <div className="col-lg-4">
             <h5>
-              <i className="fas fa-adjust" />
+              <i className="fas fa-adjust pr-2" />
               Flexibilité
             </h5>
             <ul className="list-unstyled li-space-lg">
@@ -177,7 +167,8 @@ export default function section3() {
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  Possibilité d&apos;automatisation par interface avec votre SI
+                  Possibilité d&apos;automatisation par
+                  <b> interface avec votre SI</b>
                   (outils comptable, RH, outil de gestion des intérimaires…)
                 </div>
               </li>
@@ -199,7 +190,7 @@ export default function section3() {
           </div>
           <div className="col-lg-4">
             <h5>
-              <i className="fas fa-file-signature" />
+              <i className="fas fa-file-signature pr-2" />
               Exploitabilité
             </h5>
             <ul className="list-unstyled li-space-lg">
@@ -213,9 +204,13 @@ export default function section3() {
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  Édition facile en PDF Excel, Word et PDF sécurisés et signés
-                  électroniquement pour la transmission aux personnes habilitées
-                  (Délégués du personnel, organismes sociaux …)
+                  <b>
+                    {" "}
+                    Édition facile en PDF Excel, Word et PDF sécurisés et signés
+                    électroniquement
+                  </b>{" "}
+                  pour la transmission aux personnes habilitées (Délégués du
+                  personnel, organismes sociaux …)
                 </div>
               </li>
               <li className="media">

@@ -6,13 +6,13 @@ export default function section1() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 text-center">
-            <h2
+            <h1
               className="h2-heading"
               style={{ width: "100%", paddingBottom: "20px" }}
             >
               <i className="fas fa-question" />
               Qu’est-ce que l’application « Registre RH » ?
-            </h2>
+            </h1>
           </div>
         </div>
         <div className="row">
@@ -35,7 +35,6 @@ export default function section1() {
               </p>
               <ul className="list-unstyled li-space-lg ">
                 <li className="media">
-                  f
                   <i className="fas fa-square" />
                   <div className="media-body">
                     Vos 3 registres sociaux obligatoires des entreprises :
@@ -91,7 +90,7 @@ export default function section1() {
                       data-target="#collapse14"
                       aria-expanded="true"
                     >
-                      <i className="icon-action fas fa-tools" />
+                      <i className="icon-action fas fa-tools pr-2" />
                       <span>Entièrement paramétrable</span>
                     </a>
                   </div>
@@ -135,7 +134,7 @@ export default function section1() {
                       data-target="#collapse15"
                       aria-expanded="true"
                     >
-                      <i className="icon-action fa fa-cloud" />
+                      <i className="icon-action fa fa-cloud pr-2" />
                       <span>
                         Connexion sécurisée on Premise ou en mode SAAS
                       </span>
@@ -184,7 +183,7 @@ export default function section1() {
                       data-target="#collapse16"
                       aria-expanded="true"
                     >
-                      <i className="icon-action fas fa-user-shield" />
+                      <i className="icon-action fas fa-user-shield pr-2" />
                       <span>Accessible par et pour tous les acteurs</span>
                     </a>
                   </div>
