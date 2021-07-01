@@ -92,6 +92,7 @@ export default function Nav() {
           <a
             href="https://www.linkedin.com/company/registre-rh/"
             target="_blank"
+            rel="noopener noreferrer"
             className="nav-item"
           >
             <i
