@@ -31,7 +31,7 @@ export default function Login() {
             </p>
           </div>
           <div className="form-group text-center">
-            <Link href="/Layout/Register">
+            <Link href="/Register">
               <a className="btnSubmit btn ">Découvrir Registre RH</a>
             </Link>
           </div>

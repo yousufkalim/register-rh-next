@@ -228,6 +228,22 @@ a.white {
   text-decoration: none;
 }
 
+.btn-solid-cancel {
+  display: inline-block;
+  padding: 0.875rem 1.5rem 0.875rem 1.5rem;
+  border: 0.125rem solid red;
+  border-radius: 4px;
+  background-color: red;
+  color: #fff;
+  font: 700 0.875rem/0 Montserrat;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.btn-solid-cancel:hover {
+  background-color: transparent;
+  color: red;
+  text-decoration: none;
+}
 .btn-outline-reg {
   display: inline-block;
   padding: 0.875rem 1.5rem 0.875rem 1.5rem;
@@ -244,6 +260,7 @@ a.white {
   background-color: #fff;
   color: #152f68;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-outline-lg {
@@ -262,6 +279,7 @@ a.white {
   background-color: #5f4dee;
   color: #fff;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-outline-sm {
@@ -2171,6 +2189,32 @@ a:hover.back-to-top {
   #faq {
     padding-top: 8rem;
     padding-bottom: 2rem;
+  }
+  #contact {
+    padding-top: 6rem;
+  }
+  #contact .card {
+    padding: 0px !important;
+  }
+  #contact .card .card-body {
+    padding: 0px !important;
+  }
+  #contact .card .div1 {
+    width: 20%;
+    padding: 0.5rem 0.5rem 0.5rem 0.1rem;
+  }
+  #contact .card .div2 {
+    width: 80%;
+    padding-left: 0.5rem;
+  }
+  #contact .card .card-title {
+    margin-bottom: 0rem;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #contact .card .lastDiv p {
+    padding-left: 10px;
+    margin-top: 5px;
   }
   #details {
     padding-top: 8rem;

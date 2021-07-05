@@ -5,14 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "winDev":"next dev -p 3005",
+    "winDev": "next dev -p 3005",
     "start": "NODE_ENV=production node server.js",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "reactstrap": "^8.9.0"
   },
   "devDependencies": {
     "eslint": "7.29.0",

@@ -1,0 +1,170 @@
+import React from "react";
+import {
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  Button,
+  Row,
+  Col,
+} from "reactstrap";
+import Image from "next/image";
+import img1 from "../public/landingPage/images/logo1.png";
+export default function Contact() {
+  return (
+    <>
+      <div id="contact" className="basic-1">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4">
+              <h2 className="text-left">
+                <i className="fa fa-info-circle" /> Informations
+              </h2>
+              <div className="pt-3">
+                <Card>
+                  <div className="d-flex align-items-center">
+                    <div className="div1">
+                      <Image top className="image-card" src={img1} alt="Card" />
+                    </div>
+                    <div className="div2">
+                      <CardBody>
+                        <CardTitle tag="p">
+                          Adresse 3 rue Neuve Saint-Germain
+                        </CardTitle>
+                        <CardSubtitle tag="small" className="mb-2 text-muted">
+                          92100 Boulogne-Billancourt
+                        </CardSubtitle>
+                      </CardBody>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+              <div className="pt-3">
+                <Card>
+                  <div className="d-flex align-items-center">
+                    <div className="div1">
+                      <Image top className="image-card" src={img1} alt="Card" />
+                    </div>
+                    <div className="div2">
+                      <CardBody>
+                        <CardTitle tag="p">Telephone</CardTitle>
+                        <CardSubtitle tag="p" className="mb-2 text-muted">
+                          06 21 50 40 35
+                        </CardSubtitle>
+                      </CardBody>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+              <div className="pt-3">
+                <Card>
+                  <div className="d-flex align-items-center">
+                    <div className="div1">
+                      <Image top className="image-card" src={img1} alt="Card" />
+                    </div>
+                    <div className="div2">
+                      <CardBody>
+                        <CardTitle tag="p">Mail</CardTitle>
+                        <CardSubtitle tag="p" className="mb-2 text-muted">
+                          contact@registre-rh.fr
+                        </CardSubtitle>
+                      </CardBody>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+              <div className="pt-3">
+                <Card>
+                  <div className="lastDiv">
+                    <p>
+                      <b> Réseaux:</b>
+                      <br />
+                      <a href="https://www.linkedin.com/company/registre-rh/">
+                        https://www.linkedin.com/company/registre-rh/
+                      </a>
+                    </p>
+                  </div>
+                </Card>
+              </div>
+            </div>
+            <div className="col-lg-8 ">
+              <h2 className="text-left">
+                <i className="fa fa-question-circle" /> Contactez-nous!
+              </h2>
+              <div className="form-container ">
+                <form
+                  id="privacyForm"
+                  data-toggle="validator"
+                  data-focus="false"
+                >
+                  <div className="form-group">
+                    <input
+                      type="text"
+                      className="form-control-input"
+                      id="pname"
+                    />
+                    <label className="label-control" htmlFor="pname">
+                      Nom prénom
+                    </label>
+                    <div className="help-block with-errors" />
+                  </div>
+                  <div className="form-group">
+                    <input
+                      type="email"
+                      className="form-control-input"
+                      id="pemail"
+                    />
+                    <label className="label-control" htmlFor="pemail">
+                      Adresse mail
+                    </label>
+                    <div className="help-block with-errors" />
+                  </div>
+                  <div className="form-group">
+                    <textarea
+                      style={{ borderRadius: "4px" }}
+                      className="form-control-input"
+                      rows={4}
+                      id="comment"
+                      defaultValue={""}
+                    />
+                    <label className="label-control" htmlFor="pemail">
+                      Message
+                    </label>
+                    <div className="help-block with-errors" />
+                  </div>
+                  <div className="form-group checkbox">
+                    <input
+                      type="checkbox"
+                      id="pterms"
+                      defaultValue="Agreed-to-Terms"
+                    />
+                    En soumettant ce formulaire, vous acceptez que les
+                    informations saisies soient utilisées, exploitées, traitées
+                    pour permettre de vous recontacter.Pour plus
+                    d&apos;informations, consultez notre{" "}
+                    <a>politique de confidentialité</a> et les{" "}
+                    <a>termes et conditions.</a>
+                    <div className="help-block with-errors" />
+                  </div>
+                  <div className="form-group text-center">
+                    <button
+                      type="submit"
+                      className="form-control-submit-button"
+                    >
+                      Envoyer
+                    </button>
+                  </div>
+                  <div className="form-message">
+                    <div id="pmsgSubmit" className="h3 text-center hidden" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

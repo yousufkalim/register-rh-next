@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import RegisterImg from "../../public/landingPage/images/logo_white.png";
+import Link from "next/link";
+
+import RegisterImg from "../public/landingPage/images/logo_white.png";
 export default function Register() {
   return (
     <div>
@@ -15,7 +17,9 @@ export default function Register() {
               Découvrez Registre RH en créant un compte ou connectez-vous à
               votre compte en cliquant ci-dessous
             </p>
-            <a className="login-link btn-outline-sm ">Se connecter</a>
+            <Link href="/Login">
+              <a className="login-link btn-outline-sm ">Se connecter</a>
+            </Link>
             <br />
           </div>
           <div className="col-md-9 register-right">
