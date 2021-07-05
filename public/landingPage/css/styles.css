@@ -67,7 +67,7 @@ Colors:
 }
 body,
 html {
-  font-family: Montserrat !important;
+  font-family: "Montserrat" !important;
   width: 100%;
   height: 100%;
 }
@@ -2318,3 +2318,291 @@ a:hover.back-to-top {
 		margin-bottom: 2rem;
 	}
 }*/
+
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+/* Login.css */
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+
+.login-container {
+  margin-top: 4%;
+  margin-bottom: 5%;
+  border-radius: 4px;
+}
+.login-form-1 #list {
+  font-size: 14px;
+}
+.login-form-1 {
+  padding: 5%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+}
+
+.login-form-1 h3 {
+  text-align: center;
+  color: #152f68;
+}
+
+.form-control {
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.login-form-2 {
+  padding: 4%;
+  background: #152f68;
+  /*box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);*/
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+}
+
+.login-form-2 h3 {
+  text-align: center;
+  color: #fff;
+}
+
+.login-container form {
+  padding: 10%;
+}
+
+.login-form-1 .btnSubmit:hover {
+  background: #fff;
+  border-color: #152f68;
+  text-decoration: none;
+  color: #152f68;
+  border: 1px solid #152f68;
+}
+
+.login-form-2 .btnSubmit:hover {
+  background: #fff;
+  border-color: #152f68;
+  text-decoration: none;
+  cursor: pointer;
+  color: #152f68;
+  /*border: 0.4px solid #fff;*/
+}
+
+.login-form-1 .btnSubmit {
+  display: inline-block;
+  padding: 1.1rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: #152f68;
+  color: #fff;
+  font: 700 0.875rem/0 Montserrat;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.login-form-2 .btnSubmit {
+  display: inline-block;
+  padding: 0.875rem 1.5rem 0.875rem 1.5rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: #152f68;
+  color: #fff;
+  font: 700 0.875rem/0 Montserrat;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.login-form-2 .ForgetPwd {
+  color: #fff;
+  /*font-weight: 600;*/
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login-form-2 .ForgetPwd:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.login-form-1 .ForgetPwd {
+  color: #0062cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/*list unstyled*/
+.login-form-1 ul {
+  margin-bottom: 1.375rem;
+  padding-left: 30px;
+  font-size: 14px;
+  list-style-type: circle;
+}
+
+.login-form-1 li {
+  padding: 3px;
+}
+
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+/* Register.css */
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+/* ******************************************* */
+
+.register {
+  background: -webkit-linear-gradient(left, #152f68, #001861);
+
+  padding: 3%;
+  padding-bottom: 2.6%;
+}
+
+.register-left {
+  text-align: center;
+  color: #fff;
+  margin-top: 4%;
+}
+
+.register-left a.login-link {
+  display: inline-block;
+  padding: 0.875rem 1.5rem 0.875rem 1.5rem;
+
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  font: 700 0.875rem/0 Montserrat;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.register-left a.login-link:hover {
+  background: #fff;
+  border-color: #152f68;
+  text-decoration: none;
+  cursor: pointer;
+  color: #152f68;
+}
+.register-right {
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+}
+
+.register-left img {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  width: 25%;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+
+/*@*@-webkit-keyframes mover {
+  0% {
+      transform: translateY(0);
+  }
+
+  100% {
+      transform: translateY(-20px);
+  }
+}
+
+@keyframes mover {
+  0% {
+      transform: translateY(0);
+  }
+
+  100% {
+      transform: translateY(-20px);
+  }
+}
+
+*@*/
+.register-left p {
+  font-weight: lighter;
+  padding: 12%;
+  margin-top: -9%;
+}
+
+.register .register-form {
+  padding: 10%;
+  margin-top: 10%;
+}
+.register .register-form .form-control.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-outline-sm {
+  display: inline-block;
+  padding: 0.875rem 1.5rem 0.875rem 1.5rem;
+  border: 1px solid #152f68;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #fff;
+  font: 700 0.875rem/0 Montserrat;
+  text-decoration: none;
+  margin-top: 3px;
+  transition: all 0.2s;
+}
+.btnRegister {
+  display: inline-block;
+  padding: 0.875rem 1.5rem 0.875rem 1.5rem;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: #152f68;
+  color: #fff;
+  font: 700 0.875rem/0 Montserrat;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.btnRegister:hover {
+  background: #fff;
+  border-color: #152f68;
+  text-decoration: none;
+  cursor: pointer;
+  color: #152f68;
+}
+
+.register .nav-tabs {
+  margin-top: 3%;
+  border: none;
+  background: #0062cc;
+  border-radius: 4px;
+  width: 28%;
+  float: right;
+}
+
+.register .nav-tabs .nav-link {
+  padding: 2%;
+  height: 34px;
+  font-weight: 600;
+  color: #fff;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.register .nav-tabs .nav-link:hover {
+  border: none;
+}
+
+.register .nav-tabs .nav-link.active {
+  width: 100px;
+  color: #0062cc;
+  border: 2px solid #0062cc;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.register-heading {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: -15%;
+  color: #495057;
+}

@@ -46,20 +46,14 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           {/* <!-- Scripts --> */}
+          {/* defer */}
           <script defer src="landingPage/js/jquery.min.js" />
-          {/* <!-- jQuery for Bootstrap's Javascript plugins --> */}
           <script defer src="landingPage/js/popper.min.js" />
-          {/* <!-- Popper tooltip library for Bootstrap --> */}
           <script defer src="landingPage/js/bootstrap.min.js" />
-          {/* <!-- Bootstrap framework --> */}
           <script defer src="landingPage/js/jquery.easing.min.js" />
-          {/* <!-- jQuery Easing for smooth scrolling between anchors --> */}
           <script defer src="landingPage/js/swiper.min.js" />
-          {/* <!-- Swiper for image and text sliders --> */}
           <script defer src="landingPage/js/jquery.magnific-popup.js" />
-          {/* <!-- Magnific Popup for lightboxes --> */}
           <script defer src="landingPage/js/validator.min.js" />
-          {/* <!-- Validator.js - Bootstrap plugin that validates forms --> */}
           <script defer src="landingPage/js/scripts.js" />
         </body>
       </Html>

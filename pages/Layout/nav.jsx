@@ -73,11 +73,7 @@ export default function Nav() {
                 Tarifs
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link page-scroll" href="#faq">
-                Vos questions
-              </a>
-            </li>
+
             <li className="nav-item">
               <a className="nav-link page-scroll" href="#about">
                 A propos
@@ -85,7 +81,7 @@ export default function Nav() {
             </li>
           </ul>
           <span className="nav-item">
-            <Link href="http://160.153.249.64:2228/Identity/Account/Login">
+            <Link href="/Layout/Login">
               <span className="btn-outline-sm ">Se connecter</span>
             </Link>
           </span>

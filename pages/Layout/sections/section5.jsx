@@ -14,8 +14,9 @@ export default function section5() {
               className="text-container"
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
+              <h5 className="pb-2">Registre unique du personnel</h5>
+
               <p>
-                <h5 className="pb-2">Registre unique du personnel</h5>
                 Tout employeur se doit de tenir à jour son{" "}
                 <b>registre unique du personnel</b> (Article L1221-13 du Code du
                 Travail). Tout comme les registres relatifs aux conditions du

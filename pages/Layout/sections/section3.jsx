@@ -36,7 +36,7 @@ export default function section3() {
               <li className="media">
                 <i className="fas fa-square" />
                 <div className="media-body">
-                  <b> Paramétrage</b> simple pour collecter des données
+                  <b> Paramétrage simple</b> pour collecter des données
                   complémentaires à des fins de reporting
                 </div>
               </li>

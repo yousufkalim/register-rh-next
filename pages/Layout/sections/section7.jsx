@@ -14,8 +14,9 @@ export default function section7() {
               className="text-container"
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
+              <h5 className="pb-2"> Registre des contrôles de sécurité</h5>
+
               <p>
-                <h5 className="pb-2"> Registre des contrôles de sécurité</h5>
                 Les règles de santé et de sécurité au travail relatives au
                 registre de sécurité réglementation pour les ERT (Etablissements
                 Recevant des Travailleurs) et pour le personnel travaillant en

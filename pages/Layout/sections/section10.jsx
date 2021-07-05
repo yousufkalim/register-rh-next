@@ -17,8 +17,8 @@ export default function section10() {
               className="text-container"
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
+              <h5 className="pb-2">À propos</h5>À l’heure de la{" "}
               <p>
-                <h5 className="pb-2">À propos</h5>À l’heure de la{" "}
                 <b>digitalisation des documents</b> et des processus, il
                 semblait évident à nos deux dirigeants issus de la sphère RH et
                 de la sphère technique, de{" "}

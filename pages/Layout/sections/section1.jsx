@@ -11,7 +11,8 @@ export default function section1() {
               style={{ width: "100%", paddingBottom: "20px" }}
             >
               <i className="fas fa-question" />
-              Qu’est-ce que l’application « Registre RH » ?
+              Comment digitaliser votre registre unique du personnel, votre DUER
+              et le registre de sécurité ?
             </h1>
           </div>
         </div>
