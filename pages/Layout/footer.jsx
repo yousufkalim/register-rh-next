@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 export default function footer() {
   return (
     <>
@@ -24,13 +24,17 @@ export default function footer() {
                     <i className="fas fa-square" />
                     <div className="media-body">
                       Consultez nos{" "}
-                      <a className="white">Termes et conditions</a>
+                      <Link href="/TermsAndConditions">
+                        <a className="white">Termes et conditions</a>
+                      </Link>
                     </div>
                   </li>
                   <li className="media">
                     <i className="fas fa-square" />
                     <div className="media-body">
-                      <a className="white">Politique de confidentialité</a>
+                      <Link href="/PrivacyPolicy">
+                        <a className="white">Politique de confidentialité</a>
+                      </Link>
                     </div>
                   </li>
                 </ul>

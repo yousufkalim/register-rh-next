@@ -11,10 +11,17 @@ import {
   Col,
 } from "reactstrap";
 import Image from "next/image";
+import Link from "next/link";
+
 import img1 from "../public/landingPage/images/logo1.png";
+import SubHeader from "./Layout/subheader";
+import Footer from "./Layout/footer";
+
 export default function Contact() {
   return (
     <>
+      <SubHeader content="Contact US" />
+
       <div id="contact" className="basic-1">
         <div className="container">
           <div className="row">
@@ -22,7 +29,7 @@ export default function Contact() {
               <h2 className="text-left">
                 <i className="fa fa-info-circle" /> Informations
               </h2>
-              <div className="pt-3">
+              <div className="pt-2">
                 <Card>
                   <div className="d-flex align-items-center">
                     <div className="div1">
@@ -93,7 +100,7 @@ export default function Contact() {
               <h2 className="text-left">
                 <i className="fa fa-question-circle" /> Contactez-nous!
               </h2>
-              <div className="form-container ">
+              <div className="form-container pt-2 ">
                 <form
                   id="privacyForm"
                   data-toggle="validator"
@@ -165,6 +172,22 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      <div className="ex-basic-1">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <Link href="/">
+                <a className="btn-outline-reg text-dark">Back</a>
+              </Link>
+              {/* end of breadcrumbs */}
+            </div>{" "}
+            {/* end of col */}
+          </div>{" "}
+          {/* end of row */}
+        </div>{" "}
+        {/* end of container */}
+      </div>
+      <Footer />
     </>
   );
 }

@@ -2112,7 +2112,9 @@ a:hover.back-to-top {
   /* end of extra pages */
 }
 /* end of min-width width 992px */
-
+#clients .cards-1 .card:hover {
+  cursor: pointer;
+}
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
   /* General Styles */
@@ -2162,6 +2164,14 @@ a:hover.back-to-top {
 
   .cards-1 .card-image {
     width: 12.5rem;
+  }
+  #clients .cards-1 .card {
+    border: 0.5px solid #c9c9c9;
+  }
+  #clients .cards-1 .card-image {
+    width: 7.5rem;
+    margin-bottom: 0px !important;
+    padding: 10px;
   }
   /* end of description */
 
@@ -2213,8 +2223,10 @@ a:hover.back-to-top {
     font-weight: bold;
   }
   #contact .card .lastDiv p {
-    padding-left: 10px;
-    margin-top: 5px;
+    padding: 12px 0px 0px 12px;
+  }
+  #contact .card .lastDiv a {
+    font-size: 12px !important;
   }
   #details {
     padding-top: 8rem;
@@ -2649,4 +2661,13 @@ a:hover.back-to-top {
   margin-top: 8%;
   margin-bottom: -15%;
   color: #495057;
+}
+
+.modal-dialog {
+  margin: 0px !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 50% !important;
+  width: 100vw !important;
+  transform: translate(-50%, 0px) !important;
 }

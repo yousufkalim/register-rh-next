@@ -1,7 +1,27 @@
 import React from "react";
 import Link from "next/link";
-
+import { useFormik } from "formik";
+import * as Yup from "yup";
+import Axios from "axios";
 export default function Login() {
+  const formik = useFormik({
+    initialValues: {
+      email: "",
+      password: "",
+    },
+    validationSchema: LOGIN_YUP,
+    onSubmit: async (values) => {
+      try {
+        let response = await Axios.post(
+          `http://160.153.249.64:2228/Users/Login/Identity?Email=Admin@Admin.com&password=Admin@123`,
+          {}
+        );
+        console.log(response, "reponse");
+      } catch (error) {
+        console.log(error.response.data.message, "reponse");
+      }
+    },
+  });
   return (
     <div className="container login-container">
       <div className="row">
@@ -45,7 +65,7 @@ export default function Login() {
               </strong>
             </h3>
           </div>
-          <form id="account" method="post">
+          <form onSubmit={formik.handleSubmit}>
             <b>
               <div
                 className="text-danger"
@@ -53,12 +73,31 @@ export default function Login() {
               />
             </b>
             <div className="form-group">
-              <input className="form-control" />
-              <span className="text-danger" />
+              <input
+                className="form-control"
+                name="email"
+                onChange={formik.handleChange}
+                value={formik.values.email}
+              />
+              <div className="text-danger pt-1">
+                {formik.touched.email && formik.errors.email ? (
+                  <div className="formikError">{formik.errors.email}</div>
+                ) : null}
+              </div>
             </div>
             <div className="form-group">
-              <input className="form-control" />
-              <span className="text-danger" />
+              <input
+                className="form-control"
+                name="password"
+                type="password"
+                onChange={formik.handleChange}
+                value={formik.values.password}
+              />
+              <div className="text-danger pt-1">
+                {formik.touched.password && formik.errors.password ? (
+                  <div className="formikError">{formik.errors.password}</div>
+                ) : null}
+              </div>
             </div>
             <div className="row">
               <div className="form-group col-6 text-left">
@@ -80,3 +119,7 @@ export default function Login() {
     </div>
   );
 }
+const LOGIN_YUP = Yup.object({
+  email: Yup.string().email("Invalid email address").required("Required"),
+  password: Yup.string().max(255).required("Required"),
+});
