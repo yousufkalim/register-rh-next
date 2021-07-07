@@ -1,10 +1,10 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import Axios from "axios";
 export default function Login() {
-  const [Error, setError] = useState("")
+  const [Error, setError] = useState("");
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -17,11 +17,13 @@ export default function Login() {
           `http://160.153.249.64:2228/Users/Login/Identity?Email=${values.email}&password=${values.password}`,
           {}
         );
+        console.log(response, "resoonse");
         let _id = response.data;
-        window.location.href=`http://160.153.249.64:2228/Home/index?id=${_id}`
+        window.location.href = `http://160.153.249.64:2228/Home/index?id=${_id}`;
       } catch (error) {
-        setError(error.response.data)
-        console.log(error.response.data, "reponse");
+        console.log(error, "reponse");
+
+        setError(error.response.data);
       }
     },
   });
@@ -67,10 +69,9 @@ export default function Login() {
                 Vous avez déjà un compte ? Connectez-vous à votre compte !
               </strong>
             </h3>
-            
           </div>
           <form onSubmit={formik.handleSubmit}>
-            {Error &&
+            {Error && (
               <b>
                 <div
                   className="text-danger mb-2 p-2"
@@ -79,7 +80,7 @@ export default function Login() {
                   <span>{Error}</span>
                 </div>
               </b>
-            }
+            )}
             <div className="form-group">
               <input
                 className="form-control"
