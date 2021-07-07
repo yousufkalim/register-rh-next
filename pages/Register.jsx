@@ -75,6 +75,7 @@ export default function Register() {
                       <div className="row ">
                         <div className="col-md-6">
                           <div className="form-group">
+                            *
                             <input
                               className="form-control"
                               placeholder="Nom"
@@ -92,6 +93,7 @@ export default function Register() {
                             </div>
                           </div>
                           <div className="form-group">
+                            *
                             <input
                               className="form-control"
                               placeholder="Email"
@@ -108,6 +110,7 @@ export default function Register() {
                             </div>
                           </div>
                           <div className="form-group">
+                            *
                             <input
                               className="form-control"
                               placeholder="Mot de passe"
@@ -125,6 +128,7 @@ export default function Register() {
                             </div>
                           </div>
                           <div className="form-group">
+                            *
                             <input
                               className="form-control"
                               placeholder="Etablissement principal"
@@ -145,6 +149,7 @@ export default function Register() {
                         </div>
                         <div className="col-md-6">
                           <div className="form-group">
+                            *
                             <input
                               className="form-control"
                               placeholder="Prenom"
@@ -162,6 +167,7 @@ export default function Register() {
                             </div>
                           </div>
                           <div className="form-group">
+                            *
                             <input
                               className="form-control"
                               placeholder="Mot de passe"
