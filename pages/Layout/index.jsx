@@ -47,17 +47,18 @@ export default function Index() {
                 <div>
                   <p>
                     {" "}
-                    Nous nous engageons à vous informer en cas de modification
-                    substantielle des présentes CGU, de vos données de manière
-                    substantielle sans vous en informer et obtenir votre
-                    consentement.
+                    En poursuivant votre navigation sur ce site, vous acceptez
+                    l&apos;utilisation de cookies afin d&apos;optimiser votre
+                    navigation et realiser des statistiques de suivis. Pour en
+                    savoir plus, consultez
                   </p>
                   <Link href="/PrivacyPolicy">
                     <a> notre politique de confidentialité </a>
                   </Link>{" "}
                   <p>
-                    En aucun cas les engagements, définis au point ci-dessus,
-                    relatifs à la notification en cas de
+                    Si vous refusez, vos informations de navigation ne seront
+                    pas conservées lors de votre visite. Nous apposons un seul
+                    cookie afin de mémoriser votre choix.
                   </p>
                   <div className="row">
                     <div className="col-lg-12">

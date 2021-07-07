@@ -7,7 +7,7 @@ export default function TermsAndConditions() {
   return (
     <div>
       <div>
-        <SubHeader content="Terms And Conditions" />
+        <SubHeader content="Termes et conditions" />
         {/* end of ex-basic-1 */}
         {/* end of breadcrumbs */}
         {/* Privacy Content */}

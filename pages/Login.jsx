@@ -1,9 +1,10 @@
-import React from "react";
+import React,{useState} from "react";
 import Link from "next/link";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import Axios from "axios";
 export default function Login() {
+  const [Error, setError] = useState("")
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -13,12 +14,14 @@ export default function Login() {
     onSubmit: async (values) => {
       try {
         let response = await Axios.post(
-          `http://160.153.249.64:2228/Users/Login/Identity?Email=Admin@Admin.com&password=Admin@123`,
+          `http://160.153.249.64:2228/Users/Login/Identity?Email=${values.email}&password=${values.password}`,
           {}
         );
-        console.log(response, "reponse");
+        let _id = response.data;
+        window.location.href=`http://160.153.249.64:2228/Home/index?id=${_id}`
       } catch (error) {
-        console.log(error.response.data.message, "reponse");
+        setError(error.response.data)
+        console.log(error.response.data, "reponse");
       }
     },
   });
@@ -64,14 +67,19 @@ export default function Login() {
                 Vous avez déjà un compte ? Connectez-vous à votre compte !
               </strong>
             </h3>
+            
           </div>
           <form onSubmit={formik.handleSubmit}>
-            <b>
-              <div
-                className="text-danger"
-                style={{ backgroundColor: "white" }}
-              />
-            </b>
+            {Error &&
+              <b>
+                <div
+                  className="text-danger mb-2 p-2"
+                  style={{ backgroundColor: "white" }}
+                >
+                  <span>{Error}</span>
+                </div>
+              </b>
+            }
             <div className="form-group">
               <input
                 className="form-control"

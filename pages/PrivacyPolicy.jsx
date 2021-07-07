@@ -7,7 +7,10 @@ export default function PrivacyPolicy() {
   return (
     <div>
       <div>
-        <SubHeader content="Privacy And Policy" />
+        <SubHeader
+          content="Politique de confidentialité
+"
+        />
         {/* end of ex-basic-1 */}
         {/* end of breadcrumbs */}
         {/* Privacy Content */}

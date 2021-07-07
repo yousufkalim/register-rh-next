@@ -20,7 +20,10 @@ import Footer from "./Layout/footer";
 export default function Contact() {
   return (
     <>
-      <SubHeader content="Contact US" />
+      <SubHeader
+        content="Contactez-nous
+"
+      />
 
       <div id="contact" className="basic-1">
         <div className="container">

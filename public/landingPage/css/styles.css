@@ -1953,7 +1953,7 @@ a:hover.back-to-top {
   /* end of header */
 
   /* Description */
-  .cards-1 .card {
+  .cards-1 .card:not(:first-child) {
     display: inline-block;
     width: 17rem;
     max-width: 100%;
@@ -2114,8 +2114,7 @@ a:hover.back-to-top {
 /* end of min-width width 992px */
 #clients .cards-1 .card:hover {
   cursor: pointer;
-}
-/* Min-width width 1200px */
+} /* Min-width width 1200px */
 @media (min-width: 1200px) {
   /* General Styles */
   .h2-heading {
@@ -2156,7 +2155,7 @@ a:hover.back-to-top {
   /* end of customer */
 
   /* Description */
-  .cards-1 .card {
+  .cards-1 .card:not(:first-child) {
     width: 18.875rem;
     margin-right: 2rem;
     margin-left: 2rem;
@@ -2205,6 +2204,16 @@ a:hover.back-to-top {
   }
   #contact .card {
     padding: 0px !important;
+  }
+  #clientdesc {
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  #clientdesc .left_col {
+    padding-top: 17%;
+  }
+  #clientdesc .card {
+    padding: 18px !important;
   }
   #contact .card .card-body {
     padding: 0px !important;
@@ -2507,9 +2516,9 @@ a:hover.back-to-top {
 
 .register {
   background: -webkit-linear-gradient(left, #152f68, #001861);
-
-  padding: 3%;
-  padding-bottom: 2.6%;
+  height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .register-left {
@@ -2577,10 +2586,11 @@ a:hover.back-to-top {
   padding: 12%;
   margin-top: -9%;
 }
-
+.register .child {
+  padding-top: 8%;
+}
 .register .register-form {
   padding: 10%;
-  margin-top: 10%;
 }
 .register .register-form .form-control.form-control {
   display: block;
@@ -2670,4 +2680,27 @@ a:hover.back-to-top {
   left: 50% !important;
   width: 100vw !important;
   transform: translate(-50%, 0px) !important;
+}
+.cards-wrapper {
+  /* display: inline-block; */
+  position: relative;
+}
+.cards-wrapper:hover .overlay-btn {
+  visibility: visible;
+}
+/* .overlay-btn .btn-solid-reg:hover {
+  color: #fff !important;
+} */
+.overlay-btn {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 99999;
+  visibility: hidden;
+  background: rgba(255, 255, 255, 0.8);
+  height: 100%;
+  /* border: none; */
 }
