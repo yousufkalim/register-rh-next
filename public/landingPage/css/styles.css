@@ -2220,7 +2220,11 @@ a:hover.back-to-top {
   }
   #contact .card .div1 {
     width: 20%;
+    text-align: center;
     padding: 0.5rem 0.5rem 0.5rem 0.1rem;
+  }
+  #contact .card .div1 .fa {
+    font-size: 30px;
   }
   #contact .card .div2 {
     width: 80%;
@@ -2235,8 +2239,10 @@ a:hover.back-to-top {
     padding: 12px 0px 0px 12px;
   }
   #contact .card .lastDiv a {
-    font-size: 12px !important;
+    font-size: 30px !important;
+    color: #000 !important;
   }
+
   #details {
     padding-top: 8rem;
     padding-bottom: 2rem;

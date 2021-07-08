@@ -60,7 +60,7 @@ export default function Clients() {
           <div className="row">
             <div className="col-lg-12">
               <Link href="/">
-                <a className="btn-outline-reg text-dark">Back</a>
+                <a className="btn-solid-reg">Retour</a>
               </Link>
               {/* end of breadcrumbs */}
             </div>{" "}

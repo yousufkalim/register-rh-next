@@ -270,7 +270,7 @@ export default function PrivacyPolicy() {
                   {/* end of row */}
                 </div>{" "}
                 <Link href="/">
-                  <a className="btn-outline-reg text-dark">Back</a>
+                  <a className="btn-solid-reg">Retour</a>
                 </Link>
               </div>{" "}
               {/* end of col*/}

@@ -10,12 +10,10 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import Image from "next/image";
-import Link from "next/link";
 
-import img1 from "../public/landingPage/images/logo1.png";
 import SubHeader from "./Layout/subheader";
 import Footer from "./Layout/footer";
+import Sub_Section from "./Layout/sections/sub_section";
 
 export default function Contact() {
   return (
@@ -36,8 +34,12 @@ export default function Contact() {
                 <Card>
                   <div className="d-flex align-items-center">
                     <div className="div1">
-                      <Image top className="image-card" src={img1} alt="Card" />
+                      <i
+                        className="fa fa-location-arrow"
+                        aria-hidden="true"
+                      ></i>
                     </div>
+
                     <div className="div2">
                       <CardBody>
                         <CardTitle tag="p">
@@ -55,7 +57,7 @@ export default function Contact() {
                 <Card>
                   <div className="d-flex align-items-center">
                     <div className="div1">
-                      <Image top className="image-card" src={img1} alt="Card" />
+                      <i className="fa fa-envelope" aria-hidden="true"></i>
                     </div>
                     <div className="div2">
                       <CardBody>
@@ -72,7 +74,7 @@ export default function Contact() {
                 <Card>
                   <div className="d-flex align-items-center">
                     <div className="div1">
-                      <Image top className="image-card" src={img1} alt="Card" />
+                      <i className="fa fa-phone" aria-hidden="true"></i>
                     </div>
                     <div className="div2">
                       <CardBody>
@@ -92,7 +94,7 @@ export default function Contact() {
                       <b> Réseaux:</b>
                       <br />
                       <a href="https://www.linkedin.com/company/registre-rh/">
-                        https://www.linkedin.com/company/registre-rh/
+                        <i className="fa fa-phone" aria-hidden="true"></i>
                       </a>
                     </p>
                   </div>
@@ -175,21 +177,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <div className="ex-basic-1">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <Link href="/">
-                <a className="btn-outline-reg text-dark">Back</a>
-              </Link>
-              {/* end of breadcrumbs */}
-            </div>{" "}
-            {/* end of col */}
-          </div>{" "}
-          {/* end of row */}
-        </div>{" "}
-        {/* end of container */}
-      </div>
+      <Sub_Section />
       <Footer />
     </>
   );

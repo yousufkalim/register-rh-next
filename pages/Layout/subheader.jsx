@@ -47,7 +47,7 @@ export default function subheader(props) {
           <div className="row">
             <div className="col-lg-12">
               <div className="breadcrumbs">
-                <Link href="/">Home</Link>
+                <Link href="/">Accueil</Link>
                 <i className="fa fa-angle-double-right" />
                 <span>{props.content}</span>
               </div>{" "}

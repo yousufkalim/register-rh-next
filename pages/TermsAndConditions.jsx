@@ -369,7 +369,7 @@ export default function TermsAndConditions() {
                   </p>
                 </div>
                 <Link href="/">
-                  <a className="btn-outline-reg text-dark">Back</a>
+                  <a className="btn-solid-reg">Retour</a>
                 </Link>
               </div>{" "}
               {/* end of col*/}
