@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function section8() {
   return (
@@ -72,13 +73,9 @@ export default function section8() {
                     </li>
                   </ul>
                   <div className="button-wrapper">
-                    <a
-                      className="btn-solid-reg page-scroll isDisabled"
-                      asp-area="Identity"
-                      asp-page="/Account/Register"
-                    >
-                      Essayer
-                    </a>
+                     <Link href="/Register">
+                       <span className="btn-solid-reg page-scroll isDisabled"> Essayer</span>
+                      </Link>
                   </div>
                 </div>
               </div>
@@ -132,13 +129,9 @@ export default function section8() {
                     </li>
                   </ul>
                   <div className="button-wrapper">
-                    <a
-                      className="btn-solid-reg page-scroll isDisabled"
-                      asp-area="Identity"
-                      asp-page="/Account/Register"
-                    >
-                      Souscrire
-                    </a>
+                      <Link href="/Register">
+                       <span className="btn-solid-reg page-scroll isDisabled"> Souscrire</span>
+                      </Link>
                   </div>
                 </div>
               </div>
@@ -186,13 +179,9 @@ export default function section8() {
                     </li>
                   </ul>
                   <div className="button-wrapper">
-                    <a
-                      className="btn-solid-reg page-scroll isDisabled"
-                      asp-area="Identity"
-                      asp-page="/Account/Register"
-                    >
-                      Souscrire
-                    </a>
+                    <Link href="/Register">
+                       <span className="btn-solid-reg page-scroll isDisabled"> Souscrire</span>
+                    </Link>
                   </div>
                 </div>
               </div>

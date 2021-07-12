@@ -10,7 +10,7 @@ export default function section1() {
               className="h2-heading"
               style={{ width: "100%", paddingBottom: "20px" }}
             >
-              <i className="fas fa-question" />
+              <i class="fa fa-cogs" aria-hidden="true"></i>
               Comment digitaliser votre registre unique du personnel, votre DUER
               et le registre de sécurité ?
             </h1>
@@ -22,7 +22,7 @@ export default function section1() {
               <div className="row">
                 <div className="col-sm-1">
                   <h2>
-                    <i className="fas fa-question" />
+                    <i class="fa fa-window-restore" aria-hidden="true"></i>
                   </h2>
                 </div>
                 <div className="col-sm-11">
@@ -46,15 +46,10 @@ export default function section1() {
                     className="fas fa-caret-square-right"
                     style={{ marginLeft: "20px" }}
                   />
-                  <div className="media-body">Registre unique du personnel</div>
-                </li>
-                <li className="media">
-                  <i
-                    className="fas fa-caret-square-right"
-                    style={{ marginLeft: "20px" }}
-                  />
                   <div className="media-body">
-                    Document unique d’évaluation des risques professionnels
+                    <a href="#personal" className="text-dark">
+                          Registre unique du personnel
+                    </a>
                   </div>
                 </li>
                 <li className="media">
@@ -63,7 +58,22 @@ export default function section1() {
                     style={{ marginLeft: "20px" }}
                   />
                   <div className="media-body">
-                    Registre des contrôles de sécurité
+                    <a href="#singleRisk" className="text-dark">
+                          {" "}
+                          Document unique d’évaluation des risques professionnels
+                    </a>
+                  </div>
+                </li>
+                <li className="media">
+                  <i
+                    className="fas fa-caret-square-right"
+                    style={{ marginLeft: "20px" }}
+                  />
+                  <div className="media-body">
+                    <a href="#security" className="text-dark">
+                          {" "}
+                          Registre des contrôles de sécurité
+                    </a>
                   </div>
                 </li>
                 <li className="media">

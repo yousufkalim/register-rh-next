@@ -34,15 +34,23 @@ export default function TermsAndConditions() {
                           <i className="fas fa-square" />
                           <div className="media-body">
                             <b>Propriétaire : </b>
-                            GPCH - 3 rue Neuve Saint-Germain 92100
-                            Boulogne-Billancourt, France
+                            
+                            <a target="_blank" href="https://cutt.ly/cmODmsS">
+                      {" "}
+                      GPCH - 3 rue Neuve Saint-Germain 92100
+                            Boulogne-Billancourt, France{" "}
+                    </a> 
                           </div>
                         </li>
                         <li className="media">
                           <i className="fas fa-square" />
                           <div className="media-body">
                             <b>Créateur : </b>
-                            Falcon Consulting
+                            
+                            <a target="_blank" href="https://www.falconconsulting.fr/?lang=en">
+                      {" "}
+                      Falcon Consulting{" "}
+                         </a> 
                           </div>
                         </li>
                         <li className="media">
@@ -336,8 +344,11 @@ export default function TermsAndConditions() {
                 <div className="text-container">
                   <h6>9. Droit applicable et attribution de juridiction.</h6>
                   <p>
-                    Tout litige en relation avec l’utilisation du site
-                    www.registre-rh.fr est soumis au droit français. Il est fait
+                    Tout litige en relation avec l’utilisation du site 
+                    <a target="_blank" href="www.registre-rh.fr">
+                      {" "}
+                      www.registre-rh.fr{" "}
+                    </a> est soumis au droit français. Il est fait
                     attribution exclusive de juridiction aux tribunaux
                     compétents de Paris.
                   </p>

@@ -17,9 +17,6 @@ export default function section6() {
               className="text-container"
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
-              <h5 className="pb-2">
-                Document unique d’évaluation des risques (DUER)
-              </h5>
               <p>
                 Le document unique d&apos;évaluation des risques (DUER) liste
                 les risques professionnels encourus par les travailleurs et les

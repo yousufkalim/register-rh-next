@@ -14,7 +14,6 @@ export default function section5() {
               className="text-container"
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
-              <h5 className="pb-2">Registre unique du personnel</h5>
 
               <p>
                 Tout employeur se doit de tenir à jour son{" "}

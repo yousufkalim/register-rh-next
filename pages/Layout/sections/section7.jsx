@@ -14,7 +14,6 @@ export default function section7() {
               className="text-container"
               style={{ textAlign: "justify", textJustify: "inter-word" }}
             >
-              <h5 className="pb-2"> Registre des contrôles de sécurité</h5>
 
               <p>
                 Les règles de santé et de sécurité au travail relatives au
