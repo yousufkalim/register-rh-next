@@ -89,7 +89,7 @@ export default function section8() {
             <div className="card">
               <div className="card-body">
                 <div className="card-headers">
-                  <div className="card-title">PREMIUM</div>
+                  <div className="card-title">EN MODE SaaS</div>
                   <div className="price">
                     <span className="value">Sur devis</span>
                   </div>
@@ -117,11 +117,9 @@ export default function section8() {
                       </div>
                     </li>
                     <li className="media">
-                      <i
-                        className="fas fa-times"
-                        style={{ color: "#6c757d" }}
-                      />
-                      <div className="media-body">Mode On Premise</div>
+                    <i className="fas fa-check" />
+
+                      <div className="media-body">En mode SaaS</div>
                     </li>
                     <li className="media">
                       <i

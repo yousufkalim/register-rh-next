@@ -5,7 +5,7 @@ export default function section1() {
     <div id="details" className="basic-1">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 text-center">
+          <div className="col-lg-12 text-center">
             <h1
               className="h2-heading"
               style={{ width: "100%", paddingBottom: "20px" }}
@@ -16,18 +16,17 @@ export default function section1() {
             </h1>
           </div>
         </div>
+        <div className='row'> 
+          <div className="col-lg-12">
         <div className="row">
           <div className="col-lg-6">
             <div className="text-container">
-              <div className="row">
-                <div className="col-sm-1">
+              <div className="d-flex">
                   <h2>
                     <i className="fas fa-question" />
                   </h2>
-                </div>
-                <div className="col-sm-11">
-                  <h2>Qu’est-ce que l’application « Registre RH » ?</h2>
-                </div>
+               
+                  <h2 className="ml-3">Qu’est-ce que l’application « Registre RH » ?</h2>
               </div>
 
               <p style={{ fontWeight: "bold", fontSize: "1.2rem" }}>
@@ -223,6 +222,8 @@ export default function section1() {
             </div>
             {/* end of image-container */}
           </div>
+        </div>
+        </div>
         </div>
         {/* end of row */}
       </div>{" "}

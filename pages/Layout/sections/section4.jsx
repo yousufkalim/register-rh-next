@@ -38,7 +38,7 @@ export default function section4() {
                     </div>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <a href="#personal" className="text-dark">
+                        <a href="#personal" className="text-dark page-scroll">
                           Registre unique du personnel
                         </a>
                       </h4>
@@ -64,7 +64,7 @@ export default function section4() {
                     </div>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <a href="#singleRisk" className="text-dark">
+                        <a href="#singleRisk" className="text-dark page-scroll">
                           {" "}
                           Document unique d’évaluation des risques
                         </a>
@@ -92,7 +92,7 @@ export default function section4() {
                     </div>
                     <div className="card-body">
                       <h4 className="card-title">
-                        <a href="#security" className="text-dark">
+                        <a href="#security" className="text-dark page-scroll">
                           {" "}
                           Registre de contrôles de sécurité
                         </a>

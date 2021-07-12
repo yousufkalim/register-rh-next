@@ -4,8 +4,7 @@ export default function section2() {
   return (
     <div className="basic-1" id="mocha">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
+        
             <div className="row">
               <div className="col-sm-12 text-center">
                 <h2 className="h2-heading">
@@ -14,6 +13,8 @@ export default function section2() {
                 </h2>
               </div>
             </div>
+            <div className="row">
+              <div className="col-lg-12">
             <div
               className="text-container "
               style={{ textAlign: "justify", textJustify: "inter-word" }}
@@ -24,9 +25,7 @@ export default function section2() {
                 </u>
               </p>
               <p>
-                Dès l’embauche du 1er salarié, les entreprises sont soumises à
-                l’obligation de tenue de registres obligatoires et de documents
-                uniques.
+              Dès l’arrivée du premier collaborateur, tous les établissements (public/privé) sont soumis à l’obligation de tenue de registres obligatoires et de documents uniques tels que :
               </p>
               <ul className="list-unstyled li-space-lg ">
                 <li className="media">
@@ -84,6 +83,8 @@ export default function section2() {
               </ul>
               <p />
             </div>{" "}
+            </div>
+            </div>
             {/* end of text-container */}
           </div>{" "}
           {/* end of col */}
@@ -94,9 +95,7 @@ export default function section2() {
           {/* end of image-container */}
           {/*</div>*/} {/* end of col */}
           {/* end of col */}
-        </div>{" "}
-        {/* end of row */}
-      </div>{" "}
+        
       {/* end of container */}
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import SoftwearImage from "../../public/landingPage/images/header-software-app.png";
+import Link from "next/link";
 
 export default function header() {
   return (
@@ -43,15 +44,16 @@ export default function header() {
                             Travail).
                           </p>
                           <p>
-                            <a href="#personal">En savoir plus...</a>
+                            <a href="#personal" className="page-scroll">En savoir plus...</a>
                           </p>
+                          <Link href="/Register">
+
                           <a
                             className="btn-solid-lg page-scroll isDisabled"
-                            asp-area="Identity"
-                            asp-page="/Account/Register"
                           >
                             S&apos;inscrire
                           </a>
+                          </Link>
                         </div>{" "}
                         {/* end of text-container */}
                       </div>{" "}
@@ -129,15 +131,16 @@ export default function header() {
                             ERP relèvent du Code du Travail (CT).
                           </p>
                           <p>
-                            <a href="#security">En savoir plus...</a>
+                          <a href="#personal" className="page-scroll">En savoir plus...</a>
+                         
                           </p>
+                          <Link href="/Register">
                           <a
-                            className="btn-solid-lg page-scroll isDisabled"
-                            asp-area="Identity"
-                            asp-page="/Account/Register"
+                            className="btn-solid-lg"
                           >
                             S&apos;inscrire
                           </a>
+                          </Link>
                         </div>{" "}
                         {/* end of text-container */}
                       </div>{" "}

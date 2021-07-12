@@ -117,7 +117,7 @@ export default function Login() {
                 />
               </div>
               <div className="form-group col-6  text-right pt-1 ">
-                <a className="ForgetPwd " value="Login">
+                <a className="ForgetPwd "  href="http://160.153.249.64:2228/Identity/Account/ForgotPassword" value="Login">
                   Mot de passe oublié ?
                 </a>
               </div>

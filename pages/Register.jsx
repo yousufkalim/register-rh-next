@@ -41,7 +41,7 @@ export default function Register() {
         <div className="child">
           <div className="row">
             <div className="col-md-3 register-left">
-              <Image src={RegisterImg} alt="RegisterImg" />
+              <Image className="RegisterImg" src={RegisterImg} alt="RegisterImg" />
               <h4 id="appName" className="text-white">
                 Registre RH
               </h4>
@@ -107,24 +107,7 @@ export default function Register() {
                             </div>
                           </div>
                           <div className="form-group">
-                            <input
-                              className="form-control"
-                              placeholder="Mot de passe"
-                              name="password"
-                              onChange={formik.handleChange}
-                              value={formik.values.password}
-                            />
-                            <div>
-                              {formik.touched.password &&
-                              formik.errors.password ? (
-                                <span className="text-danger">
-                                  {formik.errors.password}
-                                </span>
-                              ) : null}
-                            </div>
-                          </div>
-                          <div className="form-group">
-                            <input
+                          <input
                               className="form-control"
                               placeholder="Etablissement principal"
                               name="principle"
@@ -136,6 +119,24 @@ export default function Register() {
                               formik.errors.principal ? (
                                 <span className="text-danger">
                                   {formik.errors.principal}
+                                </span>
+                              ) : null}
+                            </div>
+                           
+                          </div>
+                          <div className="form-group">
+                          <input
+                              className="form-control"
+                              placeholder="Mot de passe"
+                              name="password"
+                              onChange={formik.handleChange}
+                              value={formik.values.password}
+                            />
+                            <div>
+                              {formik.touched.password &&
+                              formik.errors.password ? (
+                                <span className="text-danger">
+                                  {formik.errors.password}
                                 </span>
                               ) : null}
                             </div>
@@ -161,9 +162,24 @@ export default function Register() {
                             </div>
                           </div>
                           <div className="form-group">
-                            <input
+                          <input
+                              type="text"
                               className="form-control"
-                              placeholder="Mot de passe"
+                              placeholder="Activité"
+                            />
+                          
+                          </div>
+                          <div className="form-group">
+                            <input
+                              type="text"
+                              className="form-control"
+                              placeholder="Nom de la societe"
+                            />
+                          </div>
+                          <div className="form-group">
+                          <input
+                              className="form-control"
+                              placeholder="Confirmez votre mot de passe"
                               name="confirm_password"
                               onChange={formik.handleChange}
                               value={formik.values.confirm_password}
@@ -176,20 +192,6 @@ export default function Register() {
                                 </span>
                               ) : null}
                             </div>
-                          </div>
-                          <div className="form-group">
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Nom de la societe"
-                            />
-                          </div>
-                          <div className="form-group">
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Activité"
-                            />
                           </div>
                           <input
                             type="submit"
@@ -217,7 +219,7 @@ export const SIGNUP_YUP = Yup.object().shape({
   principle: Yup.string().required("Required"),
 
   password: Yup.string()
-    .min(6, "Must be 6 characters long")
+    .min(8, "Entrez un mot de passe de minimum 8 caractères avec au moins un caractère spécial et une majuscule")
     .max(255)
     .required("Required"),
   confirm_password: Yup.string()
@@ -228,7 +230,7 @@ export const SIGNUP_YUP = Yup.object().shape({
         "Both password need to be the same"
       ),
     })
-    .min(6, "Must be 10 characters long")
+    .min(8, "Entrez un mot de passe de minimum 8 caractères avec au moins un caractère spécial et une majuscule")
     .max(255)
     .required("Required"),
 });
