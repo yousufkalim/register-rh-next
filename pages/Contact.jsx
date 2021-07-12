@@ -43,11 +43,14 @@ export default function Contact() {
                     <div className="div2">
                       <CardBody>
                         <CardTitle tag="p">
-                          Adresse 3 rue Neuve Saint-Germain
+                          Adresse
                         </CardTitle>
                         <CardSubtitle tag="small" className="mb-2 text-muted">
-                          92100 Boulogne-Billancourt
+                          3 rue Neuve Saint-Germain
                         </CardSubtitle>
+                        <CardBody tag="small" className="mb-2 text-muted">
+                          92100 Boulogne-Billancourt
+                        </CardBody>
                       </CardBody>
                     </div>
                   </div>
@@ -79,9 +82,11 @@ export default function Contact() {
                     <div className="div2">
                       <CardBody>
                         <CardTitle tag="p">Mail</CardTitle>
+                        <a href="contact@registre-rh.fr">
                         <CardSubtitle tag="p" className="mb-2 text-muted">
                           contact@registre-rh.fr
                         </CardSubtitle>
+                        </a>
                       </CardBody>
                     </div>
                   </div>
@@ -94,7 +99,7 @@ export default function Contact() {
                       <b> Réseaux:</b>
                       <br />
                       <a href="https://www.linkedin.com/company/registre-rh/">
-                        <i className="fa fa-phone" aria-hidden="true"></i>
+                        <i style={{color: "#555"}} className="fab fa-linkedin-in" aria-hidden="true"></i>
                       </a>
                     </p>
                   </div>

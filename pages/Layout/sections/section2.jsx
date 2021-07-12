@@ -8,7 +8,7 @@ export default function section2() {
             <div className="row">
               <div className="col-sm-12 text-center">
                 <h2 className="h2-heading">
-                  <i className="fas fa-exclamation-triangle" />À qui s’adresse «
+                  <i class="fa fa-question-circle" aria-hidden="true"></i>À qui s’adresse «
                   Registre RH » ?
                 </h2>
               </div>
@@ -30,20 +30,29 @@ export default function section2() {
               <ul className="list-unstyled li-space-lg ">
                 <li className="media">
                   <i className="fas fa-square" />
-                  <div className="media-body">
-                    <b>Registre unique du personnel</b>
+                  <div className="media-body">   
+                    <a href="#personal" className="text-dark">
+                          <b>Registre unique du personnel</b>
+                    </a>
                   </div>
                 </li>
                 <li className="media">
                   <i className="fas fa-square" />
                   <div className="media-body">
-                    <b> Document unique d’évaluation des risques </b>
+                    <a href="#singleRisk" className="text-dark">
+                          {" "}
+                          <b> Document unique d’évaluation des risques </b>
+                    </a>
                   </div>
                 </li>
                 <li className="media">
                   <i className="fas fa-square" />
                   <div className="media-body">
-                    <b> Registre des contrôles de sécurité</b>
+                    
+                    <a href="#security" className="text-dark">
+                          {" "}
+                          <b> Registre des contrôles de sécurité</b>
+                    </a>
                   </div>
                 </li>
               </ul>
