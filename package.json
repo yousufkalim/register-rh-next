@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "winDev": "next dev -p 3005",
-    "start": "NODE_ENV=production node server.js",
+    "start": " node server.js",
     "lint": "next lint"
   },
   "dependencies": {
