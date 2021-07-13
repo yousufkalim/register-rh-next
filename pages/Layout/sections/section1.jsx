@@ -10,7 +10,7 @@ export default function section1() {
               className="h2-heading"
               style={{ width: "100%", paddingBottom: "20px" }}
             >
-              <i class="fa fa-cogs" aria-hidden="true"></i>
+              <i className="fa fa-cogs" aria-hidden="true"></i>
               Comment digitaliser votre registre unique du personnel, votre DUER
               et le registre de sécurité ?
             </h1>
@@ -23,7 +23,7 @@ export default function section1() {
             <div className="text-container">
               <div className="d-flex">
                   <h2>
-                    <i class="fa fa-window-restore" aria-hidden="true"></i>
+                    <i className="fa fa-window-restore" aria-hidden="true"></i>
                   </h2>
                
                   <h2 className="ml-3">Qu’est-ce que l’application « Registre RH » ?</h2>
@@ -46,7 +46,7 @@ export default function section1() {
                     style={{ marginLeft: "20px" }}
                   />
                   <div className="media-body">
-                    <a href="#personal" className="text-dark">
+                    <a href="#personal" className="page-scroll text-dark">
                           Registre unique du personnel
                     </a>
                   </div>
@@ -57,7 +57,7 @@ export default function section1() {
                     style={{ marginLeft: "20px" }}
                   />
                   <div className="media-body">
-                    <a href="#singleRisk" className="text-dark">
+                    <a href="#singleRisk" className="page-scroll text-dark">
                           {" "}
                           Document unique d’évaluation des risques professionnels
                     </a>
@@ -69,7 +69,7 @@ export default function section1() {
                     style={{ marginLeft: "20px" }}
                   />
                   <div className="media-body">
-                    <a href="#security" className="text-dark">
+                    <a href="#security" className="page-scroll text-dark">
                           {" "}
                           Registre des contrôles de sécurité
                     </a>

@@ -51,11 +51,24 @@ export default function section9() {
                     registres sociaux obligatoires des entreprises :
                   </p>
                   <ul>
-                    <li>Registre unique du personnel</li>
                     <li>
+                    <a href="#personal" className="page-scroll text-dark">
+                      
+                      Registre unique du personnel
+                      </a>
+                      </li>
+                    <li>
+                    <a href="#singleRisk" className="page-scroll text-dark">
+
                       Document unique d’évaluation des risques professionnels
+                   </a>
                     </li>
-                    <li>Registre des contrôles de sécurité</li>
+                    <li>
+                    <a href="#singleRisk" className="page-scroll text-dark">
+                      
+                      Registre des contrôles de sécurité
+                      </a>
+                      </li>
                   </ul>
                   <p />
                 </article>{" "}

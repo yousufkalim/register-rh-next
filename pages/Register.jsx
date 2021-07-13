@@ -18,7 +18,7 @@ export default function Register() {
       email: "",
       password: "",
       confirm_password: "",
-      principle: "",
+      principal: "",
     },
     validationSchema: SIGNUP_YUP,
     onSubmit: async (values) => {
@@ -108,20 +108,13 @@ export default function Register() {
                           </div>
                           <div className="form-group">
                           <input
-                              className="form-control"
-                              placeholder="Etablissement principal"
-                              name="principle"
+                              type="text"
+                              name="societe"
                               onChange={formik.handleChange}
-                              value={formik.values.principle}
+                              value={formik.values.societe}
+                              className="form-control"
+                              placeholder="Nom de la societe"
                             />
-                            <div>
-                              {formik.touched.principal &&
-                              formik.errors.principal ? (
-                                <span className="text-danger">
-                                  {formik.errors.principal}
-                                </span>
-                              ) : null}
-                            </div>
                            
                           </div>
                           <div className="form-group">
@@ -129,6 +122,8 @@ export default function Register() {
                               className="form-control"
                               placeholder="Mot de passe"
                               name="password"
+                              type="password"
+
                               onChange={formik.handleChange}
                               value={formik.values.password}
                             />
@@ -166,21 +161,37 @@ export default function Register() {
                               type="text"
                               className="form-control"
                               placeholder="Activité"
+                              name="activité"
+                              onChange={formik.handleChange}
+                              value={formik.values.activité}
                             />
                           
                           </div>
                           <div className="form-group">
+                            
                             <input
-                              type="text"
                               className="form-control"
-                              placeholder="Nom de la societe"
+                              placeholder="Etablissement principal"
+                              name="principal"
+                              onChange={formik.handleChange}
+                              value={formik.values.principle}
                             />
+                            <div>
+                              {formik.touched.principal &&
+                              formik.errors.principal ? (
+                                <span className="text-danger">
+                                  {formik.errors.principal}
+                                </span>
+                              ) : null}
+                            </div>
                           </div>
                           <div className="form-group">
                           <input
                               className="form-control"
                               placeholder="Confirmez votre mot de passe"
                               name="confirm_password"
+                              type="password"
+
                               onChange={formik.handleChange}
                               value={formik.values.confirm_password}
                             />
@@ -216,7 +227,7 @@ export const SIGNUP_YUP = Yup.object().shape({
   firstName: Yup.string().required("Required"),
   lastName: Yup.string().required("Required"),
   email: Yup.string().email("Invalid email address").required("Required"),
-  principle: Yup.string().required("Required"),
+  principal: Yup.string().required("Required"),
 
   password: Yup.string()
     .min(8, "Entrez un mot de passe de minimum 8 caractères avec au moins un caractère spécial et une majuscule")

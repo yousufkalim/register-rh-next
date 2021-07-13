@@ -8,7 +8,7 @@ export default function section2() {
             <div className="row">
               <div className="col-sm-12 text-center">
                 <h2 className="h2-heading">
-                  <i class="fa fa-question-circle" aria-hidden="true"></i>À qui s’adresse «
+                  <i className="fa fa-question-circle" aria-hidden="true"></i>À qui s’adresse «
                   Registre RH » ?
                 </h2>
               </div>
@@ -31,7 +31,7 @@ export default function section2() {
                 <li className="media">
                   <i className="fas fa-square" />
                   <div className="media-body">   
-                    <a href="#personal" className="text-dark">
+                    <a href="#personal" className="page-scroll text-dark">
                           <b>Registre unique du personnel</b>
                     </a>
                   </div>
@@ -39,7 +39,7 @@ export default function section2() {
                 <li className="media">
                   <i className="fas fa-square" />
                   <div className="media-body">
-                    <a href="#singleRisk" className="text-dark">
+                    <a href="#singleRisk" className="page-scroll text-dark">
                           {" "}
                           <b> Document unique d’évaluation des risques </b>
                     </a>
@@ -49,7 +49,7 @@ export default function section2() {
                   <i className="fas fa-square" />
                   <div className="media-body">
                     
-                    <a href="#security" className="text-dark">
+                    <a href="#security" className="page-scroll text-dark">
                           {" "}
                           <b> Registre des contrôles de sécurité</b>
                     </a>
