@@ -22,7 +22,7 @@ export default function TermsAndConditions() {
                     En vertu de l’article 6 de la loi n° 2004-575 du 21 juin
                     2004 pour la confiance dans l’économie numérique, il est
                     précisé aux utilisateurs du site{" "}
-                    <a target="_blank" href="www.registre-rh.fr">
+                    <a target="_blank" rel="noreferrer" href="www.registre-rh.fr">
                       {" "}
                       www.registre-rh.fr{" "}
                     </a>
@@ -35,7 +35,7 @@ export default function TermsAndConditions() {
                           <div className="media-body">
                             <b>Propriétaire : </b>
                             
-                            <a target="_blank" href="https://cutt.ly/cmODmsS">
+                            <a target="_blank" rel="noreferrer" href="https://cutt.ly/cmODmsS" rel="noreferrer">
                       {" "}
                       GPCH - 3 rue Neuve Saint-Germain 92100
                             Boulogne-Billancourt, France{" "}
@@ -47,7 +47,7 @@ export default function TermsAndConditions() {
                           <div className="media-body">
                             <b>Créateur : </b>
                             
-                            <a target="_blank" href="https://www.falconconsulting.fr/?lang=en">
+                            <a target="_blank" href="https://www.falconconsulting.fr/?lang=en" rel="noreferrer">
                       {" "}
                       Falcon Consulting{" "}
                          </a> 
@@ -345,7 +345,7 @@ export default function TermsAndConditions() {
                   <h6>9. Droit applicable et attribution de juridiction.</h6>
                   <p>
                     Tout litige en relation avec l’utilisation du site 
-                    <a target="_blank" href="www.registre-rh.fr">
+                    <a target="_blank" rel="noreferrer" href="www.registre-rh.fr">
                       {" "}
                       www.registre-rh.fr{" "}
                     </a> est soumis au droit français. Il est fait

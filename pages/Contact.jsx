@@ -60,7 +60,8 @@ export default function Contact() {
                 <Card>
                   <div className="d-flex align-items-center">
                     <div className="div1">
-                      <i className="fa fa-envelope" aria-hidden="true"></i>
+                    <i className="fa fa-phone" aria-hidden="true"></i>
+
                     </div>
                     <div className="div2">
                       <CardBody>
@@ -77,7 +78,8 @@ export default function Contact() {
                 <Card>
                   <div className="d-flex align-items-center">
                     <div className="div1">
-                      <i className="fa fa-phone" aria-hidden="true"></i>
+                      <i className="fa fa-envelope" aria-hidden="true"></i>
+                    
                     </div>
                     <div className="div2">
                       <CardBody>
