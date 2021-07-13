@@ -84,7 +84,7 @@ export default function Contact() {
                     <div className="div2">
                       <CardBody>
                         <CardTitle tag="p">Mail</CardTitle>
-                        <a href="contact@registre-rh.fr">
+                        <a href="mailto:contact@registre-rh.fr">
                         <CardSubtitle tag="p" className="mb-2 text-muted">
                           contact@registre-rh.fr
                         </CardSubtitle>

@@ -19,7 +19,7 @@ export default function section11(props) {
                     className="h2-heading"
                     style={{ width: "100%", paddingBottom: "20px" }}
                   >
-                    Découvrir nos clients
+                    Nos Clients
                   </h2>
                 </div>{" "}
                 {/* end of col */}
@@ -32,7 +32,7 @@ export default function section11(props) {
                       className="btn-solid-reg"
                      
                     >
-                      Essayer
+                     Découvrir nos clients
                   </a>
                   </Link>
                   </div>
