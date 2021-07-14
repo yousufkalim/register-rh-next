@@ -23,26 +23,26 @@ export default function section3() {
             <ul className="list-unstyled li-space-lg">
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify ">
+                <div className="media-body  ">
                   Page d’accueil <b> simplifiée </b>par utilisateur
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify ">
+                <div className="media-body  ">
                   Accès simplifié à vos <b>données RH digitalisées (SIRH)</b>
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   <b> Paramétrage simple</b> pour collecter des données
                   complémentaires à des fins de reporting
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Intégration simplifiée avec votre SI. L’application registre
                   RH s&apos;<b>interface</b> avec les principaux logiciels du
                   marché.
@@ -59,14 +59,14 @@ export default function section3() {
             <ul className="list-unstyled li-space-lg">
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Garantie d’avoir des <b>registres digitalisés</b> en
                   conformités avec le <b> code du travail</b>
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Possibilité de joindre des documents aux fiches individuelles
                   des collaborateurs internes/externes (DPAE, contrats de
                   travail, contrat de mise à disposition, autorisations
@@ -83,31 +83,31 @@ export default function section3() {
             <ul className="list-unstyled li-space-lg">
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   <b>Support</b> et centre d&apos;aide
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   <b> Accessible 24/7</b> sur ordinateur, tablette et mobile
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Taux de disponibilité garanti de 99,7%
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   <b>Sécurisation des données</b>
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   <b> Maintenance </b>et mises à jour automatiques
                 </div>
               </li>
@@ -124,27 +124,27 @@ export default function section3() {
             <ul className="list-unstyled li-space-lg">
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Connexion de vos collaborateurs avec profils spécifiques
                   limités à leur utilisation
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   <b>Connexion sécurisée en SSO</b>
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Mise à disposition des documents dans un coffre-fort
                   électronique certifié
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   <b>Signature électronique via l&apos;API de votre choix</b>
                 </div>
               </li>
@@ -159,29 +159,29 @@ export default function section3() {
             <ul className="list-unstyled li-space-lg">
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Gestion manuelle des collaborateurs (salariés, stagiaires,
                   intérimaires)
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Possibilité d&apos;automatisation par
-                  <b> interface avec votre SI</b>
+                  <b> interface avec votre SI </b>
                   (outils comptable, RH, outil de gestion des intérimaires…)
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Gestion des profils d&apos;utilisateurs, des formulaires des
                   différents registres et des paramètres de l&apos;application
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Disponible en mode On Premise (avec connexion avec l&apos;AD,
                   installation sur votre serveur,...)
                 </div>
@@ -196,14 +196,14 @@ export default function section3() {
             <ul className="list-unstyled li-space-lg">
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Visualisation rapide des registres de l’ensemble de vos
                   établissements
                 </div>
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   <b>
                     {" "}
                     Édition facile en PDF Excel, Word et PDF sécurisés et signés
@@ -215,7 +215,7 @@ export default function section3() {
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body text-justify">
+                <div className="media-body ">
                   Pilotage et analyse des effectifs par établissements au moyen
                   de l’outil statistiques
                 </div>

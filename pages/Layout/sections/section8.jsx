@@ -6,7 +6,7 @@ export default function section8() {
     <div id="pricing" className="cards-2">
       <div className="container">
         <div className="row">
-          <div className="row col-lg-12 ">
+          <div className="col-lg-12 ">
             <h2 className="h2-heading">
               <span>
                 <i className="fas fa-euro-sign" />

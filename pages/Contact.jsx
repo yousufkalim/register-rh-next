@@ -95,16 +95,24 @@ export default function Contact() {
                 </Card>
               </div>
               <div className="pt-3">
-                <Card>
-                  <div className="lastDiv">
-                    <p>
-                      <b> Réseaux:</b>
-                      <br />
-                      <a href="https://www.linkedin.com/company/registre-rh/">
-                        <i style={{color: "#555"}} className="fab fa-linkedin-in" aria-hidden="true"></i>
-                      </a>
-                    </p>
+              <Card>
+
+              <div className="d-flex align-items-center">
+                    <div className="div1">
+                    <i  className="fab fa-linkedin-in" aria-hidden="true"></i>
+
+                    </div>
+                    <div className="div2">
+                      <CardBody>
+                        <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/company/registre-rh/">
+                       
+                        <CardTitle tag="p">Réseaux</CardTitle>
+
+                        </a>
+                      </CardBody>
+                    </div>
                   </div>
+                 
                 </Card>
               </div>
             </div>

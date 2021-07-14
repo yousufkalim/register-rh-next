@@ -180,7 +180,23 @@ a.white {
 .blue {
   color: #5f4dee;
 }
-
+ .closeDiv .btn-solid-close{
+  display: inline-block;
+  padding: 0.875rem 1.5rem 0.875rem 1.5rem;
+  border: 0.125rem solid red;
+  border-radius: 4px;
+  background-color: #fff;
+  color: red;
+  font: 700 0.875rem/0 Montserrat;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.closeDiv .btn-solid-close:hover{
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
 .btn-solid-reg {
   display: inline-block;
   padding: 0.875rem 1.5rem 0.875rem 1.5rem;
@@ -447,22 +463,23 @@ input[type="checkbox"] {
   display: inline-block;
   width: 70%;
   height: 3.125rem;
-  border: 1px solid #152f68;
+  border: 0.125rem solid #152f68;
   border-radius: 4px;
-  background-color:  #152f68;
-  color: #fff;
+  background-color:  #fff;
+  color: #152f68;
   font-size: 16px;
   font: 700 0.875rem/0 Montserrat;
   cursor: pointer;
   transition: all 0.2s;
 }
 
+
 .form-control-submit-button:hover {
-  background-color: transparent;
+  background-color: #152f68;
   font-weight: 600;
   font-size: 17px;
 
-  color: #152f68;
+  color: #fff;
 }
 
 /* Form Success And Error Message Formatting */
@@ -969,7 +986,7 @@ input[type="checkbox"] {
 }
 
 .h2-heading {
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   color: #152f68;
 }
 
@@ -1414,7 +1431,7 @@ input[type="checkbox"] {
 }
 
 .cards-2 .card .list-unstyled .fas {
-  color: #007bff;
+  color: #152f68;
   font-size: 0.875rem;
   line-height: 1.625rem;
 }
@@ -1425,7 +1442,7 @@ input[type="checkbox"] {
   color: #555;
 }
 .RegisterImg{
-  min-width: 70% !important;
+  min-width: 80% !important;
 }
 .cards-2 .card .list-unstyled .media-body {
   margin-left: 0.625rem;
@@ -1642,8 +1659,8 @@ a:hover.back-to-top {
 /*     17. Extra Pages     */
 /***************************/
 .ex-header {
-  padding-top: 8rem;
-  padding-bottom: 5rem;
+  padding-top: 8rem !important;
+    padding-bottom: 3rem !important;
   background-color: #152f68;
 
   text-align: center;
@@ -1658,9 +1675,13 @@ a:hover.back-to-top {
   padding-bottom: 0.875rem;
   background-color: #f3f7fd;
 }
+.ex-basic-1 .breadcrumbs a{
+  color: #152f68 !important;
 
+}
 .ex-basic-1 .breadcrumbs {
   margin-bottom: 1.125rem;
+  
 }
 
 .ex-basic-1 .breadcrumbs .fa {
@@ -1668,6 +1689,31 @@ a:hover.back-to-top {
   margin-left: 0.625rem;
 }
 
+#privacy_policy .ex-basic-2 {
+  padding-top: 2.75rem;
+  /* padding-bottom: 4rem; */
+}
+#privacy_policy .ex-basic-2 .text-container {
+  margin-bottom: 1.625rem;
+}
+#terms_conditions .ex-basic-2 .text-container a {
+  color: #152f68 !important;
+
+}
+#terms_conditions .ex-basic-2  {
+  padding-top: 2.75rem !important;
+  padding-bottom: 2rem !important;
+}
+
+#privacy_policy .ex-basic-2 .text-container .text-container  p{
+  margin-bottom: 0.5rem !important;
+}
+#terms_conditions .ex-basic-2 .text-container .text-container  p{
+  margin-bottom: 0.5rem !important;
+}
+#terms_conditions .ex-basic-2 .text-container {
+  margin-bottom: 1rem;
+}
 .ex-basic-2 {
   padding-top: 4.75rem;
   padding-bottom: 4rem;
@@ -1703,7 +1749,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .fas {
-  color: #007bff;
+  color: #152f68;
   font-size: 0.5rem;
   line-height: 1.625rem;
 }
@@ -1777,6 +1823,7 @@ a:hover.back-to-top {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 20px !important;
   }
   /* end of general styles */
 
@@ -2180,32 +2227,41 @@ a:hover.back-to-top {
   /* end of description */
 
   /* Features */
+  #personal a{
+color:#152f68 !important;
+  }
+  #singleRisk a{
+    color:#152f68 !important;
+      }
+      #security a{
+        color:#152f68 !important;
+          }
   #personal {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
   #singleRisk {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
   #security {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
   #first {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
   #pricing {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
   #faq {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
   #contact {
-    padding-top: 6rem;
+    padding-top: 3rem;
   }
   #contact .card {
     padding: 0px !important;
@@ -2214,11 +2270,16 @@ a:hover.back-to-top {
     padding-bottom: 5%;
     padding-top: 5%;
   }
-  #clientdesc .left_col {
-    padding-top: 17%;
+  #clientdesc #card_image {
+    padding-top: 2%;
   }
+  #clientdesc .left_col p {
+    padding-top: 2%;
+  }
+  
   #clientdesc .card {
     padding: 18px !important;
+    height: 100%;
   }
   #contact .card .card-body {
     padding: 0px !important;
@@ -2229,6 +2290,9 @@ a:hover.back-to-top {
     padding: 0.5rem 0.5rem 0.5rem 0.1rem;
   }
   #contact .card .div1 .fa {
+    font-size: 30px;
+  }
+  #contact .card .div1 .fab {
     font-size: 30px;
   }
   #contact .card .div2 {
@@ -2250,12 +2314,12 @@ a:hover.back-to-top {
 
   #details {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
 
   #about {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
   }
   /* #partners{
 		padding-top: 8rem; 
@@ -2432,7 +2496,7 @@ a:hover.back-to-top {
 }
 
 .login-form-2 {
-  padding: 4%;
+  padding: 5.8% 4% 4% 4%;
   background: #152f68;
   /*box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);*/
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
@@ -2449,29 +2513,29 @@ a:hover.back-to-top {
 }
 
 .login-form-1 .btnSubmit:hover {
-  background: #fff;
+  background: #152f68;
   border-color: #152f68;
   text-decoration: none;
-  color: #152f68;
-  border: 1px solid #152f68;
+  color: #fff;
+  border: 0.125rem solid #152f68;
 }
 
 .login-form-2 .btnSubmit:hover {
-  background: #fff;
-  border-color: #152f68;
+  background: #152f68;
+  border-color: #fff;
   text-decoration: none;
   cursor: pointer;
-  color: #152f68;
+  color: #fff;
   /*border: 0.4px solid #fff;*/
 }
 
 .login-form-1 .btnSubmit {
   display: inline-block;
   padding: 1.1rem;
-  border: 1px solid #fff;
+  border: 0.125rem solid #152f68;
   border-radius: 4px;
-  background-color: #152f68;
-  color: #fff;
+  background-color: #fff;
+  color:#152f68;
   font: 700 0.875rem/0 Montserrat;
   text-decoration: none;
   transition: all 0.2s;
@@ -2482,8 +2546,8 @@ a:hover.back-to-top {
   padding: 0.875rem 1.5rem 0.875rem 1.5rem;
   border: 1px solid #fff;
   border-radius: 4px;
-  background-color: #152f68;
-  color: #fff;
+  background-color: #fff;
+  color:#152f68;
   font: 700 0.875rem/0 Montserrat;
   text-decoration: none;
   transition: all 0.2s;
@@ -2539,26 +2603,35 @@ a:hover.back-to-top {
   text-align: center;
   color: #fff;
   margin-top: 4%;
+  
+
+}
+
+.rocket div div:first-child {
+  height: 55px;
+  margin-bottom: 20px;
+
 }
 
 .register-left a.login-link {
   display: inline-block;
   padding: 0.875rem 1.5rem 0.875rem 1.5rem;
+  border-color: #152f68;
 
   border: 1px solid #fff;
   border-radius: 4px;
-  background-color: transparent;
-  color: #fff;
+  background-color: #fff;
+  color: #152f68;
   font: 700 0.875rem/0 Montserrat;
   text-decoration: none;
   transition: all 0.2s;
 }
 .register-left a.login-link:hover {
-  background: #fff;
-  border-color: #152f68;
+  background: #152f68;
+  border-color: #fff;
   text-decoration: none;
   cursor: pointer;
-  color: #152f68;
+  color: #fff;
 }
 .register-right {
   background: #f8f9fa;
@@ -2622,7 +2695,7 @@ a:hover.back-to-top {
 .btn-outline-sm {
   display: inline-block;
   padding: 0.875rem 1.5rem 0.875rem 1.5rem;
-  border: 1px solid #152f68;
+  border: 0.125rem solid #152f68;
   border-radius: 3px;
   background-color: transparent;
   color: #fff;
@@ -2634,20 +2707,20 @@ a:hover.back-to-top {
 .btnRegister {
   display: inline-block;
   padding: 0.875rem 1.5rem 0.875rem 1.5rem;
-  border: 1px solid #fff;
+  border: 0.125rem solid #152f68;
   border-radius: 4px;
-  background-color: #152f68;
-  color: #fff;
+  background-color: #fff;
+  color: #152f68;
   font: 700 0.875rem/0 Montserrat;
   text-decoration: none;
   transition: all 0.2s;
 }
 .btnRegister:hover {
-  background: #fff;
-  border-color: #152f68;
+  background: #152f68;
+  border-color: #fff;
   text-decoration: none;
   cursor: pointer;
-  color: #152f68;
+  color: #fff;
 }
 
 .register .nav-tabs {

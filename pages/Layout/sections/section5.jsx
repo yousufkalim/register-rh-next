@@ -21,7 +21,7 @@ export default function section5() {
                 Travail). Tout comme les registres relatifs aux conditions du
                 travail ou le registre du comité social et économique (CSE),{" "}
                 <b>
-                  le registre unique du personnelest un document obligatoire.
+                le registre unique du personnel est un document obligatoire.
                 </b>
               </p>
               <p>

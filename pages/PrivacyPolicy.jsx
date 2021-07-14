@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function PrivacyPolicy() {
   return (
     <div>
-      <div>
+      <div id="privacy_policy">
         <SubHeader
           content="Politique de confidentialité
 "
@@ -260,7 +260,6 @@ export default function PrivacyPolicy() {
                         </p>
                       </div>
                       </div>{" "}
-                      <br></br>
                       <br></br>
                       <div>
                         <h5>

@@ -41,7 +41,15 @@ export default function Register() {
         <div className="child">
           <div className="row">
             <div className="col-md-3 register-left">
-              <Image className="RegisterImg" src={RegisterImg} alt="RegisterImg" />
+              <div
+                className="rocket"
+              >
+                <Image
+                  className="RegisterImg"
+                  src={RegisterImg}
+                  alt="RegisterImg"
+                />
+              </div>
               <h4 id="appName" className="text-white">
                 Registre RH
               </h4>
@@ -107,7 +115,7 @@ export default function Register() {
                             </div>
                           </div>
                           <div className="form-group">
-                          <input
+                            <input
                               type="text"
                               name="societe"
                               onChange={formik.handleChange}
@@ -115,15 +123,13 @@ export default function Register() {
                               className="form-control"
                               placeholder="Nom de la societe"
                             />
-                           
                           </div>
                           <div className="form-group">
-                          <input
+                            <input
                               className="form-control"
                               placeholder="Mot de passe"
                               name="password"
                               type="password"
-
                               onChange={formik.handleChange}
                               value={formik.values.password}
                             />
@@ -157,7 +163,7 @@ export default function Register() {
                             </div>
                           </div>
                           <div className="form-group">
-                          <input
+                            <input
                               type="text"
                               className="form-control"
                               placeholder="Activité"
@@ -165,10 +171,8 @@ export default function Register() {
                               onChange={formik.handleChange}
                               value={formik.values.activité}
                             />
-                          
                           </div>
                           <div className="form-group">
-                            
                             <input
                               className="form-control"
                               placeholder="Etablissement principal"
@@ -186,12 +190,11 @@ export default function Register() {
                             </div>
                           </div>
                           <div className="form-group">
-                          <input
+                            <input
                               className="form-control"
                               placeholder="Confirmez votre mot de passe"
                               name="confirm_password"
                               type="password"
-
                               onChange={formik.handleChange}
                               value={formik.values.confirm_password}
                             />
@@ -230,7 +233,10 @@ export const SIGNUP_YUP = Yup.object().shape({
   principal: Yup.string().required("Required"),
 
   password: Yup.string()
-    .min(8, "Entrez un mot de passe de minimum 8 caractères avec au moins un caractère spécial et une majuscule")
+    .min(
+      8,
+      "Entrez un mot de passe de minimum 8 caractères avec au moins un caractère spécial et une majuscule"
+    )
     .max(255)
     .required("Required"),
   confirm_password: Yup.string()
@@ -241,7 +247,10 @@ export const SIGNUP_YUP = Yup.object().shape({
         "Both password need to be the same"
       ),
     })
-    .min(8, "Entrez un mot de passe de minimum 8 caractères avec au moins un caractère spécial et une majuscule")
+    .min(
+      8,
+      "Entrez un mot de passe de minimum 8 caractères avec au moins un caractère spécial et une majuscule"
+    )
     .max(255)
     .required("Required"),
 });

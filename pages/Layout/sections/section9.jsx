@@ -5,11 +5,16 @@ export default function section9() {
     <div id="faq" className="basic-1">
       <div className="container">
         <div className="row">
-          <div className="col-lg-1" />
-          <div className="col-lg-10 ">
-            <h2 className="text-center mr-7">
+          <div className="col-lg-12">
+            <h2 className="text-center h2-heading">
               <i className="fa fa-question-circle" /> FAQ
             </h2>
+            </div>
+        </div>{" "}
+
+            <div className="row">
+              <div className="col-lg-12">
+                <div style={{marginLeft:'1.9%',width:'93%'}}>
             <div className="card ">
               <header className="card-header">
                 <div className="row">
@@ -408,12 +413,12 @@ export default function section9() {
               </div>{" "}
               {/* collapse .// */}
             </div>
+            </div>
             {/* end of text-container */}
           </div>{" "}
-          <div className="col-lg-1" />
+          </div>
           {/* end of col */}
           {/* end of col */}
-        </div>{" "}
         {/* end of row */}
       </div>{" "}
       {/* end of container */}

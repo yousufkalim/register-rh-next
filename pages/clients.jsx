@@ -18,8 +18,7 @@ export default function Clients() {
           <div className="row">
             <div className="col-lg-4">
               <div className="left_col">
-                <p className="">NOS MERVEILLEUX CLIENTS</p>
-                <h3>Ils nous font confiance</h3>
+                <h3>Nos Merveilleux Clients</h3>
                 <p>
                   Nous avons aidé nos clients à passer à l&apos;étape
                   d&apos;après en faisant de leurs enjeux RH un vrai levier de
@@ -29,12 +28,12 @@ export default function Clients() {
             </div>
             <div className="col-lg-8 ">
               <h3 className="text-left">
-                <i className="fa fa-question-circle" /> Contactez-nous!
+              <i className="fa fa-thumbs-up" aria-hidden="true"></i> Ils nous font confiance
               </h3>
-              <div className="form-container pt-2">
+              <div className="form-container ">
                 <div className="row  ">
                   {[DescImage1, DescImage2].map((row) => (
-                    <div className="col-lg-3 pt-2" key={row}>
+                    <div id="card_image" className="col-lg-3 " key={row}>
                       {/* Card */}
                       <div className="card">
                         <div className="card-image">

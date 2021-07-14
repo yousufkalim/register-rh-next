@@ -45,13 +45,14 @@ export default function Index() {
             content={
               <>
                 <div>
-                  <p>
+                  <span>
                     {" "}
                     En poursuivant votre navigation sur ce site, vous acceptez
                     l&apos;utilisation de cookies afin d&apos;optimiser votre
-                    navigation et realiser des statistiques de suivis. Pour en
+                    navigation et réaliser des statistiques de suivis. Pour en
                     savoir plus, consultez
-                  </p>
+                  </span>
+                  <br />
                   <Link href="/PrivacyPolicy">
                     <a> notre politique de confidentialité </a>
                   </Link>{" "}
@@ -61,16 +62,16 @@ export default function Index() {
                     cookie afin de mémoriser votre choix.
                   </p>
                   <div className="row">
-                    <div className="col-lg-12">
+                    <div className="closeDiv col-lg-12">
                       <button
                         onClick={Decline}
-                        className="btn btn-danger float-right ml-3"
+                        className="btn-solid-close float-right ml-3"
                       >
                         Refuser
                       </button>
                       <button
                         onClick={Accept}
-                        className="btn btn-primary float-right"
+                        className="btn-solid-reg float-right"
                       >
                         Accepter
                       </button>
