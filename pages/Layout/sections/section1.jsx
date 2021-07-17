@@ -90,6 +90,56 @@ export default function section1() {
                         mise à disposition, certification…).
                       </div>
                     </li>
+                     <li className="media">
+                      <i className="fas fa-square" />
+                      <div className="media-body">
+                        Une technologie fiable et des solutions fondées sur des 
+                        preuves qui favorisent une prise de décision et des résultats 
+                        efficaces dans l'ensemble des unités de travail de nos clients.
+                      </div>
+                    </li>
+                    <li className="media">
+                      <i
+                        className="fas fa-caret-square-right"
+                        style={{ marginLeft: "20px" }}
+                      />
+                      <div className="media-body">
+                          Permettre aux organisations de garantir le respect des obligations 
+                          réglementaires en constante évolution, de gérer les risques, d'augmenter 
+                          l'efficacité et de produire de meilleurs résultats commerciaux.
+                      </div>
+                    </li>
+                    <li className="media">
+                      <i
+                        className="fas fa-caret-square-right"
+                        style={{ marginLeft: "20px" }}
+                      />
+                      <div className="media-body">
+                          Permettre aux entreprises de toutes tailles de stimuler la productivité, 
+                          de gérer le changement et d'obtenir de meilleurs résultats.
+                      </div>
+                    </li>
+                    <li className="media">
+                      <i
+                        className="fas fa-caret-square-right"
+                        style={{ marginLeft: "20px" }}
+                      />
+                      <div className="media-body">
+                          Notre travail aide à protéger la santé et la prospérité des personnes et 
+                          contribue à une société sûre et juste pour son environnement en 
+                          fournissant des informations et des connaissances approfondies aux professionnels.
+                      </div>
+                    </li>
+                    <li className="media">
+                      <i
+                        className="fas fa-caret-square-right"
+                        style={{ marginLeft: "20px" }}
+                      />
+                      <div className="media-body">
+                          Notre modèle de création de valeur est au cœur de tout ce 
+                          que nous faisons et guide notre travail au quotidien.
+                      </div>
+                    </li>
                   </ul>
                 </div>{" "}
                 {/* end of text-container */}
