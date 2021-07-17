@@ -43,6 +43,21 @@ export default function section6() {
                 l&apos;inspection du travail encoure une contravention de 450 €.
               </p>
               <p>
+                <b> Pour les assureurs,</b> en tant qu’employeur, vous êtes tenu par la 
+                loi d’assurer la sécurité de vos collaborateurs sur leur lieu de 
+                travail. Pour cela, vous devez notamment mettre en place des actions 
+                de prévention des risques professionnels. En cas de manquement vous prenez 
+                le risque de ne pas être couvert par votre police d’assurance.
+              </p>
+              <p>
+                <b>
+                En cas de litige avec vos collaborateurs, le Conseil de prud’hommes 
+                est compétent pour connaître des différends qui peuvent s’élever à 
+                l’occasion de tout contrat de travail entre les employeurs et les salariés 
+                et fait appel fréquemment au suivi du DUER de l’entreprise.
+                </b>
+              </p>
+              <p>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
