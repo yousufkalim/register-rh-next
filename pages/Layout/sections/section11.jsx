@@ -8,7 +8,6 @@ import DescImage3 from "../../../public/landingPage/images/description-3.png";
 export default function section11(props) {
   return (
     <div id="clients">
-       
       <div id="features" className="cards-1">
         <div className="container">
           <div className="row">
@@ -28,35 +27,28 @@ export default function section11(props) {
               <div className="cards-wrapper ">
                 <div className="overlay-btn">
                   <Link href="/clients">
-                    <a
-                      className="btn-solid-reg"
-                     
-                    >
-                     Découvrir nos clients
-                  </a>
+                    <a className="btn-solid-reg">Découvrir nos clients</a>
                   </Link>
-                  </div>
-                  <div className="row " >
-                {[DescImage1, DescImage2].map((row) => (
-                  <div className="col-lg-2" key={row}>
-                    {/* Card */}
-                    <div className="card">
-                      <div className="card-image">
-                        <Image
-                          className="img-fluid"
-                          src={row}
-                          alt="alternative"
-                        />
+                </div>
+                <div className="row ">
+                  {[DescImage1, DescImage2].map((row) => (
+                    <div className="col-lg-2" key={row}>
+                      {/* Card */}
+                      <div className="card" style={{ height: "75px" }}>
+                        <div className="card-image">
+                          <Image
+                            className="img-fluid"
+                            src={row}
+                            alt="alternative"
+                          />
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
 
-                {/* end of col */}
+                  {/* end of col */}
                 </div>{" "}
-              
-              
-                </div>
+              </div>
               {/* end of row */}
             </div>{" "}
             {/* end of container */}

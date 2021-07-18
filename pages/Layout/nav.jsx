@@ -4,17 +4,13 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div className="container">
-        <Link
-          href="/"
-        
-        >
-        <a
-          className="navbar-brand logo-image"
-          style={{ textDecoration: "none" }}
-
-        >
-          Registre RH
-        </a>
+        <Link href="/">
+          <a
+            className="navbar-brand logo-image"
+            style={{ textDecoration: "none" }}
+          >
+            Registre RH
+          </a>
         </Link>
         {/* Mobile Menu Toggle Button */}
         <button

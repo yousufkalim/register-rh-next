@@ -16,9 +16,9 @@ export default function Clients() {
       <div id="clientdesc" className="basic-1">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-5">
               <div className="left_col">
-                <h3>Nos Merveilleux Clients</h3>
+                <h2>Nos Merveilleux Clients</h2>
                 <p>
                   Nous avons aidé nos clients à passer à l&apos;étape
                   d&apos;après en faisant de leurs enjeux RH un vrai levier de
@@ -26,10 +26,11 @@ export default function Clients() {
                 </p>
               </div>
             </div>
-            <div className="col-lg-8 ">
-              <h3 className="text-left">
-              <i className="fa fa-thumbs-up" aria-hidden="true"></i> Ils nous font confiance
-              </h3>
+            <div className="col-lg-7 ">
+              <h2 className="text-left">
+                <i className="fa fa-thumbs-up" aria-hidden="true"></i> Ils nous
+                font confiance
+              </h2>
               <div className="form-container ">
                 <div className="row  ">
                   {[DescImage1, DescImage2].map((row) => (

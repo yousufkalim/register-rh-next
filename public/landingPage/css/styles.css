@@ -180,7 +180,7 @@ a.white {
 .blue {
   color: #5f4dee;
 }
- .closeDiv .btn-solid-close{
+.closeDiv .btn-solid-close {
   display: inline-block;
   padding: 0.875rem 1.5rem 0.875rem 1.5rem;
   border: 0.125rem solid red;
@@ -191,7 +191,7 @@ a.white {
   text-decoration: none;
   transition: all 0.2s;
 }
-.closeDiv .btn-solid-close:hover{
+.closeDiv .btn-solid-close:hover {
   background-color: red;
   color: #fff;
   cursor: pointer;
@@ -202,16 +202,17 @@ a.white {
   padding: 0.875rem 1.5rem 0.875rem 1.5rem;
   border: 0.125rem solid #152f68;
   border-radius: 4px;
-  background-color: #fff;
-  color: #152f68;
+
+  background-color: #152f68;
+  color: #fff;
   font: 700 0.875rem/0 Montserrat;
   text-decoration: none;
   transition: all 0.2s;
 }
 
 .btn-solid-reg:hover {
-  background-color: #152f68;
-  color: #fff;
+  background-color: #fff;
+  color: #152f68;
   cursor: pointer;
   text-decoration: none;
 }
@@ -465,14 +466,13 @@ input[type="checkbox"] {
   height: 3.125rem;
   border: 0.125rem solid #152f68;
   border-radius: 4px;
-  background-color:  #fff;
+  background-color: #fff;
   color: #152f68;
   font-size: 16px;
   font: 700 0.875rem/0 Montserrat;
   cursor: pointer;
   transition: all 0.2s;
 }
-
 
 .form-control-submit-button:hover {
   background-color: #152f68;
@@ -1439,9 +1439,9 @@ input[type="checkbox"] {
 .cards-2 .card .list-unstyled .fas.fa-times {
   margin-left: 0.1875rem;
   margin-right: 0.125rem;
-  color: #555;
+  color: red !important;
 }
-.RegisterImg{
+.RegisterImg {
   min-width: 80% !important;
 }
 .cards-2 .card .list-unstyled .media-body {
@@ -1660,7 +1660,7 @@ a:hover.back-to-top {
 /***************************/
 .ex-header {
   padding-top: 8rem !important;
-    padding-bottom: 3rem !important;
+  padding-bottom: 3rem !important;
   background-color: #152f68;
 
   text-align: center;
@@ -1675,13 +1675,11 @@ a:hover.back-to-top {
   padding-bottom: 0.875rem;
   background-color: #f3f7fd;
 }
-.ex-basic-1 .breadcrumbs a{
+.ex-basic-1 .breadcrumbs a {
   color: #152f68 !important;
-
 }
 .ex-basic-1 .breadcrumbs {
   margin-bottom: 1.125rem;
-  
 }
 
 .ex-basic-1 .breadcrumbs .fa {
@@ -1698,17 +1696,16 @@ a:hover.back-to-top {
 }
 #terms_conditions .ex-basic-2 .text-container a {
   color: #152f68 !important;
-
 }
-#terms_conditions .ex-basic-2  {
+#terms_conditions .ex-basic-2 {
   padding-top: 2.75rem !important;
   padding-bottom: 2rem !important;
 }
 
-#privacy_policy .ex-basic-2 .text-container .text-container  p{
+#privacy_policy .ex-basic-2 .text-container .text-container p {
   margin-bottom: 0.5rem !important;
 }
-#terms_conditions .ex-basic-2 .text-container .text-container  p{
+#terms_conditions .ex-basic-2 .text-container .text-container p {
   margin-bottom: 0.5rem !important;
 }
 #terms_conditions .ex-basic-2 .text-container {
@@ -2092,9 +2089,8 @@ a:hover.back-to-top {
     margin-left: auto;
   }
   /* end of video */
-  .cards-2 .card:not(:first-child){
+  .cards-2 .card:not(:first-child) {
     margin-left: 0.5rem;
-
   }
   /* Pricing */
   .cards-2 .card {
@@ -2227,15 +2223,15 @@ a:hover.back-to-top {
   /* end of description */
 
   /* Features */
-  #personal a{
-color:#152f68 !important;
+  #personal a {
+    color: #152f68 !important;
   }
-  #singleRisk a{
-    color:#152f68 !important;
-      }
-      #security a{
-        color:#152f68 !important;
-          }
+  #singleRisk a {
+    color: #152f68 !important;
+  }
+  #security a {
+    color: #152f68 !important;
+  }
   #personal {
     padding-top: 8rem;
     /* padding-bottom: 2rem; */
@@ -2275,8 +2271,9 @@ color:#152f68 !important;
   }
   #clientdesc .left_col p {
     padding-top: 2%;
+    font: 400 1.3rem/2.15rem Montserrat;
   }
-  
+
   #clientdesc .card {
     padding: 18px !important;
     height: 100%;
@@ -2366,9 +2363,8 @@ color:#152f68 !important;
     max-width: 100%;
     margin-right: 1.75rem;
   }
-  .cards-2 .card:not(:first-child){
+  .cards-2 .card:not(:first-child) {
     margin-left: 1.75rem;
-
   }
 
   .cards-2 .card .card-body {
@@ -2535,7 +2531,7 @@ color:#152f68 !important;
   border: 0.125rem solid #152f68;
   border-radius: 4px;
   background-color: #fff;
-  color:#152f68;
+  color: #152f68;
   font: 700 0.875rem/0 Montserrat;
   text-decoration: none;
   transition: all 0.2s;
@@ -2547,7 +2543,7 @@ color:#152f68 !important;
   border: 1px solid #fff;
   border-radius: 4px;
   background-color: #fff;
-  color:#152f68;
+  color: #152f68;
   font: 700 0.875rem/0 Montserrat;
   text-decoration: none;
   transition: all 0.2s;
@@ -2603,14 +2599,11 @@ color:#152f68 !important;
   text-align: center;
   color: #fff;
   margin-top: 4%;
-  
-
 }
 
 .rocket div div:first-child {
   height: 55px;
   margin-bottom: 20px;
-
 }
 
 .register-left a.login-link {
