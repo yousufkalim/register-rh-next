@@ -24,6 +24,7 @@ export default function Login(props) {
       
 
         fetch(`http://160.153.249.64:2231/api/v1/User/Login`, {
+        //fetch(`https://localhost:44369/api/v1/User/Login`, {
           method: "POST",
           mode : "cors",
           headers: {
@@ -43,7 +44,7 @@ export default function Login(props) {
           if(res.success === true){
             var _id = res.token;
             window.location.href = `http://160.153.249.64:2269/Home/index?id=${_id}`;
-            // window.location.href = `http://localhost:65041/Home/Index?id=${_id}`;
+            //window.location.href = `http://localhost:65041/Home/Index?id=${_id}`;
           }
           
           console.log("data ", _id);

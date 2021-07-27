@@ -49,7 +49,7 @@ export default function header() {
                           <Link href="/Register">
 
                           <a
-                            className="btn-solid-lg page-scroll isDisabled"
+                            className="btn-solid-lg "
                           >
                             S&apos;inscrire
                           </a>
