@@ -3,28 +3,59 @@ import Link from "next/link";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import Axios from "axios";
-export default function Login() {
+export default function Login(props) {
   const [Error, setError] = useState("");
+
   const formik = useFormik({
     initialValues: {
       email: "",
       password: "",
     },
     validationSchema: LOGIN_YUP,
-    onSubmit: async (values) => {
-      try {
-        let response = await Axios.post(
-          `http://160.153.249.64:2228/Users/Login/Identity?Email=${values.email}&password=${values.password}`,
-          {}
-        );
-        console.log(response, "resoonse");
-        let _id = response.data;
-        window.location.href = `http://160.153.249.64:2228/Home/index?id=${_id}`;
-      } catch (error) {
-        console.log(error, "reponse");
 
-        setError(error.response.data);
-      }
+   
+    onSubmit: async (values) => {
+    
+        var bodyFormData = new FormData();
+        bodyFormData.append('Email', values.email);
+        bodyFormData.append('Password', values.password);
+        bodyFormData.append('RememberMe', false);
+        bodyFormData.append('EstablishmentPricipal', 'test');
+      
+
+        fetch(`http://160.153.249.64:2231/api/v1/User/Login`, {
+          method: "POST",
+          mode : "cors",
+          headers: {
+            "Content-Type": "application/json",
+
+          },
+          body: JSON.stringify({
+            Email:values.email,
+            Password:values.password,
+            RememberMe:false,
+            EstablishmentPricipal:'test',
+          })
+        }).then((resp) => resp.json())
+        .then((res) => {
+          
+          console.log("success ", res);
+          if(res.success === true){
+            var _id = res.token;
+            window.location.href = `http://160.153.249.64:2269/Home/index?id=${_id}`;
+            // window.location.href = `http://localhost:65041/Home/Index?id=${_id}`;
+          }
+          
+          console.log("data ", _id);
+          // 
+        
+        }
+          )
+        .catch((err) => {
+          setError(err);
+          console.log(err, "reponse");
+        });
+      
     },
   });
   return (
