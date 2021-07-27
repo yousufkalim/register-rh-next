@@ -1,25 +1,91 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import Axios from "axios";
-export default function Login() {
+export default function Login(props) {
   const [Error, setError] = useState("");
+
+  useEffect(() => {
+      console.log("props ", props)
+  })
   const formik = useFormik({
     initialValues: {
       email: "",
       password: "",
     },
     validationSchema: LOGIN_YUP,
+
+   
     onSubmit: async (values) => {
       try {
-        let response = await Axios.post(
-          `http://160.153.249.64:2228/Users/Login/Identity?Email=${values.email}&password=${values.password}`,
-          {}
-        );
-        console.log(response, "resoonse");
-        let _id = response.data;
-        window.location.href = `http://160.153.249.64:2228/Home/index?id=${_id}`;
+        var bodyFormData = new FormData();
+        bodyFormData.append('Email', values.email);
+        bodyFormData.append('Password', values.password);
+        bodyFormData.append('RememberMe', false);
+        bodyFormData.append('EstablishmentPricipal', 'test');
+      
+
+        fetch(`http://160.153.249.64:2231/api/v1/User/Login`, {
+          method: "POST",
+          mode : "cors",
+          headers: {
+            "Content-Type": "application/json",
+
+          },
+          body: JSON.stringify({
+            Email:values.email,
+            Password:values.password,
+            RememberMe:false,
+            EstablishmentPricipal:'test',
+          })
+        }).then((resp) => resp.json())
+        .then((res) => {
+          
+          console.log("success ", res);
+          if(res.success === true){
+            var _id = res.token;
+            window.location.href = `http://160.153.249.64:2269/Home/index?id=${_id}`;
+            // window.location.href = `http://localhost:65041/Home/Index?id=${_id}`;
+
+          //   fetch(`http://localhost:65041/Home/RedirectToHome`, {
+          //     method: "POST",
+          //     headers: {
+          //       "Content-Type": "application/json",
+          //       Authorization: `Bearer ${res.token}`,
+          //     },
+          //     body: JSON.stringify({
+          //       id:_id,
+          //     })              
+          // }).then((resp) => resp.json())
+          // .then((res) => {
+            
+          // }
+          // )
+
+          }
+          
+          console.log("data ", _id);
+          // 
+        
+        }
+          )
+        .catch((err) => console.log("error ", err));
+        // let response = await Axios.post(
+        //   // `http://160.153.249.64:2228/Users/Login/Identity?Email=${values.email}&password=${values.password}`,
+        //   `https://localhost:44369/api/v1/User/Login`,
+
+        //   {
+        //     // data: bodyFormData
+        //     'Email':values.email,
+        //     'Password':values.password,
+        //     'RememberMe':false,
+        //     'EstablishmentPricipal':'test',
+            
+        //   }
+        // );
+
+
       } catch (error) {
         console.log(error, "reponse");
 
