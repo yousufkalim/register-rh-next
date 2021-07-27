@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useFormik } from "formik";
 import * as Yup from "yup";
@@ -6,9 +6,6 @@ import Axios from "axios";
 export default function Login(props) {
   const [Error, setError] = useState("");
 
-  useEffect(() => {
-      console.log("props ", props)
-  })
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -18,7 +15,7 @@ export default function Login(props) {
 
    
     onSubmit: async (values) => {
-      try {
+    
         var bodyFormData = new FormData();
         bodyFormData.append('Email', values.email);
         bodyFormData.append('Password', values.password);
@@ -47,22 +44,6 @@ export default function Login(props) {
             var _id = res.token;
             window.location.href = `http://160.153.249.64:2269/Home/index?id=${_id}`;
             // window.location.href = `http://localhost:65041/Home/Index?id=${_id}`;
-
-          //   fetch(`http://localhost:65041/Home/RedirectToHome`, {
-          //     method: "POST",
-          //     headers: {
-          //       "Content-Type": "application/json",
-          //       Authorization: `Bearer ${res.token}`,
-          //     },
-          //     body: JSON.stringify({
-          //       id:_id,
-          //     })              
-          // }).then((resp) => resp.json())
-          // .then((res) => {
-            
-          // }
-          // )
-
           }
           
           console.log("data ", _id);
@@ -70,27 +51,11 @@ export default function Login(props) {
         
         }
           )
-        .catch((err) => console.log("error ", err));
-        // let response = await Axios.post(
-        //   // `http://160.153.249.64:2228/Users/Login/Identity?Email=${values.email}&password=${values.password}`,
-        //   `https://localhost:44369/api/v1/User/Login`,
-
-        //   {
-        //     // data: bodyFormData
-        //     'Email':values.email,
-        //     'Password':values.password,
-        //     'RememberMe':false,
-        //     'EstablishmentPricipal':'test',
-            
-        //   }
-        // );
-
-
-      } catch (error) {
-        console.log(error, "reponse");
-
-        setError(error.response.data);
-      }
+        .catch((err) => {
+          setError(err);
+          console.log(err, "reponse");
+        });
+      
     },
   });
   return (
