@@ -25,13 +25,28 @@ export default function Register() {
       const { firstName, lastName, password, principal, email } = values;
       try {
         let response = await Axios.post(
-          `http://160.153.249.64:2228/Users/Register/Identity?Email=${email}&password=${password}&FamilyName=${lastName}&FirstName=${firstName}&EstablishmentPricipal=${principal}`,
-          {}
+          //`http://160.153.249.64:2228/Users/Register/Identity?Email=${email}&password=${password}&FamilyName=${lastName}&FirstName=${firstName}&EstablishmentPricipal=${principal}`,
+          `https://160.153.249.64:2231/api/v1/User/Resgiter`,
+          {
+            FirstName:values.firstName,
+            FamilyName:values.lastName,
+            Email:values.email,
+            Password:values.password,
+            RememberMe:false,
+            EstablishmentPricipal:values.principal,
+          }
         );
-        Router.push("/Login");
+        console.log(response.data);
+        if(response.data.success === true){
+          Router.push("/Login");
+        }else{
+          setError(response.data.message[0]);
+        }
+
       } catch (error) {
+        console.log(error.response, "reponse");
+
         setError(error.response.data.Description);
-        console.log(error.response.data.Description, "reponse");
       }
     },
   });
