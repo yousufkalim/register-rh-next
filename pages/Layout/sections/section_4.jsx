@@ -3,19 +3,20 @@ import React from "react";
 export default function section3() {
   return (
     <div id="first" className="tabs">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 text-center">
             <h2 className="h2-heading">
-              <i className="fas fa-list" />
-              En synthèse « Registre Rh » c’est :
+            LES AVANTAGES DE NOTRE SOLUTION : 
             </h2>
           </div>
           {/* end of col */}
         </div>
         {/* end of row */}
-        <div className="row">
-          <div className="col-lg-4">
+       
+        <div className="d-flex flexDiv justify-content-md-center">
+         
+            <div className="basic-card">
             <h5>
               <i className="fas fa-stream pr-2" />
               Simplicité
@@ -49,9 +50,12 @@ export default function section3() {
                 </div>
               </li>
             </ul>
-          </div>{" "}
+            </div>
+         
           {/* end of col */}
-          <div className="col-lg-4">
+         
+          <div className="basic-card">
+
             <h5>
               <i className="fas fa-check-square pr-2" />
               Conformité
@@ -75,7 +79,9 @@ export default function section3() {
               </li>
             </ul>
           </div>
-          <div className="col-lg-4">
+         
+          <div className="basic-card">
+
             <h5>
               <i className="fas fa-cloud pr-2" />
               En mode SaaS
@@ -115,8 +121,11 @@ export default function section3() {
           </div>
           {/* end of col */}
         </div>
-        <div className="row pt-4 mt-4">
-          <div className="col-lg-4">
+      
+        <div className="d-flex flexDiv pt-4 mt-4 justify-content-md-center">
+          
+          <div className="basic-card">
+
             <h5>
               <i className="fas fa-shield-alt pr-2" />
               Securité
@@ -149,9 +158,10 @@ export default function section3() {
                 </div>
               </li>
             </ul>
-          </div>{" "}
+            </div>
           {/* end of col */}
-          <div className="col-lg-4">
+          <div className="basic-card">
+
             <h5>
               <i className="fas fa-adjust pr-2" />
               Flexibilité
@@ -187,8 +197,10 @@ export default function section3() {
                 </div>
               </li>
             </ul>
-          </div>
-          <div className="col-lg-4">
+            </div>
+       
+          <div className="basic-card">
+
             <h5>
               <i className="fas fa-file-signature pr-2" />
               Exploitabilité
@@ -221,9 +233,10 @@ export default function section3() {
                 </div>
               </li>
             </ul>
-          </div>
+            </div>
           {/* end of col */}
         </div>
+    
         {/* end of row */}
       </div>
       {/* end of container */}

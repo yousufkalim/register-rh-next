@@ -36,11 +36,6 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext"
             rel="stylesheet"
           />
-          <link href="landingPage/css/bootstrap.css" rel="stylesheet" />
-          <link href="landingPage/css/fontawesome-all.css" rel="stylesheet" />
-          <link href="landingPage/css/swiper.css" rel="stylesheet" />
-          <link href="landingPage/css/magnific-popup.css" rel="stylesheet" />
-          <link href="landingPage/css/styles.css" rel="stylesheet" />
         </Head>
         <body>
           <Main />

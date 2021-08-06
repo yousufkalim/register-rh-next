@@ -1,4 +1,4 @@
-import Layout from "./Layout";
+import Layout from "./Layout/layout.jsx";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
