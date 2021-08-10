@@ -44,16 +44,16 @@ export default function Index() {
             content={
               <>
                 <div>
-                  <span>
+                  <p>
                     {" "}
                     En poursuivant votre navigation sur ce site, vous acceptez
                     l&apos;utilisation de cookies afin d&apos;optimiser votre
                     navigation et réaliser des statistiques de suivis. Pour en
                     savoir plus, consultez
-                  </span>
-                  <br />
+                  </p>
+                  
                   <Link href="/PrivacyPolicy">
-                    <a> notre politique de confidentialité </a>
+                    <a className="link"> notre politique de confidentialité </a>
                   </Link>{" "}
                   <p>
                     Si vous refusez, vos informations de navigation ne seront
@@ -62,6 +62,7 @@ export default function Index() {
                   </p>
                   <div className="row">
                     <div className="closeDiv col-lg-12">
+                     
                       <button
                         onClick={Decline}
                         className="btn-solid-close float-right ml-3"
@@ -70,7 +71,7 @@ export default function Index() {
                       </button>
                       <button
                         onClick={Accept}
-                        className="btn-solid-reg float-right"
+                        className="btn-solid-lg float-right"
                       >
                         Accepter
                       </button>

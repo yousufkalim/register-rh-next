@@ -148,15 +148,15 @@ export default function Login(props) {
                 ) : null}
               </div>
       
-            <div className="row">
-              <div className="form-group col-6 text-left">
+            <div className="d-flex flexDiv2 justify-content-between">
+              <div className=" text-left">
                 <input
                   type="submit"
                   className="btnSubmit btn "
                   defaultValue="Se connecter"
                 />
               </div>
-              <div className="form-group col-6  text-right pt-1 ">
+              <div className="  text-right pt-1 ">
                 <a
                   className="ForgetPwd "
                   href="http://160.153.249.64:2228/Identity/Account/ForgotPassword"

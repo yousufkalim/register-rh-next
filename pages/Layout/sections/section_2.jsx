@@ -21,7 +21,7 @@ export default function section5() {
             <div className="basic-card">
               <ul className="list-unstyled li-space-lg">
                 <li className="media">
-                  <i className="fas fa-square" />
+                  <i className="fas fa-caret-right" />
                   <div className="media-body  ">
                     Permettre aux organisations de garantir le respect des
                     obligations réglementaires en constante évolution, de gérer
@@ -30,7 +30,7 @@ export default function section5() {
                   </div>
                 </li>
                 <li className="media">
-                  <i className="fas fa-square" />
+                  <i className="fas fa-caret-right" />
                   <div className="media-body  ">
                     Permettre aux entreprises de toutes tailles de stimuler la
                     productivité, de gérer le changement et d’obtenir de
@@ -38,7 +38,7 @@ export default function section5() {
                   </div>
                 </li>
                 <li className="media">
-                  <i className="fas fa-square" />
+                  <i className="fas fa-caret-right" />
                   <div className="media-body ">
                     Aider à protéger la santé et la prospérité des personnes et
                     contribue à une société sûre et juste pour son environnement
@@ -47,7 +47,7 @@ export default function section5() {
                   </div>
                 </li>
                 <li className="media">
-                  <i className="fas fa-square" />
+                  <i className="fas fa-caret-right" />
                   <div className="media-body ">
                     Notre modèle de création de valeur est au cœur de tout ce
                     que nous faisons et guide notre travail au quotidien.
