@@ -16,7 +16,7 @@ export default function section5() {
           {/* end of col */}
         </div>{" "}
         {/* end of row */}
-        <div id="basic2" className="d-flex justify-content-center">
+        <div id="basic2" className="d-flex  justify-content-center">
         
             <div className="image-container">
               <div className="img-wrapper">

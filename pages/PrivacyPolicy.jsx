@@ -60,7 +60,7 @@ export default function PrivacyPolicy() {
                     </p>
                   </div>
                   <div className="text-container" >
-                    <h5>Agrégation des données</h5>
+                    <h4>Agrégation des données</h4>
                     <p>
                       <b>Agrégation avec des données non personnelles</b>
                     </p>
@@ -93,7 +93,7 @@ export default function PrivacyPolicy() {
                     </p>
                   </div>
                   <div className="text-container" >
-                    <h5>Cookies</h5>
+                    <h4>Cookies</h4>
                     <p>
                       <b>Durée de conservation des cookies</b>
                     </p>
@@ -109,7 +109,7 @@ export default function PrivacyPolicy() {
                     </p>
                   </div>
                   <div className="text-container" >
-                      <h5>Finalité cookies</h5>
+                      <h4>Finalité cookies</h4>
 
                       <p>
                         Les cookies peuvent être utilisés pour des fins statistiques
@@ -129,7 +129,7 @@ export default function PrivacyPolicy() {
                       </p>
                   </div>
                   <div className="text-container" >
-                  <h5>Conservation des données techniques</h5>
+                  <h4>Conservation des données techniques</h4>
                   <p>
                     <b>Durée de conservation des données techniques</b>
                   </p>
@@ -140,10 +140,10 @@ export default function PrivacyPolicy() {
                   </p>
                   </div>
                   <div className="text-container" >
-                  <h5>
+                  <h4>
                     Délai de conservation des données personnelles et
                     d’anonymisation
-                  </h5>
+                  </h4>
                   
                   
                   <p>
@@ -175,7 +175,7 @@ export default function PrivacyPolicy() {
                   </p>
                   </div>
                   <div className="text-container" >
-                  <h5>Suppression du compte</h5>
+                  <h4>Suppression du compte</h4>
                   <p>
                     <b>Suppression du compte à la demande</b>
                   </p>
@@ -199,10 +199,10 @@ export default function PrivacyPolicy() {
                   </div>
                   <div className="text-container" >
                   <div>
-                    <h5>
+                    <h4>
                       Indications en cas de faille de sécurité décelée par
                       l’Éditeur
-                    </h5>
+                    </h4>
                     <p>
                       <b>
                         Information de l’Utilisateur en cas de faille de
@@ -262,10 +262,10 @@ export default function PrivacyPolicy() {
                       </div>{" "}
                       <br></br>
                       <div>
-                        <h5>
+                        <h4>
                           Modification des CGU et de la politique de
                           confidentialité
-                        </h5>
+                        </h4>
                         <p>
                           <b>
                             En cas de modification des présentes CGU, engagement
@@ -289,9 +289,7 @@ export default function PrivacyPolicy() {
                   </div>
                   {/* end of row */}
                 </div>{" "}
-                <Link href="/">
-                  <a className="btn-solid-reg">Retour</a>
-                </Link>
+             
               </div>{" "}
               {/* end of col*/}
             </div>{" "}

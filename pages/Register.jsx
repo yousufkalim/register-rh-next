@@ -73,7 +73,7 @@ export default function Register() {
                 votre compte en cliquant ci-dessous
               </p>
               <Link href="/Login">
-                <a className="login-link btn-outline-sm ">Se connecter</a>
+                <a className="btnSubmit ">Se connecter</a>
               </Link>
               <br />
             </div>
@@ -98,7 +98,7 @@ export default function Register() {
                         <div className="col-md-6">
                           <div className="form-group">
                             <input
-                              className="form-control"
+                              className="form-control form-control-lg"
                               placeholder="Nom"
                               name="lastName"
                               onChange={formik.handleChange}
@@ -113,10 +113,13 @@ export default function Register() {
                               ) : null}
                             </div>
                           </div>
+                         
                           <div className="form-group">
                             <input
-                              className="form-control"
+                              className="form-control form-control-lg"
                               placeholder="Email"
+                      id="exampleInputEmail1"
+
                               name="email"
                               onChange={formik.handleChange}
                               value={formik.values.email}
@@ -135,13 +138,13 @@ export default function Register() {
                               name="societe"
                               onChange={formik.handleChange}
                               value={formik.values.societe}
-                              className="form-control"
+                              className="form-control form-control-lg"
                               placeholder="Nom de la societe"
                             />
                           </div>
                           <div className="form-group">
                             <input
-                              className="form-control"
+                              className="form-control form-control-lg"
                               placeholder="Mot de passe"
                               name="password"
                               type="password"
@@ -162,7 +165,7 @@ export default function Register() {
                         <div className="col-md-6">
                           <div className="form-group">
                             <input
-                              className="form-control"
+                              className="form-control form-control-lg"
                               placeholder="Prenom"
                               name="firstName"
                               onChange={formik.handleChange}
@@ -180,7 +183,7 @@ export default function Register() {
                           <div className="form-group">
                             <input
                               type="text"
-                              className="form-control"
+                              className="form-control form-control-lg"
                               placeholder="Activité"
                               name="activité"
                               onChange={formik.handleChange}
@@ -189,7 +192,7 @@ export default function Register() {
                           </div>
                           <div className="form-group">
                             <input
-                              className="form-control"
+                              className="form-control form-control-lg"
                               placeholder="Etablissement principal"
                               name="principal"
                               onChange={formik.handleChange}
@@ -206,7 +209,7 @@ export default function Register() {
                           </div>
                           <div className="form-group">
                             <input
-                              className="form-control"
+                              className="form-control form-control-lg"
                               placeholder="Confirmez votre mot de passe"
                               name="confirm_password"
                               type="password"
@@ -224,7 +227,7 @@ export default function Register() {
                           </div>
                           <input
                             type="submit"
-                            className="btnRegister"
+                            className="btn-outline-lg "
                             value="S'inscrire"
                           />
                         </div>

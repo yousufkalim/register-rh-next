@@ -71,9 +71,9 @@ export default function Login(props) {
               <strong>Registre RH</strong>
             </h3>
           </div>
-          <div className="row ">
+          <div >
             <div>
-              <p>
+              <p id="list">
                 L’application Registre RH vous permet de digitaliser simplement
                 vos 3 registres sociaux obligatoires des entreprises
               </p>
@@ -89,7 +89,7 @@ export default function Login(props) {
           </div>
           <div className="form-group text-center">
             <Link href="/Register">
-              <a className="btnSubmit btn ">Découvrir Registre RH</a>
+              <a className="btn-outline-lg">Découvrir Registre RH</a>
             </Link>
           </div>
         </div>
@@ -112,42 +112,51 @@ export default function Login(props) {
                 </div>
               </b>
             )}
-            <div className="form-group">
-              <input
-                className="form-control"
-                name="email"
-                onChange={formik.handleChange}
-                value={formik.values.email}
-              />
+            <div className="form-group  ">
+                    <input
+                      type="email"
+                      className="form-control form-control-lg"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Nom prénom"
+                      name="email"
+                      onChange={formik.handleChange}
+                      value={formik.values.email}
+                    />
+                  </div>
+            
               <div className="text-danger pt-1">
                 {formik.touched.email && formik.errors.email ? (
                   <div className="formikError">{formik.errors.email}</div>
                 ) : null}
               </div>
-            </div>
-            <div className="form-group">
-              <input
-                className="form-control"
-                name="password"
-                type="password"
-                onChange={formik.handleChange}
-                value={formik.values.password}
-              />
+              <div className="form-group">
+                    <input
+                      className="form-control form-control-lg"
+                      id="exampleInputPassword1"
+                      placeholder="Password"
+                      name="password"
+                      type="password"
+                      onChange={formik.handleChange}
+                      value={formik.values.password}
+                    />
+                  </div>
+           
               <div className="text-danger pt-1">
                 {formik.touched.password && formik.errors.password ? (
                   <div className="formikError">{formik.errors.password}</div>
                 ) : null}
               </div>
-            </div>
-            <div className="row">
-              <div className="form-group col-6 text-left">
+      
+            <div className="d-flex flexDiv2 justify-content-between">
+              <div className=" text-left">
                 <input
                   type="submit"
                   className="btnSubmit btn "
                   defaultValue="Se connecter"
                 />
               </div>
-              <div className="form-group col-6  text-right pt-1 ">
+              <div className="  text-right pt-1 ">
                 <a
                   className="ForgetPwd "
                   href="http://160.153.249.64:2228/Identity/Account/ForgotPassword"

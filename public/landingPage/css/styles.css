@@ -2473,8 +2473,9 @@ a:hover.back-to-top {
   border-radius: 4px;
 }
 .login-form-1 #list {
-  font-size: 14px;
+  font-size: 1.2rem;
 }
+
 .login-form-1 {
   padding: 5%;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
@@ -2570,13 +2571,14 @@ a:hover.back-to-top {
 /*list unstyled*/
 .login-form-1 ul {
   margin-bottom: 1.375rem;
-  padding-left: 30px;
-  font-size: 14px;
+  padding-left: 3rem;
+  font-size: 1.2rem;
   list-style-type: circle;
 }
 
 .login-form-1 li {
   padding: 3px;
+
 }
 
 /* ******************************************* */

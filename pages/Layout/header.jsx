@@ -16,13 +16,14 @@ export default function header() {
                   <p >
                   Vos trois registres sociaux des entreprises, ainsi que vos dossiers de collaboration internes et externes à portée de main !
                   </p>
-                
+                  <div  className="d-flex flexDiv2 ">
                   <Link href="/Register">
                     <a className="btn-solid-lg ">Se connecter</a>
                   </Link>
                   <Link href="/Register">
                     <a className="btn-outline-lg ">En savoir plus</a>
                   </Link>
+                  </div>
                 </div>{" "}
                 {/* end of text-container */}
             
