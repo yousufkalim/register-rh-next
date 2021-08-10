@@ -73,7 +73,7 @@ export default function Register() {
                 votre compte en cliquant ci-dessous
               </p>
               <Link href="/Login">
-                <a className="login-link btn-outline-sm ">Se connecter</a>
+                <a className="btnSubmit ">Se connecter</a>
               </Link>
               <br />
             </div>
@@ -224,7 +224,7 @@ export default function Register() {
                           </div>
                           <input
                             type="submit"
-                            className="btnRegister"
+                            className="btn-outline-lg "
                             value="S'inscrire"
                           />
                         </div>

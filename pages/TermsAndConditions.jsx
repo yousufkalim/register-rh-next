@@ -514,9 +514,7 @@ export default function TermsAndConditions() {
                     janvier 1978).
                   </p>
                 </div>
-                <Link href="/">
-                  <a className="btn-solid-reg">Retour</a>
-                </Link>
+            
               </div>{" "}
               {/* end of col*/}
             </div>{" "}
