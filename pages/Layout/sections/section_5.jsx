@@ -31,7 +31,7 @@ export default function section5(props) {
                   </Link>
                 </div>
                 <div  className="d-flex justify-content-center">
-                  {[DescImage1, DescImage2].map((row) => (
+                  {[DescImage1].map((row) => (
                     <div className="mr-2 " key={row}>
                       {/* Card */}
                       <div className="card" >
