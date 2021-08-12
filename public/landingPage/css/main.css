@@ -60,7 +60,7 @@ html {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-  color: #142e68;
+  color: #142e68 !important;
   opacity: 1;
   font-weight: 600;
 }
@@ -1710,7 +1710,7 @@ margin-top: 1rem;
   
 
   .navbar-custom .nav-item .nav-link {
-    color: #fff;
+    color: #142e68;
     padding-bottom: 2rem;
   }
   .navbar-collapse {
