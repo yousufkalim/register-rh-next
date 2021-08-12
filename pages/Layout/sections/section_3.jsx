@@ -5,7 +5,7 @@ import DescImage1 from "../../../public/image2.png";
 import DescImage3 from "../../../public/image4.png";
 export default function section3() {
   return (
-    <div id="features" className="cards-2">
+    <div id="features" className="cards-3">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12">

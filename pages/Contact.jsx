@@ -118,7 +118,7 @@ export default function Contact() {
                       className="form-control form-control-lg"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
-                      placeholder="Nom prénom"
+                      placeholder="Nom "
                     />
                   </div>
                   <div className="form-group mx-sm-3 ">
@@ -134,6 +134,7 @@ export default function Contact() {
                       className="form-control form-control-lg"
                       id="exampleFormControlTextarea1"
                       rows={3}
+                      placeholder="Message"
                       defaultValue={""}
                     />
                   </div>
