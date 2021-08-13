@@ -47,11 +47,11 @@ export default function section1() {
                             des emplois dans l’entreprise.
                           </p>
                         </div>
-                        <div className="button-wrapper">
+                        {/* <div className="button-wrapper">
                         <a  className="btn-solid-reg ">
                           En savoir plus
                         </a>
-                      </div>
+                      </div> */}
                       </div>
                 
                   {/* end of card */}
@@ -82,11 +82,11 @@ export default function section1() {
                             protection qui sont menées dans l’entreprise.
                           </p>
                         </div>
-                        <div className="button-wrapper">
+                        {/* <div className="button-wrapper">
                         <a  className="btn-solid-reg ">
                           En savoir plus
                         </a>
-                      </div>
+                      </div> */}
                       </div>
                 
                   {/* end of card */}
@@ -117,11 +117,11 @@ export default function section1() {
                             relèvent du Code du Travail .
                           </p>
                         </div>
-                        <div className="button-wrapper">
+                        {/* <div className="button-wrapper">
                         <a  className="btn-solid-reg ">
                           En savoir plus
                         </a>
-                      </div>
+                      </div> */}
                       </div>
                      
                     </div>
@@ -131,10 +131,14 @@ export default function section1() {
               {/* end of col */}
             </div>{" "}
             {/* end of row */}
+      <div id="hamzaDiv"></div>
+
           </div>{" "}
           {/* end of container */}
+
         </div>{" "}
         {/* end of cards-1 */}
+
       </div>
     </div>
   );

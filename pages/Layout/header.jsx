@@ -21,8 +21,8 @@ export default function header() {
                     <a className="btn-solid-lg ">Se connecter</a>
                   </Link>
                  
-                    <a className="btn-outline-lg ">En savoir plus</a>
-          
+                    <a href="#hamzaDiv" className="btn-outline-lg page-scroll ">En savoir plus</a>
+                  
                   </div>
                 </div>{" "}
                 {/* end of text-container */}
