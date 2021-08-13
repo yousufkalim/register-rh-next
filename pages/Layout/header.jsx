@@ -20,9 +20,9 @@ export default function header() {
                   <Link href="/Register">
                     <a className="btn-solid-lg ">Se connecter</a>
                   </Link>
-                  <Link href="/Register">
+                 
                     <a className="btn-outline-lg ">En savoir plus</a>
-                  </Link>
+          
                   </div>
                 </div>{" "}
                 {/* end of text-container */}

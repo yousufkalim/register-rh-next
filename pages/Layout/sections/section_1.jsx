@@ -35,8 +35,8 @@ export default function section1() {
                         <div className="card-body">
                           <h4 className="card-title">
                             <a
-                              href="#personal"
-                              className="text-white page-scroll"
+                          
+                              className="text-white "
                             >
                               Registre unique du personnel
                             </a>
@@ -48,7 +48,7 @@ export default function section1() {
                           </p>
                         </div>
                         <div className="button-wrapper">
-                        <a href="#" className="btn-solid-reg ">
+                        <a  className="btn-solid-reg ">
                           En savoir plus
                         </a>
                       </div>
@@ -68,8 +68,8 @@ export default function section1() {
                         <div className="card-body">
                           <h4 className="card-title">
                             <a
-                              href="#singleRisk"
-                              className="text-white page-scroll"
+                            
+                              className="text-white"
                             >
                               {" "}
                               DUER
@@ -83,7 +83,7 @@ export default function section1() {
                           </p>
                         </div>
                         <div className="button-wrapper">
-                        <a href="#" className="btn-solid-reg ">
+                        <a  className="btn-solid-reg ">
                           En savoir plus
                         </a>
                       </div>
@@ -103,8 +103,8 @@ export default function section1() {
                         <div className="card-body">
                           <h4 className="card-title">
                             <a
-                              href="#security"
-                              className="text-white page-scroll"
+                              
+                              className="text-white "
                             >
                               {" "}
                               Registre de contrôles de sécurité
@@ -118,7 +118,7 @@ export default function section1() {
                           </p>
                         </div>
                         <div className="button-wrapper">
-                        <a href="#" className="btn-solid-reg ">
+                        <a  className="btn-solid-reg ">
                           En savoir plus
                         </a>
                       </div>

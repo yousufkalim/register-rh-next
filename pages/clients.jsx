@@ -33,7 +33,7 @@ export default function Clients() {
               </h2>
               <div className="form-container ">
                 <div className="row  ">
-                  {[DescImage1].map((row) => (
+                  {[DescImage2].map((row) => (
                     <div id="card_image" className="col-lg-3 " key={row}>
                       {/* Card */}
                       <div className="card">

@@ -125,7 +125,7 @@ export default function Login(props) {
                     />
                   </div>
             
-              <div className="text-danger pt-1">
+              <div className="text-danger">
                 {formik.touched.email && formik.errors.email ? (
                   <div className="formikError">{formik.errors.email}</div>
                 ) : null}
@@ -142,7 +142,7 @@ export default function Login(props) {
                     />
                   </div>
            
-              <div className="text-danger pt-1">
+              <div className="text-danger">
                 {formik.touched.password && formik.errors.password ? (
                   <div className="formikError">{formik.errors.password}</div>
                 ) : null}

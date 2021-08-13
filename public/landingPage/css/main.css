@@ -386,7 +386,9 @@ html {
 }
 
 .cards-1 .card-image {
-  max-width: 16rem;
+  max-width: 20rem;
+  
+  height: 100%;
   margin-right: auto;
   margin-bottom: 2rem;
   margin-left: auto;
@@ -397,7 +399,7 @@ html {
   font-size: 2.188rem;
 }
 .cards-1 .card-title {
-
+  margin-top: 2rem;
   /* color: #007bff; */
   padding-bottom: 1.25rem;
   /* font-size: 1.875rem; */
@@ -611,20 +613,18 @@ font-size: 2.813rem;
 }
 
 .cards-3 .card-image {
-  max-width: 31rem;
+  min-width: 31rem;
   margin-right: auto;
-  margin-bottom: 2rem;
   margin-left: auto;
   padding-top: 1.25rem;
 }
+
 .cards-3 .card-title a{
   font-size: 2.188rem;
 }
 .cards-3 .card-title {
-  margin-bottom: 0.5rem;
   /* color:#007bff */
   padding: 1.25rem;
-  
 
 }
 
@@ -1461,9 +1461,14 @@ margin-top: 1rem;
 /*  clientdesc  */
 /*********************/
 
-
+.formikError{
+  padding-bottom: 0.8rem;
+  margin-top: -0.1rem;
+  font-size: 1.375rem;
+}
 #clientdesc #card_image {
   padding-top: 2%;
+  max-width: 20rem;
 }
 #clientdesc .left_col p {
   padding-top: 2%;
@@ -1708,7 +1713,6 @@ margin-top: 1rem;
 
 @media (max-width: 768px) {
   
-
   .navbar-custom .nav-item .nav-link {
     color: #142e68;
     padding-bottom: 2rem;
