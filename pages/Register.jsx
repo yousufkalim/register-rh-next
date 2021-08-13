@@ -139,7 +139,7 @@ export default function Register() {
                               onChange={formik.handleChange}
                               value={formik.values.societe}
                               className="form-control form-control-lg"
-                              placeholder="Nom de la societe"
+                              placeholder="Nom de la Société"
                             />
                           </div>
                           <div className="form-group">
