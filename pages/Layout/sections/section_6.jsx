@@ -29,7 +29,7 @@ export default function section5() {
               {/* end of img-wrapper */}
             </div>{" "}
           
-            <div className="right-section">
+            <div  className="right-section">
               <p>
                 À l’heure de la digitalisation des documents et des processus,
                 il semblait évident à nos deux dirigeants issus de la sphère RH
@@ -43,12 +43,30 @@ export default function section5() {
                 de l’industrie, la solution « Registre RH » a été développé pour
                 :
               </p>
-
-              <p>
-                S’intégrer totalement au SI de nos partenaires Faciliter la
-                consolidation des registres Répondre avec agilité aux
+              <ul className="list-unstyled li-space-lg">
+                <li className="media">
+                  <i className="fas fa-caret-right" />
+                  <div className="media-body  ">
+                  S’intégrer totalement au SI de nos partenaires
+                  </div>
+                </li>
+                <li className="media">
+                  <i className="fas fa-caret-right" />
+                  <div className="media-body  ">
+                  Faciliter la
+                consolidation des registres
+                  </div>
+                </li>
+                <li className="media">
+                  <i className="fas fa-caret-right" />
+                  <div className="media-body ">
+                  Répondre avec agilité aux
                 contraintes légales et aux nouveaux aux modes de travail
-              </p>
+                  </div>
+                </li>
+             
+              </ul>
+           
             </div>
           </div>
       </div>{" "}

@@ -506,6 +506,7 @@ font-weight: bold;
   padding: 0.313rem;
 }
 
+
 .tabs .basic-card {
   border: 0.1px solid #c3c3c3;
   border-radius: 2.35rem;
@@ -775,6 +776,22 @@ font-size: 2.813rem;
   text-align: left;
   color: #142e68;
 }
+.basic-2  .right-section .list-unstyled{
+  margin-left: 0.5rem;
+}
+.basic-2  .right-section  .list-unstyled .fas {
+  color: #152f68;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  line-height: 1.625rem;
+}
+
+.basic-2  .right-section  .list-unstyled .media-body {
+  margin-left: 0.625rem;
+    padding: 0.313rem;
+    font-size: 1.625rem;
+    margin-bottom: 0.313rem;
+}
 
 .basic-2 .image-container {
   position: relative;
@@ -790,7 +807,7 @@ font-size: 2.813rem;
 }
 .basic-2 .right-section p {
   font-size: 1.625rem;
-  padding-bottom: 1.875rem;
+  padding-bottom: 1rem;
 }
 
 /*********************/

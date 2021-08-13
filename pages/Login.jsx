@@ -134,7 +134,7 @@ export default function Login(props) {
                     <input
                       className="form-control form-control-lg"
                       id="exampleInputPassword1"
-                      placeholder="Password"
+                      placeholder="Mot de passe"
                       name="password"
                       type="password"
                       onChange={formik.handleChange}
@@ -153,7 +153,7 @@ export default function Login(props) {
                 <input
                   type="submit"
                   className="btnSubmit btn "
-                  defaultValue="Se connecter"
+                  value="Se connecter"
                 />
               </div>
               <div className="  text-right pt-1 ">
