@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import SoftwearImage from "../../../public/image3.png";
+import SoftwearImage from "../../../public/image8.png";
 export default function section5() {
   return (
     <div id="personal" className="basic-1">

@@ -36,9 +36,11 @@ export default function Nav() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link page-scroll" href="#features">
+            <Link href="/tarifs" >
+              <a className="nav-link " >
               Tarifs
               </a>
+              </Link>
             </li>
             
             {/* end of dropdown menu */}
@@ -55,7 +57,7 @@ export default function Nav() {
            
           </ul>
           <span className="nav-item">
-            <Link href="/Login">
+            <Link href="/Login" passHref>
               <span className="btn-outline-sm ">Se connecter</span>
             </Link>
           </span>

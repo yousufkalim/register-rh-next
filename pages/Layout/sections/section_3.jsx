@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 import DescImage1 from "../../../public/image2.png";
-import DescImage3 from "../../../public/image4.png";
+import DescImage3 from "../../../public/image7.png";
 export default function section3() {
   return (
-    <div id="features" className="cards-2">
+    <div id="features" className="cards-3">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12">
@@ -33,8 +33,8 @@ export default function section3() {
                         <div className="card-body">
                           <h4 className="card-title">
                             <a
-                              href="#personal"
-                              className="text-white page-scroll"
+                           
+                              className="text-white "
                             >
                               AUX ENTREPRISES <br/>(MONO ET MULTI SITES)
                             </a>
@@ -70,10 +70,10 @@ export default function section3() {
                           />
                         </div>
                         <div className="card-body">
-                          <h4 className="card-title">
+                          <h4 className="card-title mt-2
+                          ">
                             <a
-                              href="#security"
-                              className="text-white page-scroll"
+                              className="text-white"
                             >
                               {" "}
                               AUX RESEAUX D’ACCOMPAGNEMENT COMPTABLE ET SOCIAL

@@ -60,7 +60,7 @@ html {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-  color: #142e68;
+  color: #142e68 !important;
   opacity: 1;
   font-weight: 600;
 }
@@ -386,19 +386,24 @@ html {
 }
 
 .cards-1 .card-image {
-  max-width: 16rem;
+  max-width: 20rem;
+  
+  height: 100%;
   margin-right: auto;
   margin-bottom: 2rem;
   margin-left: auto;
   padding-top: 1.25rem;
 }
 
+.cards-1 .card-title a{
+  font-size: 2.188rem;
+}
 .cards-1 .card-title {
-  margin-bottom: 0.5rem;
+  margin-top: 2rem;
   /* color: #007bff; */
   padding-bottom: 1.25rem;
   /* font-size: 1.875rem; */
-  font-size: 2.188rem;
+  
 }
 
 .cards-1 .card-body {
@@ -571,10 +576,10 @@ font-size: 2.813rem;
 }
 
 /*********************/
-/*    cards-2    */
+/*    cards-3    */
 /*********************/
 
-.cards-2 {
+.cards-3 {
   padding-top: 3.25rem;
   padding-bottom: 3.25rem;
   margin-top: 4rem;
@@ -585,7 +590,7 @@ font-size: 2.813rem;
   background-color: #142e68;
 }
 
-.cards-2 .h2-heading {
+.cards-3 .h2-heading {
   /* margin-bottom: 2rem; */
   font-size: 2.813rem;
   font-weight: bold;
@@ -595,7 +600,7 @@ font-size: 2.813rem;
   color: #fff;
 }
 
-.cards-2 .card {
+.cards-3 .card {
   width: 90%;
   min-height: 50rem;
   background-color: transparent !important;
@@ -607,37 +612,153 @@ font-size: 2.813rem;
   border: none;
 }
 
-.cards-2 .card-image {
-  max-width: 31rem;
+.cards-3 .card-image {
+  min-width: 31rem;
   margin-right: auto;
-  margin-bottom: 2rem;
   margin-left: auto;
   padding-top: 1.25rem;
 }
 
-.cards-2 .card-title {
-  margin-bottom: 0.5rem;
+.cards-3 .card-title a{
+  font-size: 2.188rem;
+}
+.cards-3 .card-title {
   /* color:#007bff */
   padding: 1.25rem;
-  font-size: 2.188rem;
 
 }
 
-.cards-2 .card-body {
+.cards-3 .card-body {
   padding: 0;
 }
-.cards-2 .card-body p {
+.cards-3 .card-body p {
   font-size: 1.875rem;
   padding: 10px;
 }
-.cards-2 .card-body .first {
+.cards-3 .card-body .first {
   font-size: 1.875rem;
   padding: 3rem 3rem 0rem 3rem;
 }
-.cards-2 .card-body .second {
+.cards-3 .card-body .second {
   font-size: 1.875rem;
   padding-top: 1rem;
 }
+
+
+
+/***********************/
+/*     11. Pricing     */
+/***********************/
+.cards-2 .header-card {
+  padding: 1.25rem;
+  padding-bottom: 0px;
+
+}
+.cards-2 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.cards-2 .h2-heading {
+  padding-bottom: 2rem;
+  font-size: 2.813rem;
+  font-weight: bold;
+  color: #142e68;
+}
+
+.cards-2 .card {
+  display: block;
+  
+  min-width: 35rem;
+  margin-bottom: 3rem;
+  border-radius: 4px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+.cards-2 .card:not(:first-child) {
+  margin-left: 1.75rem;
+}
+.card-body {
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  
+}
+
+.cards-2 .card  .card-title a{
+  font-size: 2.188rem;
+}
+.cards-2 .card .card-title {
+  margin-bottom: 0rem;
+  color: #fff;
+  font-size: 2.188rem;
+  font-weight: bold;
+}
+
+.cards-2 .card .price .currency {
+  margin-right: 0.25rem;
+  color: #fff;
+  font-weight: 700;
+  /* font-size: 1.5rem; */
+  /* vertical-align: 40%; */
+}
+
+.cards-2 .card .price  {
+  color: #fff;
+  font-size: 1.575rem;
+  text-align: center;
+}
+
+.cards-2 .card-headers {
+  background-color: #152f68;
+  color: #fff;
+  padding-top: 1rem;
+    padding-bottom: 1rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.cards-2 .card .frequency {
+  font-size: 1.375rem;
+  padding-top: 0.2rem;
+}
+
+.cards-2 .card .divider {
+  height: 1px;
+  /* margin-top: 1.75rem;
+	margin-bottom: 2rem; */
+  border: none;
+  background-color: #ccd3df;
+}
+
+.cards-2 .card .list-unstyled {
+  margin-top: 1.875rem;
+  margin-bottom: 1.625rem;
+  text-align: left;
+}
+
+.cards-2 .card .list-unstyled .media {
+  margin-bottom: 0.5rem;
+}
+
+.cards-2 .card .list-unstyled .fas {
+  color: #152f68;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+}
+
+.cards-2 .card .list-unstyled .fas.fa-times {
+  margin-left: 0.1875rem;
+  margin-right: 0.125rem;
+  color: red !important;
+}
+.RegisterImg {
+  min-width: 80% !important;
+}
+.cards-2 .card .list-unstyled .media-body {
+  margin-left: 0.625rem;
+  font-size: 1.7rem;
+}
+
 
 /*********************/
 /*    basic-2    */
@@ -749,6 +870,37 @@ font-size: 2.813rem;
   color: #142e68;
 }
 
+/*********************/
+/*    basic-4  */
+/*********************/
+.basic-4 {
+  margin-bottom: 4rem;
+ 
+
+  margin-top: 4rem;
+}
+.basic-4 .h2-heading {
+  margin-bottom: 3rem;
+  font-size: 2.813rem;
+  font-weight: bold;
+  text-align: left;
+  color: #142e68;
+} 
+.basic-4 .card-header a{
+  font-size: 1.713rem !important;
+
+}
+.basic-4 .card-body p{
+  font-size: 1.513rem !important;
+
+}
+.basic-4 .card-body ul li a{
+  font-size: 1.375rem !important;
+
+}
+
+/* ******* */
+
  .btn-solid-lg {
  
   margin-bottom: 1.375rem;
@@ -801,6 +953,7 @@ font-size: 2.813rem;
   -ms-transform: translate(-50%, 0px) !important;
   -o-transform: translate(-50%, 0px) !important;
 }
+
 
 /*********************/
 /*    footer  */
@@ -1248,6 +1401,10 @@ margin-top: 1rem;
 #contact .rightDiv .form-group:not(:first-child){
   margin-top: 1rem;
 }
+#contact .rightDiv .form-group{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 #contact .card .div2 {
   width: 80%;
   padding-left: 0.5rem;
@@ -1304,9 +1461,14 @@ margin-top: 1rem;
 /*  clientdesc  */
 /*********************/
 
-
+.formikError{
+  padding-bottom: 0.8rem;
+  margin-top: -0.1rem;
+  font-size: 1.375rem;
+}
 #clientdesc #card_image {
   padding-top: 2%;
+  max-width: 20rem;
 }
 #clientdesc .left_col p {
   padding-top: 2%;
@@ -1514,7 +1676,7 @@ margin-top: 1rem;
   .tabs,
   .basic-1,
   .basic-2,
-  .cards-2,
+  .cards-3,
   .cards-1,
   .basic-3 {
     padding-left: 0;
@@ -1543,21 +1705,26 @@ margin-top: 1rem;
   padding-right: 0px;
 
 }
+.cards-2 .card:not(:first-child) {
+  margin-left: 0rem;
+}
 }
 
 
 @media (max-width: 768px) {
   
-
   .navbar-custom .nav-item .nav-link {
-    color: #fff;
+    color: #142e68;
     padding-bottom: 2rem;
   }
   .navbar-collapse {
     background-color: #142e68;
     color: #fff !important;
     padding: 2rem;
-  }
+    opacity: 0.9;
+    border-radius: 4px;
+    
+}
   .navbar-custom .nav-item .btn-outline-sm {
     background-color: #fff;
     color: #142e68;
@@ -1647,7 +1814,7 @@ margin-top: 1rem;
   .tabs,
   .basic-1,
   .basic-2,
-  .cards-2,
+  .cards-3,
   .cards-1,
   .basic-3 {
     padding-left: 0;
@@ -1674,7 +1841,7 @@ margin-top: 1rem;
 .cards-1 .card-image {
   max-width: 90%;
 }
-.cards-2 .card-image {
+.cards-3 .card-image {
   max-width: 90%;
 }
 .basic-3 .cards-wrapper .card {
@@ -1686,12 +1853,20 @@ margin-top: 1rem;
   .navbar-custom .nav-item .nav-link {
     color: #fff;
     padding-bottom: 2rem;
+    font-weight: bold;
   }
   .navbar-collapse {
     background-color: #142e68;
     color: #fff !important;
     padding: 2rem;
-  }
+    opacity: 0.9;
+    border-radius: 4px;
+   
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
   .navbar-custom .nav-item .btn-outline-sm {
     background-color: #fff;
     color: #142e68;
