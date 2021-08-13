@@ -3,7 +3,8 @@ import Image from "next/image";
 import SoftwearImage from "../../../public/image8.png";
 export default function section5() {
   return (
-    <div id="personal" className="basic-1">
+    <>
+    <div   className="basic-1">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 ">
@@ -70,5 +71,6 @@ export default function section5() {
       </div>{" "}
       {/* end of container */}
     </div>
+    </>
   );
 }

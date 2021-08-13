@@ -207,7 +207,7 @@ html {
   font-weight: bold
 }
 .header .text-container p {
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   color: #142e68;
   font-weight: bold;
   padding-top: 1.875rem;
@@ -388,7 +388,6 @@ html {
 .cards-1 .card-image {
   max-width: 20rem;
   
-  height: 100%;
   margin-right: auto;
   margin-bottom: 2rem;
   margin-left: auto;
