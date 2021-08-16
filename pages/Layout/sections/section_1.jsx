@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-import DescImage1 from "../../../public/landingPage/images/description-1.png";
-import DescImage2 from "../../../public/landingPage/images/description-2.png";
-import DescImage3 from "../../../public/landingPage/images/description-3.png";
+import DescImage1 from "../../../public/landingPage/images/description-1.jpg";
+import DescImage2 from "../../../public/landingPage/images/description-2.jpg";
+import DescImage3 from "../../../public/landingPage/images/description-3.jpg";
 export default function section1() {
   return (
     <div id="features" className="cards-1">
@@ -22,7 +22,7 @@ export default function section1() {
             <div className="row">
               <div className="col-lg-12">
                 {/* Card */}
-                <div  className="d-flex  justify-content-center flexDiv ">
+                <div  className="d-flex  justify-content-center flexDiv3 ">
                   
                       <div className="card">
                         <div className="card-image">
@@ -129,9 +129,10 @@ export default function section1() {
                 {/* end of card */}
               </div>{" "}
               {/* end of col */}
+
             </div>{" "}
             {/* end of row */}
-      <div id="hamzaDiv"></div>
+            <div id="hamzaDiv"></div>
 
           </div>{" "}
           {/* end of container */}
