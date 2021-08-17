@@ -22,7 +22,7 @@ export default function section1() {
             <div className="row">
               <div className="col-lg-12">
                 {/* Card */}
-                <div  className="d-flex  justify-content-center flexDiv ">
+                <div  className="d-flex  justify-content-center flexDiv3 ">
                   
                       <div className="card">
                         <div className="card-image">
@@ -129,9 +129,10 @@ export default function section1() {
                 {/* end of card */}
               </div>{" "}
               {/* end of col */}
+
             </div>{" "}
             {/* end of row */}
-      <div id="hamzaDiv"></div>
+            <div id="hamzaDiv"></div>
 
           </div>{" "}
           {/* end of container */}

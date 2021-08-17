@@ -4,11 +4,11 @@ import SoftwearImage from "../../../public/image8.png";
 export default function section5() {
   return (
     <>
-    <div   className="basic-1">
+    <div  className="basic-1">
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 ">
-            <h2 className="h2-heading">
+            <h2 className="h2-heading" >
               LA DIGITALISATION DES REGISTRES SOCIAUX AFIN DE :
             </h2>
 

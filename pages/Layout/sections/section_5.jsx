@@ -25,16 +25,18 @@ export default function section5(props) {
               <div className="row">
             <div className="col-lg-12">
               <div className="cards-wrapper ">
+                
+                <div  className="d-flex justify-content-center position-relative">
                 <div className="overlay-btn">
+                  <div className="overlay-btn-content">
                   <Link href="/clients">
                     <a className="btn-solid-lg">Découvrir nos clients</a>
                   </Link>
+                  </div>
                 </div>
-                <div  className="d-flex justify-content-center">
                   {[DescImage1].map((row) => (
-                    <div className="mr-2 " key={row}>
-                      {/* Card */}
-                      <div className="card" >
+                 
+                      <div className="card mr-2" key={row}>
                         <div className="card-image">
                           <Image
                             className="img-fluid"
@@ -43,7 +45,6 @@ export default function section5(props) {
                           />
                         </div>
                       </div>
-                    </div>
                   ))}
 
                   {/* end of col */}

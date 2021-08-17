@@ -21,7 +21,6 @@ export default function section3() {
                 {/* Card */}
                 <div className="row">
                   <div className="col-lg-6">
-                    <div>
                       <div className="card">
                         <div className="card-image">
                           <Image
@@ -36,7 +35,7 @@ export default function section3() {
                            
                               className="text-white "
                             >
-                              AUX ENTREPRISES <br/>(MONO ET MULTI SITES)
+                              AUX ENTREPRISES (MONO ET MULTI SITES)
                             </a>
                           </h4>
                           <p className="first">
@@ -44,6 +43,7 @@ export default function section3() {
                             établissements (public/privé) sont soumis à
                             l’obligation de tenue de registres obligatoires et
                             de documents uniques.
+                            
                           </p>
                           <p className="second">
                             La plateforme Registre RH permet de retrouver
@@ -54,7 +54,6 @@ export default function section3() {
                         </div>
                       </div>
                      
-                    </div>
                   </div>
                   {/* end of card */}
 
@@ -70,7 +69,7 @@ export default function section3() {
                           />
                         </div>
                         <div className="card-body">
-                          <h4 className="card-title mt-2
+                          <h4 className="card-title 
                           ">
                             <a
                               className="text-white"
