@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-import DescImage1 from "../../../public/landingPage/images/description-1.jpg";
-import DescImage2 from "../../../public/landingPage/images/description-2.jpg";
-import DescImage3 from "../../../public/landingPage/images/description-3.jpg";
+import DescImage1 from "../../../public/landingPage/images/description-1.png";
+import DescImage2 from "../../../public/landingPage/images/description-2.png";
+import DescImage3 from "../../../public/landingPage/images/description-3.png";
 export default function section1() {
   return (
     <div id="features" className="cards-1">
