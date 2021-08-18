@@ -7,7 +7,8 @@
     "build": "next build",
     "winDev": "next dev -p 3005",
     "start": " node server.js",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "git pull origin master && npm install && pm2 restart 7"
   },
   "dependencies": {
     "axios": "^0.21.1",
