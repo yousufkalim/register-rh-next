@@ -81,9 +81,10 @@ export default function Contact() {
                         <CardSubtitle tag="small" className="mb-2 text-muted">
                           3 rue Neuve Saint-Germain
                         </CardSubtitle>
-                        <CardBody tag="small" className="mb-2 text-muted">
+                        <br />
+                        <CardSubtitle tag="small" className="mb-2 text-muted">
                           92100 Boulogne-Billancourt
-                        </CardBody>
+                        </CardSubtitle>
                       </CardBody>
                     </div>
                   </div>
@@ -126,13 +127,14 @@ export default function Contact() {
                       <i className="fab fa-linkedin-in" aria-hidden="true"></i>
                     </div>
                     <div className="div2">
+                      <CardTitle tag="p">Réseaux</CardTitle>
                       <CardBody>
                         <a
                           rel="noreferrer"
                           target="_blank"
                           href="https://www.linkedin.com/company/registre-rh/"
                         >
-                          <CardTitle tag="p">Réseaux</CardTitle>
+                          <CardSubtitle tag="p">Registre-RH</CardSubtitle>
                         </a>
                       </CardBody>
                     </div>
