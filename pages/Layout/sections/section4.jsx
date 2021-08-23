@@ -114,7 +114,9 @@ export default function section3() {
               </li>
               <li className="media">
                 <i className="fas fa-square" />
-                <div className="media-body ">Données hébergées en France</div>
+                <div className="media-body ">
+                  <b>Données hébergées en France</b>
+                </div>
               </li>
             </ul>
           </div>
