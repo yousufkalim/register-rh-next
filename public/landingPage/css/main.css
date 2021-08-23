@@ -1422,7 +1422,7 @@ input[type="checkbox"] {
   margin-top: 1rem;
 }
 #contact .rightDiv {
-  padding-top: 1.45rem;
+  padding-top: 0.45rem;
 }
 #contact .rightDiv .form-group:not(:first-child) {
   margin-top: 1rem;
