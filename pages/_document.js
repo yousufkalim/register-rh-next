@@ -50,6 +50,11 @@ class MyDocument extends Document {
           <script defer src="landingPage/js/jquery.magnific-popup.js" />
           <script defer src="landingPage/js/validator.min.js" />
           <script defer src="landingPage/js/scripts.js" />
+          <script defer src="landingPage/js/main.js" />
+          <script
+            defer
+            src="https://www.googletagmanager.com/gtag/js?id=UA-205577833-1"
+          />
         </body>
       </Html>
     );

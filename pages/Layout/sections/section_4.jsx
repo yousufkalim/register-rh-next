@@ -6,17 +6,14 @@ export default function section3() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2 className="h2-heading">
-            LES AVANTAGES DE NOTRE SOLUTION : 
-            </h2>
+            <h2 className="h2-heading">LES AVANTAGES DE NOTRE SOLUTION :</h2>
           </div>
           {/* end of col */}
         </div>
         {/* end of row */}
-       
+
         <div className="d-flex flexDiv justify-content-md-center">
-         
-            <div className="basic-card">
+          <div className="basic-card">
             <h5>
               <i className="fas fa-stream pr-2" />
               Simplicité
@@ -50,12 +47,11 @@ export default function section3() {
                 </div>
               </li>
             </ul>
-            </div>
-         
-          {/* end of col */}
-         
-          <div className="basic-card">
+          </div>
 
+          {/* end of col */}
+
+          <div className="basic-card">
             <h5>
               <i className="fas fa-check-square pr-2" />
               Conformité
@@ -79,9 +75,8 @@ export default function section3() {
               </li>
             </ul>
           </div>
-         
-          <div className="basic-card">
 
+          <div className="basic-card">
             <h5>
               <i className="fas fa-cloud pr-2" />
               En mode SaaS
@@ -117,15 +112,17 @@ export default function section3() {
                   <b> Maintenance </b>et mises à jour automatiques
                 </div>
               </li>
+              <li className="media">
+                <i className="fas fa-square" />
+                <div className="media-body ">Données hébergées en France</div>
+              </li>
             </ul>
           </div>
           {/* end of col */}
         </div>
-      
-        <div className="d-flex flexDiv pt-4 mt-4 justify-content-md-center">
-          
-          <div className="basic-card">
 
+        <div className="d-flex flexDiv pt-4 mt-4 justify-content-md-center">
+          <div className="basic-card">
             <h5>
               <i className="fas fa-shield-alt pr-2" />
               Securité
@@ -158,10 +155,9 @@ export default function section3() {
                 </div>
               </li>
             </ul>
-            </div>
+          </div>
           {/* end of col */}
           <div className="basic-card">
-
             <h5>
               <i className="fas fa-adjust pr-2" />
               Flexibilité
@@ -197,10 +193,9 @@ export default function section3() {
                 </div>
               </li>
             </ul>
-            </div>
-       
-          <div className="basic-card">
+          </div>
 
+          <div className="basic-card">
             <h5>
               <i className="fas fa-file-signature pr-2" />
               Exploitabilité
@@ -233,10 +228,10 @@ export default function section3() {
                 </div>
               </li>
             </ul>
-            </div>
+          </div>
           {/* end of col */}
         </div>
-    
+
         {/* end of row */}
       </div>
       {/* end of container */}
