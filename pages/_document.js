@@ -50,6 +50,22 @@ class MyDocument extends Document {
           <script defer src="landingPage/js/jquery.magnific-popup.js" />
           <script defer src="landingPage/js/validator.min.js" />
           <script defer src="landingPage/js/scripts.js" />
+          <script defer src="landingPage/js/main.js" />
+          {/* <script>
+            {function ($) {
+              "use strict";
+              $(window).dataLayer = $(window).dataLayer || [];
+              function gtag() {
+                $(window).push(arguments);
+              }
+              gtag("js", new Date());
+              gtag("config", "UA-205577833-1");
+            }}
+          </script> */}
+          <script
+            defer
+            src="https://www.googletagmanager.com/gtag/js?id=UA-205577833-1"
+          />
         </body>
       </Html>
     );

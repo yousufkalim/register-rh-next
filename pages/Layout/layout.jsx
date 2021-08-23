@@ -1,16 +1,14 @@
 import Footer from "./footer.jsx";
 import Nav from "./nav.jsx";
 import Header from "./header.jsx";
-import Section1 from "./sections/section_1.jsx";
-import Section2 from "./sections/section_2.jsx";
+import Section1 from "./sections/section1.jsx";
+import Section2 from "./sections/section2.jsx";
 
-import Section3 from "./sections/section_3.jsx";
-import Section4 from "./sections/section_4.jsx";
+import Section3 from "./sections/section3.jsx";
+import Section4 from "./sections/section4.jsx";
 
-
-import Section5 from "./sections/section_5.jsx";
-import Section6 from "./sections/section_6.jsx";
-
+import Section5 from "./sections/section5.jsx";
+import Section6 from "./sections/section6.jsx";
 
 import Script from "next/script";
 import React, { useState, useEffect } from "react";
@@ -34,7 +32,7 @@ export default function Index() {
     setModal(false);
   };
   return (
-    <div >
+    <div>
       <div className="parentDiv">
         {modal && (
           <Modal
@@ -51,7 +49,6 @@ export default function Index() {
                     navigation et réaliser des statistiques de suivis. Pour en
                     savoir plus, consultez
                   </p>
-                  
                   <Link href="/PrivacyPolicy">
                     <a className="link"> notre politique de confidentialité </a>
                   </Link>{" "}
@@ -62,7 +59,6 @@ export default function Index() {
                   </p>
                   <div className="row">
                     <div className="closeDiv col-lg-12">
-                     
                       <button
                         onClick={Decline}
                         className="btn-solid-close float-right ml-3"
@@ -88,17 +84,17 @@ export default function Index() {
       {/* Header */}
       <Header />
       {/* ZOOM SUR LES TROIS REGISTRES OBLIGATOIRES */}
-     <Section1 />
-     {/* LA DIGITALISATION DES REGISTRES SOCIAUX AFIN DE : */}
+      <Section1 />
+      {/* LA DIGITALISATION DES REGISTRES SOCIAUX AFIN DE : */}
       <Section2 />
       {/* A QUI S’ADRESSE REGISTRE RH ? */}
-      <Section3/>
+      <Section3 />
       {/* LES AVANTAGES DE NOTRE SOLUTION : */}
       <Section4 />
       {/* Nos Clients */}
       <Section5 />
       {/* A PROPOS DE NOUS : */}
-      <Section6/>
+      <Section6 />
       {/* Footer */}
       <Footer />
     </div>

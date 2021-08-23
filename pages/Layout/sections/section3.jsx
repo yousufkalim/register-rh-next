@@ -21,39 +21,34 @@ export default function section3() {
                 {/* Card */}
                 <div className="row">
                   <div className="col-lg-6">
-                      <div className="card">
-                        <div className="card-image">
-                          <Image
-                            className="img-fluid"
-                            src={DescImage1}
-                            alt="alternative"
-                          />
-                        </div>
-                        <div className="card-body">
-                          <h4 className="card-title">
-                            <a
-                           
-                              className="text-white "
-                            >
-                              AUX ENTREPRISES (MONO ET MULTI SITES)
-                            </a>
-                          </h4>
-                          <p className="first">
-                            Dès l’arrivée du premier collaborateur, tous les
-                            établissements (public/privé) sont soumis à
-                            l’obligation de tenue de registres obligatoires et
-                            de documents uniques.
-                            
-                          </p>
-                          <p className="second">
-                            La plateforme Registre RH permet de retrouver
-                            l’ensemble de ces registres de façon simple et
-                            sécurisée, afin que votre entreprise gagne en
-                            efficacité.
-                          </p>
-                        </div>
+                    <div className="card">
+                      <div className="card-image">
+                        <Image
+                          className="img-fluid"
+                          src={DescImage1}
+                          alt="alternative"
+                        />
                       </div>
-                     
+                      <div className="card-body">
+                        <h4 className="card-title">
+                          <a className="text-white ">
+                            AUX ENTREPRISES (MONO ET MULTI SITES)
+                          </a>
+                        </h4>
+                        <p className="first">
+                          Dès l’arrivée du premier collaborateur, tous les
+                          établissements (public/privé) sont soumis à
+                          l’obligation de tenue de registres obligatoires et de
+                          documents uniques.
+                        </p>
+                        <p className="second">
+                          La plateforme Registre RH permet de retrouver
+                          l’ensemble de ces registres de façon simple et
+                          sécurisée, afin que votre entreprise gagne en
+                          efficacité.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                   {/* end of card */}
 
@@ -69,11 +64,11 @@ export default function section3() {
                           />
                         </div>
                         <div className="card-body">
-                          <h4 className="card-title 
-                          ">
-                            <a
-                              className="text-white"
-                            >
+                          <h4
+                            className="card-title 
+                          "
+                          >
+                            <a className="text-white">
                               {" "}
                               AUX RESEAUX D’ACCOMPAGNEMENT COMPTABLE ET SOCIAL
                             </a>
@@ -94,7 +89,6 @@ export default function section3() {
                           </p>
                         </div>
                       </div>
-                     
                     </div>
                   </div>
                 </div>
