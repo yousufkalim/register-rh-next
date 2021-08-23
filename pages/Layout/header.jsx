@@ -14,7 +14,7 @@ export default function header() {
                 <h3>DIGITALISEZ SIMPLEMENT VOS DONNEES RH !</h3>
                 <p>
                   Vos trois registres sociaux des entreprises, ainsi que vos
-                  dossiers de collaborations internes et externes à portée de
+                  dossiers de collaborateurs internes et externes à portée de
                   main !
                 </p>
                 <div className="d-flex flexDiv2 ">
