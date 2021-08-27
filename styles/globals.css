@@ -1,0 +1,24 @@
+/* Gloabal */
+@font-face {
+  font-family: Myriad Pro;
+  src: url(/fonts/MYRIADPRO-REGULAR.woff);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Myriad Pro" !important;
+  width: 100% !important;
+  height: 100%;
+  font-size: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
