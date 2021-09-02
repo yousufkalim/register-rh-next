@@ -21,6 +21,16 @@ class MyDocument extends Document {
           (Centralisation des données administratives tel que RIB, adresse, carte grise, contrat de travail, contrat de mise à disposition, certification…)."
           />
 
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-205577833-1"
+          ></script>
+          <script>
+            window.dataLayer = window.dataLayer || []; function gtag()
+            {dataLayer.push(arguments)}
+            gtag('js', new Date()); gtag('config','UA-205577833-1');
+          </script>
+
           <meta property="og:site_name" content="" />
 
           <meta property="og:site" content="" />
