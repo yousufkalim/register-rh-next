@@ -20,7 +20,7 @@ export default function Login(props) {
       bodyFormData.append("RememberMe", false);
       bodyFormData.append("EstablishmentPricipal", "test");
 
-      fetch(`http://160.153.249.64:2231/api/v1/User/Login`, {
+      fetch(`https://api.registre-rh.fr/api/v1/User/Login`, {
         //fetch(`https://localhost:44369/api/v1/User/Login`, {
         method: "POST",
         mode: "cors",

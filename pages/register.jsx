@@ -26,7 +26,7 @@ export default function Register() {
       try {
         let response = await Axios.post(
           //`http://160.153.249.64:2228/Users/Register/Identity?Email=${email}&password=${password}&FamilyName=${lastName}&FirstName=${firstName}&EstablishmentPricipal=${principal}`,
-          `http://160.153.249.64:2231/api/v1/User/Resgiter`,
+          `https://api.registre-rh.fr/api/v1/User/Resgiter`,
           {
             FirstName: values.firstName,
             FamilyName: values.lastName,
