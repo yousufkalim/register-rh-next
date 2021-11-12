@@ -38,16 +38,13 @@ export default function section3() {
                             AUX ENTREPRISES (MONO ET MULTI SITES)
                           </a>
                         </h4>
-                        <p className="first">
+                        <p>
                           Dès l’arrivée du premier collaborateur, tous les
                           établissements (public/privé) sont soumis à
                           l’obligation de tenue de registres obligatoires et de
-                          documents uniques.
-                        </p>
-                        <p className="second">
-                          La plateforme Registre RH permet de retrouver
-                          l’ensemble de ces registres de façon simple et
-                          sécurisée, afin que votre entreprise gagne en
+                          documents uniques. La plateforme Registre RH permet de
+                          retrouver l’ensemble de ces registres de façon simple
+                          et sécurisée, afin que votre entreprise gagne en
                           efficacité.
                         </p>
                       </div>
