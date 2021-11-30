@@ -23,15 +23,17 @@
 }
 
 .navbar-custom .navbar-brand.logo-image {
-  width: 7.5rem;
-  height: 7.75rem;
+  width: 6rem !important;
+  height: 6.75rem !important;
 }
 
 .navbar-custom .navbar-nav {
   margin-top: 0rem;
   margin-bottom: 0.5rem;
 }
-
+#seconnector {
+  display: none;
+}
 .navbar-custom .nav-item .nav-link {
   /* padding: 0.125rem 3.95rem 0.125rem 0.75rem; */
   padding: 0rem 4.95rem 0.7rem 0.75rem;
@@ -116,7 +118,7 @@
   margin-top: 0rem;
   margin-bottom: 1rem;
 
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
   background-color: #142e68;
   color: #fff;
   display: inline-block;
@@ -333,7 +335,9 @@
   display: flex;
   justify-content: center;
 }
-
+.img-wrapper > div {
+  position: static !important;
+}
 .header .image-container .img-wrapper {
   max-width: 56.643rem !important;
   max-height: 41.213rem !important;
@@ -378,11 +382,14 @@
   border-color: #fff;
   border: none;
 }
-
+/* .card-image > div {
+  position: static !important;
+} */
 .cards-1 .card .card-image {
   max-width: 30rem;
   max-height: 30rem;
-  min-height: 12rem;
+  min-height: 25rem;
+  min-width: 30rem;
 
   background-color: transparent;
   margin-right: auto;
@@ -622,12 +629,10 @@
 }
 
 .cards-3 .card .card-image {
-  max-width: 30rem;
-  height: 23rem;
-  width: 30rem;
-
-  max-height: 30rem;
-
+  max-width: 40rem;
+  max-height: 32rem;
+  min-height: 25rem;
+  min-width: 35rem;
   background-color: transparent;
   margin-right: auto;
   margin-bottom: 1rem;
@@ -779,6 +784,7 @@
 .cards-2 .card .list-unstyled .media-body {
   margin-left: 0.625rem;
   font-size: 1.7rem;
+  margin-top: -5px !important;
 }
 
 /*********************/
@@ -865,6 +871,9 @@
 }
 .basic-3 .cards-wrapper .card:not(:first-child) {
   margin-left: 1.75rem;
+}
+.basic-3 .cards-wrapper .card-image > div {
+  position: static !important;
 }
 
 .basic-3 .cards-wrapper .card-image {
@@ -1638,6 +1647,22 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
 /*********************/
 /*   media queries   */
 /*********************/
@@ -1871,6 +1896,14 @@ a {
   }
   .basic-3 .cards-wrapper .card {
     width: 15.375rem;
+  }
+}
+@media (max-width: 991px) {
+  #seconnector2 {
+    display: none;
+  }
+  #seconnector {
+    display: block;
   }
 }
 @media (max-width: 990px) {
