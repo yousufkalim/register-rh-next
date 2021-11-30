@@ -92,11 +92,11 @@ export default function Contact() {
                 <Card>
                   <div className="d-flex align-items-center">
                     <div className="div1">
-                      <i className="fa fa-phone" aria-hidden="true"></i>
+                      <i className="fa fa-phone-alt" aria-hidden="true"></i>
                     </div>
                     <div className="div2">
                       <CardBody>
-                        <CardTitle tag="p">Telephone</CardTitle>
+                        <CardTitle tag="p">Téléphone</CardTitle>
                         <CardSubtitle tag="p" className="mb-2 text-muted">
                           06 21 50 40 35
                         </CardSubtitle>

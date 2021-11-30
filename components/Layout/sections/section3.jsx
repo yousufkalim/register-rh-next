@@ -35,7 +35,7 @@ export default function section3() {
                       <div className="card-body">
                         <h4 className="card-title">
                           <a className="text-white ">
-                            AUX ENTREPRISES (MONO ET MULTI SITES)
+                            AUX ENTREPRISES <br /> (MONO ET MULTI SITES)
                           </a>
                         </h4>
                         <p>
@@ -73,7 +73,8 @@ export default function section3() {
                           >
                             <a className="text-white">
                               {" "}
-                              AUX RESEAUX D’ACCOMPAGNEMENT COMPTABLE ET SOCIAL
+                              AUX RESEAUX D’ACCOMPAGNEMENT COMPTABLE ET <br />
+                              SOCIAL
                             </a>
                           </h4>
                           <p>

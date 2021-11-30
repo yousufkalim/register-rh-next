@@ -10,6 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <title>Registre RH</title>
           <meta
             name="description"
             content="L’application Registre RH vous permet de digitaliser simplement vos données RH :
@@ -26,15 +27,15 @@ class MyDocument extends Document {
             src="https://www.googletagmanager.com/gtag/js?id=UA-205577833-1"
           ></script>
           <script
-          dangerouslySetInnerHTML={{
-            __html: `
+            dangerouslySetInnerHTML={{
+              __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments)}
             gtag('js', new Date());
             gtag('config','UA-205577833-1', { page_path: window.location.pathname });
             `,
-          }}
-        />
+            }}
+          />
 
           <meta property="og:site_name" content="" />
 

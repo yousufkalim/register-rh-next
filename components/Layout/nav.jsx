@@ -35,10 +35,13 @@ export default function Nav() {
           <span className="navbar-toggler-awesome fas fa-times" />
         </button>
         {/* end of mobile menu toggle button */}
-        <div className="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul className="navbar-nav ml-auto">
+        <div
+          className="collapse navbar-collapse justify-content-center"
+          id="navbarsExampleDefault"
+        >
+          <ul className="navbar-nav ">
             <li className="nav-item">
-              <a className="nav-link page-scroll" href="#header">
+              <a className="nav-link page-scroll" href="#zoomfeatures">
                 Registres sociaux obligatoires
               </a>
             </li>
@@ -59,13 +62,23 @@ export default function Nav() {
                 <a className="nav-link ">Contactez-nous</a>
               </Link>
             </li>
+            <li className="nav-item">
+              <Link href="/faq">
+                <a className="nav-link ">Faq</a>
+              </Link>
+            </li>
           </ul>
-          <span className="nav-item">
+          <span id="seconnector" className="nav-item">
             <Link href="/login" passHref>
               <span className="btn-outline-sm ">Se connecter</span>
             </Link>
           </span>
         </div>
+        <span id="seconnector2" className="nav-item">
+          <Link href="/login" passHref>
+            <span className="btn-outline-sm ">Se connecter</span>
+          </Link>
+        </span>
       </div>{" "}
       {/* end of container */}
     </nav>
