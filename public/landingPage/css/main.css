@@ -2,6 +2,10 @@
 /*     03. Navigation     */
 /**************************/
 
+.background-blue{
+  background-color: #152f68;
+}
+
 .navbar-custom {
   background-color: #fff;
 
