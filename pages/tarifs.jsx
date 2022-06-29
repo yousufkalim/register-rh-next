@@ -202,37 +202,37 @@ export default function Contact() {
             </div>{" "}
             <div className="row">
               <div className="col-lg-12">
-                <h2 className="text-left ">
+                <h2 className="text-center ">
                   Offre PME {" <"} 200 salariés = 2000 € / an{" "}
                 </h2>
-                <h2 className="text-left pt-3">
-                  Grille tarifaire grands comptes {"> 200"} salariés:
+                <h2 className="text-center pt-3">
+                  Grille tarifaire grands comptes {"> 200"} salariés
                 </h2>
                 {/* end of text-container */}
               </div>{" "}
             </div>
             <div id="modeSass" className="row pt-3">
-              <div className="col-lg-8 m-auto">
+              <div className="col-lg-10 m-auto">
                 <table>
-                  <tbody>
-                    <tr>
-                      <th>NB SIRET</th>
+                  <tbody className="h5">
+                    <tr className="text-white background-blue">
+                      <th >NB SIRET</th>
                       <th>Coût HT / an</th>
                       <th>Détails</th>
                     </tr>
                     <tr>
                       <td>1 à 25</td>
+                      <td>7 500 € </td>
+                      <td>Forfait 7 500€ / an</td>
+                    </tr>
+                    <tr>
                       <td>26 à 200</td>
+                      <td>De 7 800 € à 60 000 €</td>
+                      <td>Soit 300 € par SIRET / an</td>
+                    </tr>
+                    <tr>
                       <td>Au-delà de 200</td>
-                    </tr>
-                    <tr>
-                      <td>7 500</td>
-                      <td>De 7 800 à 60 000</td>
                       <td>Sur devis</td>
-                    </tr>
-                    <tr>
-                      <td>Forfait 7 500€</td>
-                      <td>Soit 300 € par SIRET</td>
                       <td>Sur devis</td>
                     </tr>
                   </tbody>
