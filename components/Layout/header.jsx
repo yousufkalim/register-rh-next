@@ -34,7 +34,7 @@ export default function header() {
                     unoptimized={true}
                     width="500px"
                     height="450px"
-                    className="img-fluid"
+                    className="img-fluid-header"
                     src="/header.png"
                     alt="alternative"
                   />
