@@ -18,7 +18,7 @@ export default function section5() {
             {/* end of col */}
           </div>{" "}
           {/* end of row */}
-          <div className="d-flex justify-content-center flexDiv">
+          <div className="propos-div-1">
             <div className="basic-card">
               <ul className="list-unstyled li-space-lg">
                 <li className="media">
@@ -57,15 +57,18 @@ export default function section5() {
               </ul>
             </div>
             <div className="image-container">
-              <div className=" card-image">
-                <Image
+              <div className="card-image">
+                <img src="/image8.png"
+                  className="img-fluid-2"
+                />
+                {/* <Image
                   unoptimized={true}
                   height="400px"
                   width="500px"
                   className="img-fluid"
                   src="/image8.png"
                   alt="alternative"
-                />
+                />  */}
               </div>{" "}
               {/* end of img-wrapper */}
             </div>{" "}

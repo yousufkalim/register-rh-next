@@ -6,7 +6,7 @@ export default function section5() {
     <div id="propose" className="basic-2">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-12 ">
+          <div className="col-lg-12">
             <h2 className="h2-heading">A PROPOS DE NOUS :</h2>
 
             {/* end of text-container */}
@@ -14,17 +14,18 @@ export default function section5() {
           {/* end of col */}
         </div>{" "}
         {/* end of row */}
-        <div id="basic2" className="d-flex  justify-content-center">
+        <div id="basic2" className="propos-div">
           <div className="image-container">
             <div className="img-wrapper">
-              <Image
+              <img src="/image6.png" alt="" className="img-fluid-3" />
+              {/* <Image
                 unoptimized={true}
                 height="350px"
                 width="400px"
                 className="img-fluid"
                 src="/image6.png"
                 alt="alternative"
-              />
+              /> */}
             </div>{" "}
             {/* end of img-wrapper */}
           </div>{" "}

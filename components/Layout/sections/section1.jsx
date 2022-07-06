@@ -22,12 +22,12 @@ export default function section1() {
                   {/* Card */}
                   <div className="d-flex  justify-content-center flexDiv3 ">
                     <div className="card">
-                      <div className="card-image">
+                      <div className="card-image" >
                         <Image
                           unoptimized={true}
                           height="200px"
                           width="200px"
-                          className="img-fluid"
+                          className="img-fluid-card"
                           src="/landingPage/images/test.png"
                           alt="alternative"
                         />
@@ -54,13 +54,13 @@ export default function section1() {
                     {/* end of card */}
                     {/* Card */}
 
-                    <div className="card">
+                    <div className="card" style={{ marginLeft: "4%" }}>
                       <div className="card-image">
                         <Image
                           unoptimized={true}
                           height="200px"
                           width="200px"
-                          className="img-fluid"
+                          className="img-fluid-card"
                           src="/landingPage/images/test1.png"
                           alt="alternative"
                         />
@@ -86,13 +86,13 @@ export default function section1() {
                     {/* end of card */}
                     {/* Card */}
 
-                    <div className="card">
-                      <div className="card-image">
+                    <div className="card" >
+                      <div className="card-image" >
                         <Image
                           unoptimized={true}
                           height="200px"
                           width="200px"
-                          className="img-fluid"
+                          className="img-fluid-card"
                           src="/landingPage/images/test2.png"
                           alt="alternative"
                         />
