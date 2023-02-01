@@ -170,22 +170,22 @@ export default function Contact() {
           <div id='faq' className='basic-4'>
             <div className='row'>
               <div className='col-lg-12'>
-                {/* <h2 className='text-center h2-heading mb-0'>Détails des tarifs en mode SaaS</h2> */}
-                <h2 className='text-center h2-heading mb-0'>
-                  Ci-dessous la grille tarifaire en vigueur :
-                </h2>
+                <h2 className='text-center h2-heading mb-0'>Détails des tarifs en mode SaaS</h2>
               </div>
             </div>{' '}
-            {/* <div className='row'>
+            <div className='row'>
               <div className='col-lg-12'>
                 <h2 className='text-center '>Offre PME {' <'} 200 salariés = 2000 € / an </h2>
                 <h2 className='text-center pt-3'>
                   Grille tarifaire grands comptes {'> 200'} salariés
                 </h2>
               </div>
-            </div> */}
+            </div>
+            <h2 className='text-center h2-heading mb-0 mt-4 pb-0'>
+              Ci-dessous la grille tarifaire en vigueur :
+            </h2>
             <div id='modeSass' className='row pt-3'>
-              <div className='col-lg-8 m-auto'>
+              <div className='col-lg-6 m-auto'>
                 <table>
                   <tbody className='h5'>
                     <tr className='text-white background-blue'>
